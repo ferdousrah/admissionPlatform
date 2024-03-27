@@ -1,0 +1,58 @@
+{% extends 'partials/base.html' %}
+            
+{% load static %}
+
+{% block content %}
+
+ 
+<div class="container" style="padding-top: 40px; text-align: center;">
+    <div class="row" style="text-align: center;">
+
+        <h1 style="text-align: center;">Registration</h1><br>
+        
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{% static 'assets/images/reg1.jpg' %}" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 20px;">Students</h5>
+            <p class="card-text">Are you a prospective student seeking to pursue your education abroad in Canada, the United States, the United Kingdom, Australia, or Ireland? Allow our team of experienced experts to assist you every step of the way on your academic journey.</p>
+            <a href="{% url 'register' %}" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Column 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{% static 'assets/images/uni1.jpg' %}" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 20px;">Partner Schools</h5>
+            <p class="card-text">Expand your institution's global reach and enhance diversity on your campus by joining Admission Platform as a partner institution. Fill out the form below, and our dedicated Partner Relations team will reach out to you promptly.</p>
+            <a href="{% url 'schools' %}" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{% static 'assets/images/home-2.webp' %}" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 20px;">Recruitment Partners</h5>
+            <p class="card-text">Are you interested in recruiting prospective students aiming to study in Canada, the United States, the United Kingdom, Australia, or Ireland? Register now to become an Admission Platform Recruitment Partner and broaden your reach in connecting with ambitious students worldwide.            </p>
+            <a href="{% url 'new_associate' %}" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock content %}

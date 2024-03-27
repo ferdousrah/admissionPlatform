@@ -1,0 +1,2738 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />		
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<meta property="og:type" content="article" /> 
+<meta property="og:title" content="AdmissionPlatform" />
+
+
+<title>Admission Platform | Study Abroad Application Platform</title>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300%2Cbold%7CRoboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A600%7COpen%20Sans%3A300%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300%2Cbold%7CRoboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A600%7COpen%20Sans%3A300%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300%2Cbold%7CRoboto%3A300%2C400%2C500%2C700%7COpen%20Sans%3A600%7COpen%20Sans%3A300%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;display=swap" /></noscript>
+<link rel="preload" as="font" href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2' %}" crossorigin>
+<meta name="description" content="Admission Platform streamlines the study abroad journey by linking students, recruitment partners, and partner schools through a unified platform." />
+<link rel="canonical" href="https://admissionplatform.io" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="admissionplatform" />
+<meta property="og:description" content="Admission Platform streamlines the study abroad journey by linking students, recruitment partners, and partner schools through a unified platform." />
+<meta property="og:url" content="https://www.admissionplatform.io/" />
+<meta property="og:site_name" content="admissionplatform" />
+	
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+
+			
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+
+
+	#home-hero-video {
+		background-image: url('{% static 'assets/images/videothumbnail.webp' %}');
+		background-size: cover;
+		background-position: center;
+	}
+
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='mashsb-styles-css' href="{% static 'assets/wp-content/plugins/mashsharer/assets/css/mashsb.min.css?ver=4.0.42' %}" type='text/css' media='all' />
+<style id='mashsb-styles-inline-css' type='text/css'>
+.mashsb-count {color:#cccccc;}
+        [class^="mashicon-"], .onoffswitch-label, .onoffswitch2-label, .onoffswitch {
+            border-radius: 5px;
+        }.mashsb-buttons a {
+        background-image: -webkit-linear-gradient(bottom,rgba(0, 0, 0, 0.17) 0%,rgba(255, 255, 255, 0.17) 100%);
+        background-image: -moz-linear-gradient(bottom,rgba(0, 0, 0, 0.17) 0%,rgba(255, 255, 255, 0.17) 100%);
+        background-image: linear-gradient(bottom,rgba(0,0,0,.17) 0%,rgba(255,255,255,.17) 100%);}@media only screen and (min-width:568px){.mashsb-buttons a {min-width: 177px;}}.mashsb-box .mashsb-buttons a {
+font-weight: bold;
+}
+</style>
+<link rel='stylesheet' id='custom-font-css' href="{% static 'assets/wp-content/plugins/webify-addons/assets/css/custom-font.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='ivory-search-styles-css' href="{% static 'assets/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='mashnet-styles-css' href="{% static 'assets/wp-content/plugins/mashshare-networks/assets/css/mashnet.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href="{% static 'assets/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='orbisius_ct_webify_child_parent_style-css' href="{% static 'assets/wp-content/themes/webify/style.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='orbisius_ct_webify_child_parent_style_child_style-css' href="{% static 'assets/wp-content/themes/webifychildtheme/style.css' %}" type='text/css' media='all' />
+
+<link rel='stylesheet' id='bootstrap-css' href="{% static 'assets/wp-content/themes/webify/assets/css/bootstrap.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='icons-mind-css' href="{% static 'assets/wp-content/themes/webify/assets/css/iconsmind.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='webify-font-awesome-css' href="{% static 'assets/wp-content/themes/webify/assets/css/fontawesome/css/all.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='webify-font-awesome-v4-css' href="{% static 'assets/wp-content/themes/webify/assets/css/fontawesome/css/v4-shims.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='webify-unit-testing-css' href="{% static 'assets/wp-content/themes/webify/assets/css/unit-testing.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='webify-woocommerce-css' href="{% static 'assets/wp-content/themes/webify/assets/css/woocommerce.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='header-css' href="{% static 'assets/wp-content/themes/webify/assets/css/header.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='ytv-css' href="{% static 'assets/wp-content/themes/webify/assets/css/ytv.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='material-icon-css' href='https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='webify-style-css' href="{% static 'assets/wp-content/themes/webify/assets/css/style.css' %}" type='text/css' media='all' />
+<style id='webify-style-inline-css' type='text/css'>
+.tb-error-page {background-image:url(assets/wp-content/themes/webify/assets/img/error-bg.jpg);}
+.tb-page-header {background-image:url(assets/wp-content/themes/webify/assets/img/page-header-bg.png);}
+</style>
+<link rel='stylesheet' id='elementor-icons-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href="{% static 'assets/wp-content/plugins/elementor/assets/css/frontend.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5088-css' href="{% static 'assets/wp-content/uploads/elementor/css/post-5088.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href="{% static 'assets/wp-content/plugins/elementor-pro/assets/css/frontend.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='uael-frontend-css' href="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css' %}" type='text/css' media='all' />
+
+<link rel="stylesheet" id="elementor-post-837-css" href="{% static 'assets/css/post-83752c7.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-post-11628-css" href="{% static 'assets/css/post-11628ece1.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-post-11636-css" href="{% static 'assets/css/post-11636.css' %}" type="text/css" media="all" />
+<link rel="stylesheet" id="tablepress-default-css" href="{% static 'assets/css/tablepress-combined.mine632.css' %}" type="text/css" media="all" />
+
+
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css' %}" type='text/css' media='all' />
+
+
+<script type="text/javascript" src="{% static 'assets/wp-includes/js/jquery/jquery.min.js' %}" id="jquery-core-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/jquery/jquery-migrate.min.js' %}" id="jquery-migrates-js"></script>
+
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js' %}" id="font-awesome-4-shim-js">
+
+</script>
+
+
+
+ <style> .ppw-ppf-input-container { background-color: !important; padding: px!important; border-radius: px!important; } .ppw-ppf-input-container div.ppw-ppf-headline { font-size: px!important; font-weight: !important; color: !important; } .ppw-ppf-input-container div.ppw-ppf-desc { font-size: px!important; font-weight: !important; color: !important; } .ppw-ppf-input-container label.ppw-pwd-label { font-size: px!important; font-weight: !important; color: !important; } div.ppwp-wrong-pw-error { font-size: px!important; font-weight: !important; color: #dc3232!important; background: !important; } .ppw-ppf-input-container input[type='submit'] { color: !important; background: !important; } .ppw-ppf-input-container input[type='submit']:hover { color: !important; background: !important; } </style>  <style> .ppw-form { background-color: !important; padding: px!important; border-radius: px!important; } .ppw-headline.ppw-pcp-pf-headline { font-size: px!important; font-weight: !important; color: !important; } .ppw-description.ppw-pcp-pf-desc { font-size: px!important; font-weight: !important; color: !important; } .ppw-pcp-pf-desc-above-btn { display: block; } .ppw-pcp-pf-desc-below-form { font-size: px!important; font-weight: !important; color: !important; } .ppw-input label.ppw-pcp-password-label { font-size: px!important; font-weight: !important; color: !important; } .ppw-form input[type='submit'] { color: !important; background: !important; } .ppw-form input[type='submit']:hover { color: !important; background: !important; } div.ppw-error.ppw-pcp-pf-error-msg { font-size: px!important; font-weight: !important; color: #dc3232!important; background: !important; } </style> <style id="ppwp_single_form"> .ppw-ppf-desc-below { font-size: px!important; font-weight: !important; color: !important; } </style><meta name="generator" content="Elementor 3.19.4; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+
+
+<link rel="icon" href="{% static 'assets/wp-content/uploads/2020/09/favicon-2-50x50.png' %}" sizes="32x32" />
+<link rel="icon" href="{% static 'assets/wp-content/uploads/2020/09/favicon-2.png' %}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{% static 'assets/wp-content/uploads/2020/09/favicon-2.png' %}" />
+<meta name="msapplication-TileImage" content="{% static 'assets/wp-content/uploads/2020/09/favicon-2.png' %}" />
+<style type="text/css">.tb-font-name{font-family:"Open Sans";font-weight:600;}body{font-family:"Open Sans";font-weight:300;}.tb-post.tb-color1 .tb-catagory.tb-style1 .post-categories a, 
+        .sidebar-item.widget ul li a:hover, 
+        .tb-simple-text a, .tb-tags a:hover, 
+        .comment-list .reply a:hover, .comment-list .fn a:hover,
+        .woocommerce-MyAccount-content a,
+        .woocommerce .lost_password a:hover{color:#f06370!important}.page-numbers li .page-numbers.current, 
+        .page-numbers li a:hover, .page-links .current, 
+        .checkout-button,
+        .tb-error-section .tb-btn.tb-color18{background:#f06370!important}.tb-site-header, .tb-main-header-bottom{background-color:#ffffff!important;}.tb-site-header .tb-primary-nav-list > .menu-item > a{color:#005956!important;}.tb-site-header .tb-primary-nav-list > .menu-item > a:hover{color:#0044ab!important;}.tb-m-menu-btn span, .tb-m-menu-btn span:before, .tb-m-menu-btn span:after{background:#005956}.tb-primary-nav .tb-mega-wrapper ul li a:hover, .tb-site-header .tb-primary-nav ul li ul li:hover>a{background:#f1f7ff}.tb-site-header .tb-btn{background:#005956!important}.tb-site-header .tb-btn:hover{background:#0044ab!important}.tb-site-header .tb-btn{color:#ffffff!important;}.tb-site-footer, .tb-site-footer.tb-style2{background-color:#0044ab;}.tb-site-footer a, .tb-footer-social-btn.tb-style1.tb-color1 a{color:#ffffff;}.tb-footer-social-btn a{color:#ffffff!important;}</style><style type="text/css">.tb-font-name{font-family:"Open Sans";font-weight:600;}body{font-family:"Open Sans";font-weight:300;}.tb-post.tb-color1 .tb-catagory.tb-style1 .post-categories a, 
+        .sidebar-item.widget ul li a:hover, 
+        .tb-simple-text a, .tb-tags a:hover, 
+        .comment-list .reply a:hover, .comment-list .fn a:hover,
+        .woocommerce-MyAccount-content a,
+        .woocommerce .lost_password a:hover{color:#f06370!important}.page-numbers li .page-numbers.current, 
+        .page-numbers li a:hover, .page-links .current, 
+        .checkout-button,
+        .tb-error-section .tb-btn.tb-color18{background:#f06370!important}.tb-site-header, .tb-main-header-bottom{background-color:#ffffff!important;}.tb-site-header .tb-primary-nav-list > .menu-item > a{color:#005956!important;}.tb-site-header .tb-primary-nav-list > .menu-item > a:hover{color:#0044ab!important;}.tb-m-menu-btn span, .tb-m-menu-btn span:before, .tb-m-menu-btn span:after{background:#005956}.tb-primary-nav .tb-mega-wrapper ul li a:hover, .tb-site-header .tb-primary-nav ul li ul li:hover>a{background:#f1f7ff}.tb-site-header .tb-btn{background:#005956!important}.tb-site-header .tb-btn:hover{background:#0044ab!important}.tb-site-header .tb-btn{color:#ffffff!important;}.tb-site-footer, .tb-site-footer.tb-style2{background-color:#0044ab;}.tb-site-footer a, .tb-footer-social-btn.tb-style1.tb-color1 a{color:#ffffff;}.tb-footer-social-btn a{color:#ffffff!important;}</style>		<style type="text/css" id="wp-custom-css">
+			.tb-preloader .tb-preloader-in:before {
+	border-right: 2px solid #005956;
+}
+
+a:focus {
+	outline: 1px solid #005956;
+}
+
+.tb-btn.tb-style9 {
+  min-width: 50px !important;
+	padding: 10px 20px !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: bold !important;
+}
+
+.tb-site-header .tb-primary-nav .menu-item>a {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.tb-btn.tb-style5, .tb-btn.tb-style6, .tb-btn.tb-btn-style.tb-btn-br50 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.tb-blog-head-inner .tb-user {
+    display: none;
+}
+
+@media only screen and (max-width: 1006px) {
+	.tb-site-header .tb-primary-nav-list > .menu-item > a {
+		font-size: 20px;
+	}
+	
+	.tb-m-menu ul .menu-item ul li a {
+		font-size: 18px;
+	}
+	
+	.tb-dropdown:before, .tb-dropdown:after {
+		width: 16px;
+	}
+	
+	.tb-site-header .tb-primary-nav-list > .menu-item > a {
+		margin-bottom: 10px;
+	}
+}
+
+.tb-footer-widget-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.tb-footer-item .menu li {
+	font-size: 16px;
+}
+
+.tb-primary-nav .tb-primary-nav-list>.menu-item-has-children>ul {
+	left: -20px;
+}
+
+.tb-dark-footer.tb-site-footer a, .tb-dark-footer p, .tb-dark-footer .widget_rss .rssSummary {
+	opacity: 1;
+}
+
+.tb-footer-widget-title, .tb-site-footer .tb-cta-title, .tb-site-footer .tb-section-heading h2, .tb-site-footer .tb-newsletter-subtitle, .tb-site-footer .tb-post-label.tb-style1 span {	
+	opacity: 1;
+}
+
+.tb-copyright.tb-style1 {
+	color: #FFF;
+}
+
+.tb-site-footer a:hover {
+	color: #dedad3;
+}
+
+.tb-blog-nav.tb-left:not(.no-thumb), .tb-blog-nav.tb-right, .tb-blog-nav.tb-left, .tb-blog-nav.tb-right {
+	display: none;
+}
+
+.tb-custom-logo {
+	width: 150px !important;
+	max-height: 22px !important; 
+}
+
+@media only screen and (max-width: 400px) {
+	.tb-btn.tb-style9, .tb-btn.tb-style10 {
+		min-width: 100px !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+  .tb-m-menu-btn {
+	display: visible !important;
+}
+	
+	.tb-btn.tb-style9 {
+  min-width: 30px !important;
+	padding: 10px 10px !important;
+}	
+	
+	.tb-custom-logo {
+		width: 140px !important;
+		max-height: 21px !important; 
+	}		
+}		</style>
+					<style type="text/css">
+						#is-ajax-search-result-5161 .is-ajax-search-post:hover,
+	            #is-ajax-search-result-5161 .is-show-more-results:hover,
+	            #is-ajax-search-details-5161 .is-ajax-search-tags-details > div:hover,
+	            #is-ajax-search-details-5161 .is-ajax-search-categories-details > div:hover {
+					background-color: #f8f8f8 !important;
+				}
+                        				#is-ajax-search-result-5161 a,
+                #is-ajax-search-details-5161 a:not(.button) {
+					color: #005956 !important;
+				}
+                #is-ajax-search-details-5161 .is-ajax-woocommerce-actions a.button {
+                	background-color: #005956 !important;
+                }
+                        				#is-ajax-search-result-5161 .is-ajax-search-post,
+				#is-ajax-search-details-5161 .is-ajax-search-post-details {
+				    border-color: #f8f8f8 !important;
+				}
+                #is-ajax-search-result-5161,
+                #is-ajax-search-details-5161 {
+                    background-color: #f8f8f8 !important;
+                }
+						.is-form-id-5161 .is-search-submit:focus,
+			.is-form-id-5161 .is-search-submit:hover,
+			.is-form-id-5161 .is-search-submit,
+            .is-form-id-5161 .is-search-icon {
+			            background-color: #f35c6c !important;            			}
+            			.is-form-id-5161 .is-search-input::-webkit-input-placeholder {
+			    color: #323847 !important;
+			}
+			.is-form-id-5161 .is-search-input:-moz-placeholder {
+			    color: #323847 !important;
+			    opacity: 1;
+			}
+			.is-form-id-5161 .is-search-input::-moz-placeholder {
+			    color: #323847 !important;
+			    opacity: 1;
+			}
+			.is-form-id-5161 .is-search-input:-ms-input-placeholder {
+			    color: #323847 !important;
+			}
+                        			.is-form-style-1.is-form-id-5161 .is-search-input:focus,
+			.is-form-style-1.is-form-id-5161 .is-search-input:hover,
+			.is-form-style-1.is-form-id-5161 .is-search-input,
+			.is-form-style-2.is-form-id-5161 .is-search-input:focus,
+			.is-form-style-2.is-form-id-5161 .is-search-input:hover,
+			.is-form-style-2.is-form-id-5161 .is-search-input,
+			.is-form-style-3.is-form-id-5161 .is-search-input:focus,
+			.is-form-style-3.is-form-id-5161 .is-search-input:hover,
+			.is-form-style-3.is-form-id-5161 .is-search-input,
+			.is-form-id-5161 .is-search-input:focus,
+			.is-form-id-5161 .is-search-input:hover,
+			.is-form-id-5161 .is-search-input {
+                                color: #323847 !important;                                                                			}
+                        			</style>
+					<style type="text/css">
+						#is-ajax-search-result-1282 a,
+                #is-ajax-search-details-1282 a:not(.button) {
+					color: #005956 !important;
+				}
+                #is-ajax-search-details-1282 .is-ajax-woocommerce-actions a.button {
+                	background-color: #005956 !important;
+                }
+                        			.is-form-id-1282 .is-search-submit:focus,
+			.is-form-id-1282 .is-search-submit:hover,
+			.is-form-id-1282 .is-search-submit,
+            .is-form-id-1282 .is-search-icon {
+			            background-color: #f35c6c !important;            			}
+            			.is-form-id-1282 .is-search-input::-webkit-input-placeholder {
+			    color: #323847 !important;
+			}
+			.is-form-id-1282 .is-search-input:-moz-placeholder {
+			    color: #323847 !important;
+			    opacity: 1;
+			}
+			.is-form-id-1282 .is-search-input::-moz-placeholder {
+			    color: #323847 !important;
+			    opacity: 1;
+			}
+			.is-form-id-1282 .is-search-input:-ms-input-placeholder {
+			    color: #323847 !important;
+			}
+                        			.is-form-style-1.is-form-id-1282 .is-search-input:focus,
+			.is-form-style-1.is-form-id-1282 .is-search-input:hover,
+			.is-form-style-1.is-form-id-1282 .is-search-input,
+			.is-form-style-2.is-form-id-1282 .is-search-input:focus,
+			.is-form-style-2.is-form-id-1282 .is-search-input:hover,
+			.is-form-style-2.is-form-id-1282 .is-search-input,
+			.is-form-style-3.is-form-id-1282 .is-search-input:focus,
+			.is-form-style-3.is-form-id-1282 .is-search-input:hover,
+			.is-form-style-3.is-form-id-1282 .is-search-input,
+			.is-form-id-1282 .is-search-input:focus,
+			.is-form-id-1282 .is-search-input:hover,
+			.is-form-id-1282 .is-search-input {
+                                color: #323847 !important;                                border-color: #e9ebed !important;                                background-color: #f5f6f7 !important;			}
+                        			</style>
+
+<style>
+	/* TRANSPARENT NAV */
+	@media only screen and (min-width: 1025px) {
+	  header.header-nav-scrolled-top {
+		background: rgb(0, 89, 86);
+		background: linear-gradient(180deg,
+			rgba(0, 89, 86, 1) 0%,
+			rgba(255, 255, 255, 0) 100%) !important;
+		box-shadow: none !important;
+	  }
+
+	  header.header-nav-scrolled-top .elementor-widget-image img {
+		content: url("{% static 'assets/images/admission-platform-blue-header-mid.png' %}");
+	  }
+
+	  header.header-nav-scrolled-top .elementor-nav-menu a::after {
+		content: "";
+		position: absolute;
+		bottom: -3px;
+		left: 10px;
+		right: 10px;
+		height: 3px;
+		background-color: #ffffff;
+		opacity: 0;
+		transition: opacity 300ms, transform 300ms;
+	  }
+
+	  header.header-nav-scrolled-top .elementor-nav-menu a:hover::after,
+	  header.header-nav-scrolled-top .elementor-nav-menu a:focus::after {
+		opacity: 1;
+		transform: translate3d(0, 0.2em, 0);
+	  }
+
+	  header.header-nav-scrolled-top .elementor-button-link.elementor-button {
+		color: #ffffff !important;
+		background-color: transparent !important;
+		border-color: #ffffff !important;
+	  }
+
+	  header.header-nav-scrolled-top .elementor-button-link.elementor-button:hover {
+		color: #323847 !important;
+		background-color: #ffffff !important;
+	  }
+
+	  header.header-nav-scrolled-top .uael-nav-menu-icon {
+		background: transparent !important;
+		color: #ffffff !important;
+	  }
+
+	  header.header-nav-scrolled-top .uael-nav-menu-icon:hover {
+		color: #323847 !important;
+		background-color: #ffffff !important;
+	  }
+
+	  header.header-nav-scrolled-top .elementor-element.elementor-element-61d6d557 .uael-active-menu .uael-nav-menu-icon {
+		color: #005956 !important;
+		background-color: #ffffff !important;
+	  }
+
+	  header.header-nav-scrolled-top .elementor-nav-menu a {
+		color: #fff !important;
+	  }
+	}
+  </style>
+
+
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+		<body
+		class="home page-template-default page page-id-837 wp-custom-logo wp-embed-responsive webify elementor-default elementor-kit-5088 elementor-page elementor-page-837">
+		<div data-elementor-type="header" data-elementor-id="11628"
+		  class="elementor elementor-11628 elementor-location-header" data-elementor-post-type="elementor_library">
+		  <!-- Header -->
+		  <header style="max-height: 100px"
+			class="elementor-section elementor-top-section elementor-element elementor-element-4979ff03 elementor-section-height-min-height elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+			data-id="4979ff03" data-element_type="section"
+			data-settings='{"background_background":"classic","sticky":"top","sticky_on":["desktop"],"sticky_offset":0,"sticky_effects_offset":0}'>
+			<div class="elementor-container elementor-column-gap-default">
+			  <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7ebf49ae"
+				data-id="7ebf49ae" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div class="elementor-element elementor-element-4957b03 elementor-widget elementor-widget-image"
+					data-id="4957b03" data-element_type="widget" data-widget_type="image.default">
+					<div class="elementor-widget-container">
+					  <a href="{% url 'say_hello' %}">
+						<img width="1253" height="192" src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}"
+						  class="attachment-full size-full wp-image-11868" alt="Admissions Platform Logo"
+						  data-lazy-src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" /><noscript><img width="1253"
+							height="192" src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}"
+							class="attachment-full size-full wp-image-11868" alt="Admissions Platform Logo" /></noscript>
+					  </a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-373d901a"
+				data-id="373d901a" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <section
+					class="elementor-section elementor-inner-section elementor-element elementor-element-1a1d9822 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+					data-id="1a1d9822" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-no">
+					  <div
+						class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-569da19c"
+						data-id="569da19c" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-4840ec18 elementor-nav-menu__align-center elementor-hidden-tablet elementor-hidden-mobile elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
+							data-id="4840ec18" data-element_type="widget"
+							data-settings='{"layout":"horizontal","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"},"toggle":"burger"}'
+							data-widget_type="nav-menu.default">
+							<div class="elementor-widget-container">
+							  <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+								<ul id="menu-1-4840ec18" class="elementor-nav-menu">
+								  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15508">
+									<a href="{% url 'studyabroad' %}" class="elementor-item">Students</a>
+								  </li>
+								  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11556">
+									<a href="{% url 'recruiters' %}" class="elementor-item">Recruitment Partners</a>
+								  </li>
+								  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11557">
+									<a href="{% url 'schools' %}" class="elementor-item">Institutions</a>
+								  </li>
+								</ul>
+							  </nav>
+							  <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+								<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i>
+								<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>
+								<span class="elementor-screen-only">Menu</span>
+							  </div>
+							  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+								<ul id="menu-2-4840ec18" class="elementor-nav-menu">
+								  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15508">
+									<a href="{% url 'studyabroad' %}" class="elementor-item" tabindex="-1">Students</a>
+								  </li>
+								  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11556">
+									<a href="{% url 'recruiters' %}" class="elementor-item" tabindex="-1">Recruitment Partners</a>
+								  </li>
+								  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11557">
+									<a href="{% url 'schools' %}" class="elementor-item" tabindex="-1">Institutions</a>
+								  </li>
+								</ul>
+							  </nav>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-202bd9db" data-id="202bd9db" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-4cf27e71 uael-menu-item-flex-start elementor-absolute .navMenu elementor-hidden-tablet elementor-hidden-mobile uael-submenu-icon-arrow uael-link-redirect-child uael-nav-menu-toggle-label-no elementor-widget elementor-widget-uael-nav-menu" data-id="4cf27e71" data-element_type="widget"
+							data-settings='{"distance_from_menu":{"unit":"px","size":15,"sizes":[]},"_position":"absolute","distance_from_menu_tablet":{"unit":"px","size":"","sizes":[]},"distance_from_menu_mobile":{"unit":"px","size":"","sizes":[]}}'
+							data-widget_type="uael-nav-menu.default">
+							<div class="elementor-widget-container">
+							  <div class="uael-nav-menu uael-layout-expandible uael-nav-menu-layout" data-layout="expandible">
+								<div role="button" class="uael-nav-menu__toggle elementor-clickable">
+								  <span class="screen-reader-text">Main Menu</span>
+								  <div class="uael-nav-menu-icon">
+									<i aria-hidden="true" tabindex="0" class="fas fa-bars"></i>
+								  </div>
+								</div>
+								<nav
+								  class="uael-dropdown-expandible uael-nav-menu__layout-expandible uael-nav-menu__submenu-arrow"
+								  data-toggle-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
+								  data-close-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
+								  data-full-width="">
+								  <ul id="menu-1-4cf27e71" class="uael-nav-menu">
+									<li id="menu-item-17181"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'oursolutions' %}" class="uael-menu-item">Our Solutions</a>
+									</li>
+									<li id="menu-item-16600"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'story' %}" class="uael-menu-item">Our Story</a>
+									</li>
+									<li id="menu-item-16608"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'careers' %}" class="uael-menu-item">Careers</a>
+									</li>
+									<li id="menu-item-16613"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'press' %}" class="uael-menu-item">Press</a>
+									</li>
+									<li id="menu-item-16619"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'life' %}" class="uael-menu-item">Life</a>
+									</li>
+									<li id="menu-item-16627"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'leadership' %}" class="uael-menu-item">Leadership</a>
+									</li>
+									<li id="menu-item-16630"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'contact' %}" class="uael-menu-item">Contact</a>
+									</li>
+									<li id="menu-item-11567"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'blog' %}" class="uael-menu-item">Blog</a>
+									</li>
+									<li id="menu-item-13195"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="#" class="uael-menu-item">ApplyInsights</a>
+									</li>
+									<li id="menu-item-16483"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="#" class="uael-menu-item">Events</a>
+									</li>
+									<li id="menu-item-18097"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="#" class="uael-menu-item">Trends Report</a>
+									</li>
+								  </ul>
+								</nav>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				</div>
+			  </div>
+			  <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5b3891fa"
+				data-id="5b3891fa" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <section
+					class="elementor-section elementor-inner-section elementor-element elementor-element-4f2b2a5b elementor-section-full_width elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
+					data-id="4f2b2a5b" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-no">
+					  <div
+						class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1de315b2"
+						data-id="1de315b2" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-70f70ac6 elementor-tablet-align-center elementor-hidden-tablet elementor-hidden-mobile elementor-widget__width-auto elementor-widget elementor-widget-button"
+							data-id="70f70ac6" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-xs"
+								  href="{% url 'account' %}">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Log In</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div
+						class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-45925ff1"
+						data-id="45925ff1" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-68cd0077 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button"
+							data-id="68cd0077" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-xs" href="{% url 'register' %}">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Register</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				</div>
+			  </div>
+			</div>
+		  </header>
+		  <header
+			class="elementor-section elementor-top-section elementor-element elementor-element-32f1853b elementor-section-height-min-height elementor-section-stretched elementor-hidden-desktop elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+			data-id="32f1853b" data-element_type="section"
+			data-settings='{"stretch_section":"section-stretched","background_background":"classic","sticky":"top","sticky_on":["tablet"],"sticky_offset":0,"sticky_effects_offset":0}'>
+			<div class="elementor-container elementor-column-gap-no">
+			  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2465c088"
+				data-id="2465c088" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-7c653070 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-hidden-desktop elementor-hidden-mobile elementor-widget elementor-widget-image"
+					data-id="7c653070" data-element_type="widget" data-widget_type="image.default">
+					<div class="elementor-widget-container">
+					  <a href="{% url 'say_hello' %}">
+						<img width="1253" height="192"
+						  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201253%20192'%3E%3C/svg%3E"
+						  class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo"
+						  data-lazy-src="{% static 'assets/images/admisson-platform.png' %}" /><noscript><img width="1253"
+							height="192" src="{% static 'assets/images/admisson-platform.png' %}"
+							class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo" /></noscript>
+					  </a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div
+				class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d33d75a elementor-hidden-desktop elementor-hidden-mobile"
+				data-id="d33d75a" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-f6ded5a uael-menu-item-flex-start .navMenu elementor-hidden-mobile elementor-hidden-desktop uael-menu-item-flex-start uael-submenu-icon-arrow uael-link-redirect-child uael-nav-menu-toggle-label-no elementor-widget elementor-widget-uael-nav-menu"
+					data-id="f6ded5a" data-element_type="widget"
+					data-settings='{"distance_from_menu":{"unit":"px","size":12,"sizes":[]},"distance_from_menu_tablet":{"unit":"px","size":3,"sizes":[]},"distance_from_menu_mobile":{"unit":"px","size":"","sizes":[]}}'
+					data-widget_type="uael-nav-menu.default">
+					<div class="elementor-widget-container">
+					  <div class="uael-nav-menu uael-layout-expandible uael-nav-menu-layout" data-layout="expandible">
+						<div role="button" class="uael-nav-menu__toggle elementor-clickable">
+						  <span class="screen-reader-text">Main Menu</span>
+						  <div class="uael-nav-menu-icon">
+							<i aria-hidden="true" tabindex="0" class="fas fa-bars"></i>
+						  </div>
+						</div>
+						<nav class="uael-dropdown-expandible uael-nav-menu__layout-expandible uael-nav-menu__submenu-arrow"
+						  data-toggle-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
+						  data-close-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
+						  data-full-width="yes">
+						  <ul id="menu-1-f6ded5a" class="uael-nav-menu">
+							<li id="menu-item-11568"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="index1dbc.html?page_id=8430" class="uael-menu-item">About Us</a>
+							</li>
+	  
+							<li id="menu-item-11568"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="index1dbc.html?page_id=8430" class="uael-menu-item">Students</a>
+							</li>
+	  
+							<li id="menu-item-11569"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Recruitment Partners</a>
+							</li>
+							<li id="menu-item-11570"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Schools</a>
+							</li>
+							<li id="menu-item-11571"
+							  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent uael-has-submenu uael-creative-menu">
+							  <div class="uael-has-submenu-container">
+								<a href="#" class="uael-menu-item">About<span
+									class="uael-menu-toggle sub-arrow uael-menu-child-0"><i class="fa"></i></span></a>
+							  </div>
+							  <ul class="sub-menu">
+								<li id="menu-item-17180"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Our Solutions</a>
+								</li>
+								<li id="menu-item-16602"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Our Story</a>
+								</li>
+								<li id="menu-item-16610"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Careers</a>
+								</li>
+								<li id="menu-item-16615"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Press</a>
+								</li>
+								<li id="menu-item-16621"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Life</a>
+								</li>
+								<li id="menu-item-16623"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Leadership</a>
+								</li>
+								<li id="menu-item-16632"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Contact</a>
+								</li>
+							  </ul>
+							</li>
+							<li id="menu-item-11578"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Blog</a>
+							</li>
+							<li id="menu-item-13197"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">ApplyInsights</a>
+							</li>
+						  </ul>
+						</nav>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div
+				class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1adbce1a elementor-hidden-desktop elementor-hidden-mobile"
+				data-id="1adbce1a" data-element_type="column" id="header-btns">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <section
+					class="elementor-section elementor-inner-section elementor-element elementor-element-4f73105a elementor-section-full_width elementor-hidden-desktop elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
+					data-id="4f73105a" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-no">
+					  <div
+						class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57e4d9a6"
+						data-id="57e4d9a6" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-6302e102 elementor-tablet-align-right elementor-hidden-desktop elementor-hidden-mobile elementor-widget elementor-widget-button"
+							data-id="6302e102" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-xs"
+								  href="{% url 'account' %}">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Log In</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div
+						class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2ee3ce60"
+						data-id="2ee3ce60" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-2b406b97 elementor-hidden-desktop elementor-hidden-mobile elementor-tablet-align-left elementor-widget elementor-widget-button"
+							data-id="2b406b97" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-xs" href="{% url 'register' %}">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Register</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				</div>
+			  </div>
+			</div>
+		  </header>
+		  <!-- End of Header -->
+	  
+		  <section
+			class="elementor-section elementor-top-section elementor-element elementor-element-7ea8a298 elementor-section-stretched elementor-hidden-desktop elementor-hidden-tablet elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+			data-id="7ea8a298" data-element_type="section"
+			data-settings='{"stretch_section":"section-stretched","background_background":"classic","sticky":"top","sticky_on":["mobile"],"sticky_offset":0,"sticky_effects_offset":0}'>
+			<div class="elementor-container elementor-column-gap-default">
+			  <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-18402612"
+				data-id="18402612" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-76246580 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
+					data-id="76246580" data-element_type="widget" data-widget_type="image.default">
+					<div class="elementor-widget-container">
+					  <a href="{% url 'say_hello' %}">
+						<img width="1253" height="192"
+						  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201253%20192'%3E%3C/svg%3E"
+						  class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo"
+						  data-lazy-src="{% static 'assets/images/admisson-platform.png' %}" /><noscript><img width="1253"
+							height="192" src="{% static 'assets/images/admisson-platform.png' %}"
+							class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo" /></noscript>
+					  </a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div
+				class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1904f2f5 elementor-hidden-desktop elementor-hidden-tablet"
+				data-id="1904f2f5" data-element_type="column" data-settings='{"background_background":"classic"}'>
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-2b676014 uael-menu-item-flex-start .navMenu elementor-hidden-tablet uael-menu-item-flex-start elementor-hidden-desktop uael-submenu-icon-arrow uael-link-redirect-child uael-nav-menu-toggle-label-no elementor-widget elementor-widget-uael-nav-menu"
+					data-id="2b676014" data-element_type="widget"
+					data-settings='{"distance_from_menu":{"unit":"px","size":12,"sizes":[]},"distance_from_menu_mobile":{"unit":"px","size":-1,"sizes":[]},"distance_from_menu_tablet":{"unit":"px","size":"","sizes":[]}}'
+					data-widget_type="uael-nav-menu.default">
+					<div class="elementor-widget-container">
+					  <div class="uael-nav-menu uael-layout-expandible uael-nav-menu-layout" data-layout="expandible">
+						<div role="button" class="uael-nav-menu__toggle elementor-clickable">
+						  <span class="screen-reader-text">Main Menu</span>
+						  <div class="uael-nav-menu-icon">
+							<i aria-hidden="true" tabindex="0" class="fas fa-bars"></i>
+						  </div>
+						</div>
+						<nav class="uael-dropdown-expandible uael-nav-menu__layout-expandible uael-nav-menu__submenu-arrow"
+						  data-toggle-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
+						  data-close-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
+						  data-full-width="yes">
+						  <ul id="menu-1-2b676014" class="uael-nav-menu">
+							<li id="menu-item-15525"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Students</a>
+							</li>
+							<li id="menu-item-11580"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Recruitment Partners</a>
+							</li>
+							<li id="menu-item-11581"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Institutions</a>
+							</li>
+							<li id="menu-item-11582"
+							  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent uael-has-submenu uael-creative-menu">
+							  <div class="uael-has-submenu-container">
+								<a href="#" class="uael-menu-item">About<span
+									class="uael-menu-toggle sub-arrow uael-menu-child-0"><i class="fa"></i></span></a>
+							  </div>
+							  <ul class="sub-menu">
+								<li id="menu-item-17182"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Our Solutions</a>
+								</li>
+								<li id="menu-item-16601"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Our Story</a>
+								</li>
+								<li id="menu-item-16609"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Careers</a>
+								</li>
+								<li id="menu-item-16614"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Press</a>
+								</li>
+								<li id="menu-item-16620"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Life</a>
+								</li>
+								<li id="menu-item-16629"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Leadership</a>
+								</li>
+								<li id="menu-item-16631"
+								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
+								  <a href="#" class="uael-sub-menu-item">Contact</a>
+								</li>
+							  </ul>
+							</li>
+							<li id="menu-item-11589"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Blog</a>
+							</li>
+							<li id="menu-item-18095"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">Trends Report 2024</a>
+							</li>
+							<li id="menu-item-13196"
+							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+							  <a href="#" class="uael-menu-item">ApplyInsights</a>
+							</li>
+							<li id="menu-item-11590"
+							  class="loginbtn menu-item menu-item-type-custom menu-item-object-custom parent uael-creative-menu">
+							  <a href="{% url 'account' %}" class="uael-menu-item">Log In</a>
+							</li>
+							<li id="menu-item-11591"
+							  class="registerbtn menu-item menu-item-type-custom menu-item-object-custom parent uael-creative-menu">
+							  <a href="{% url 'register' %}" class="uael-menu-item">Register</a>
+							</li>
+						  </ul>
+						</nav>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		</div>
+	  
+		<div class="tb-content elementor-page">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<div data-elementor-type="wp-post" data-elementor-id="837" class="elementor elementor-837" data-elementor-post-type="page">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-e21d0b3 elementor-section-stretched elementor-section-height-full elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="e21d0b3" data-element_type="section" id="home-hero-video" data-settings='{"stretch_section":"section-stretched","background_background":"video","background_video_link":"https:\/\/www.youtube.com\/watch?v=LRAzpr-2eNw"}' title="Welcome to Admission Platform!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+						<div class="elementor-background-video-container elementor-hidden-phone">
+							<div class="elementor-background-video-embed"></div>
+						</div>
+						<div class="elementor-background-overlay"></div>
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0770f65" data-id="0770f65" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-widget-container">
+										<span style="font-size: 20px;color: #FFF;">Find Your Perfect Program</span><br>
+										<span style="font-size: 60px;color: #FFF;line-height: 60px;">We'll help you find and get into the perfect</span><br>
+										<span style="font-size: 20px;color: #FFF;line-height: 40px;">program in your dream destination.</span><br>
+										<span style="font-size: 20px;color: #FFF;">Start your journey</span>
+									</div>
+									<div class="elementor-element elementor-element-817b6d6 elementor-absolute elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="817b6d6" data-element_type="widget" data-settings='{"_position":"absolute"}' data-widget_type="button.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-button-wrapper">
+												<a class="elementor-button elementor-button-link elementor-size-sm" href="{% url 'studyabroad' %}" target="_blank">
+													<span class="elementor-button-content-wrapper">
+														<span class="elementor-button-text">I am a student who wants to study abroad</span>
+													</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-4e11e90 elementor-absolute uael-button-halign-left uael-tablet-button-halign-left elementor-widget-tablet__width-initial uael-button-stack-none elementor-widget elementor-widget-uael-buttons" data-id="4e11e90" data-element_type="widget" data-settings='{"_position":"absolute"}' data-widget_type="uael-buttons.default">
+										<div class="elementor-widget-container">
+											<div class="uael-dual-button-outer-wrap">
+												<div class="uael-dual-button-wrap">
+													<div class="uael-button-wrapper elementor-button-wrapper uael-dual-button elementor-repeater-item-86ec17f uael-dual-button-0">
+														<a class="elementor-button-link elementor-button elementor-size-sm elementor-button-link" href="{% url 'recruiters' %}" target="_blank">
+															<span class="elementor-button-content-wrapper uael-buttons-icon-">
+																<span class="elementor-align-icon- elementor-button-icon"></span>
+																<span class="elementor-button-text elementor-inline-editing" data-elementor-setting-key="buttons.0.text" data-elementor-inline-editing-toolbar="none">I am a recruitment partner</span>
+															</span>
+														</a>
+													</div>
+													<div class="uael-button-wrapper elementor-button-wrapper uael-dual-button elementor-repeater-item-f308b87 uael-dual-button-1">
+														<a class="elementor-button-link elementor-button elementor-size-sm elementor-button-link" href="{% url 'schools' %}" target="_blank">
+															<span class="elementor-button-content-wrapper uael-buttons-icon- elementor-button-content-wrapper uael-buttons-icon-">
+																<span class="elementor-align-icon- elementor-button-icon"></span>
+																<span class="elementor-button-text elementor-inline-editing" data-elementor-setting-key="buttons.1.text" data-elementor-inline-editing-toolbar="none">I work at an academic institution</span>
+															</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3fba972 elementor-hidden-mobile elementor-hidden-tablet" data-id="3fba972" data-element_type="column">
+								<div class="elementor-widget-wrap"></div>
+							</div>
+						</div>
+					</section>
+					
+				  <section class="elementor-section elementor-top-section elementor-element elementor-element-49d6628 elementor-section-stretched elementor-section-height-min-height elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="49d6628" data-element_type="section" data-settings='{"stretch_section":"section-stretched","background_background":"slideshow","background_slideshow_gallery":[{"id":11866,"url":"https:\/\/www.admissionsplatform.com\/wp-content\/uploads\/2021\/12\/Final-Shot_Extended-1.png"}],"background_slideshow_slide_duration":5000,"background_slideshow_slide_transition":"fade","background_slideshow_transition_duration":500}'>
+					<div class="elementor-background-overlay"></div>
+					<div class="elementor-container elementor-column-gap-default">
+					  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e2c3228" data-id="e2c3228" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-8c680e4 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="8c680e4" data-element_type="widget" data-settings='{"_position":"absolute"}' data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h1 class="elementor-heading-title elementor-size-default">
+								Our Mission is to Educate the World
+							  </h1>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0c0fb6c elementor-hidden-mobile elementor-hidden-tablet" data-id="0c0fb6c" data-element_type="column">
+						<div class="elementor-widget-wrap"></div>
+					  </div>
+					</div>
+				  </section>
+				  <section class="elementor-section elementor-top-section elementor-element elementor-element-e2ffc4a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e2ffc4a" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-455b7d6" data-id="455b7d6" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-b478d62 elementor-widget elementor-widget-html" data-id="b478d62" data-element_type="widget" data-widget_type="html.default">
+							<div class="elementor-widget-container">
+							  
+							  
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+	  
+	  
+	  
+				  <!-- Section 1 Tab -->
+	  
+	  
+	  
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-eb29fcb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="eb29fcb" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66a0800"
+						data-id="66a0800" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-e241ccd elementor-widget elementor-widget-heading"
+							data-id="e241ccd" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h2 class="elementor-heading-title elementor-size-default">
+								A Comprehensive Support Platform for International
+								Student Applications
+							  </h2>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+	  
+				  <section class="elementor-section elementor-top-section elementor-element elementor-element-b463f9f elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b463f9f" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-716dded" data-id="716dded" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <section class="elementor-section elementor-inner-section elementor-element elementor-element-de0ca83 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="de0ca83" data-element_type="section" id="audience-toggle-btns" data-settings='{"background_background":"classic"}'>
+							<div class="elementor-container elementor-column-gap-default">
+							  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8ce8b44" data-id="8ce8b44" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div class="elementor-element elementor-element-d61c930 elementor-align-center elementor-widget elementor-widget-button" data-id="d61c930" data-element_type="widget" id="audience-toggle-students-btn" data-widget_type="button.default">
+									<div class="elementor-widget-container">
+									  <div class="elementor-button-wrapper">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#/">
+										  <span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text">Students</span>
+										  </span>
+										</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c1f9eb3" data-id="c1f9eb3" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div class="elementor-element elementor-element-70ed76c elementor-align-center elementor-widget elementor-widget-button" data-id="70ed76c" data-element_type="widget" data-widget_type="button.default">
+									<div class="elementor-widget-container">
+									  <div class="elementor-button-wrapper">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#/">
+										  <span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text">Recruitment Partners</span>
+										  </span>
+										</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a2bbd42" data-id="a2bbd42" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div class="elementor-element elementor-element-08dc1fb elementor-align-center elementor-widget elementor-widget-button" data-id="08dc1fb" data-element_type="widget" data-widget_type="button.default">
+									<div class="elementor-widget-container">
+									  <div class="elementor-button-wrapper">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#/">
+										  <span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text">Partner Institutions</span>
+										  </span>
+										</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </section>
+						</div>
+					  </div>
+					</div>
+				  </section>
+	  
+				  <!-- End of Section 1 Tab -->
+	  
+	  
+				  <!-- Section 1 -->
+	  
+	  
+				  <section class="elementor-section elementor-top-section elementor-element elementor-element-cf17187 elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cf17187" data-element_type="section" id="audience-toggle">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5179d2c" data-id="5179d2c" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-3d71b54 elementor--h-position-left elementor-pagination-position-outside elementor--v-position-middle elementor-widget elementor-widget-slides" data-id="3d71b54" data-element_type="widget" data-settings='{"navigation":"dots","transition_speed":300,"transition":"slide"}' data-widget_type="slides.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-swiper">
+								<div class="elementor-slides-wrapper elementor-main-swiper swiper-container" dir="ltr" data-animation="fadeInLeft">
+								  <div class="swiper-wrapper elementor-slides">
+									<div class="elementor-repeater-item-d86a3a8 swiper-slide">
+									  <div class="swiper-slide-bg" role="img" style="border-radius: 40px;"></div>
+									  <div class="swiper-slide-inner">
+										<div class="swiper-slide-contents">
+										  <div class="elementor-slide-heading">
+											Students
+										  </div>
+										  <div class="elementor-slide-description">
+											We're dedicated to transforming your dreams into tangible achievements. By carefully matching your background, skills, and interests, we'll help you connect with programs and institutions that are the perfect fit. Together, we'll work tirelessly to turn your aspirations into reality.
+										  </div>
+										  <a href="{% url 'studyabroad' %}" class="elementor-button elementor-slide-button elementor-size-sm">Learn More</a>
+										</div>
+									  </div>
+									</div>
+									<div class="elementor-repeater-item-3883dc3 swiper-slide">
+									  <div class="swiper-slide-bg" role="img"></div>
+									  <div class="swiper-slide-inner">
+										<div class="swiper-slide-contents">
+										  <div class="elementor-slide-heading">
+											Recruitment Partners
+										  </div>
+										  <div class="elementor-slide-description">
+											AdmissionsPlatform transcends being merely a platform; we're your reliable partner, committed to empowering you in your mission: guiding students worldwide to realize their aspirations for international education.
+										  </div>
+										  <a href="{% url 'recruiters' %}" class="elementor-button elementor-slide-button elementor-size-sm">Learn
+											More</a>
+										</div>
+									  </div>
+									</div>
+									<div class="elementor-repeater-item-ee5e108 swiper-slide">
+									  <div class="swiper-slide-bg" role="img"></div>
+									  <div class="swiper-slide-inner">
+										<div class="swiper-slide-contents">
+										  <div class="elementor-slide-heading">
+											Partner Institutions
+										  </div>
+										  <div class="elementor-slide-description">
+											Expand your global reach and attract a higher volume of qualified student applicants effortlessly through our user-friendly platform. Trusted by institutions worldwide, we provide a single, comprehensive solution for all your admission needs.
+										  </div>
+										  <a href="{% url 'schools' %}" class="elementor-button elementor-slide-button elementor-size-sm">Learn
+											More</a>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								  <div class="swiper-pagination"></div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>            
+	  
+				  <!-- end of section 1 -->
+				  
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-c184acd elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="c184acd" data-element_type="section"
+					data-settings='{"stretch_section":"section-stretched","background_background":"classic","animation":"none"}'>
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d60b2ae"
+						data-id="d60b2ae" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-de15f79 elementor-widget elementor-widget-heading"
+							data-id="de15f79" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h2 class="elementor-heading-title elementor-size-default">
+								How We Help
+							  </h2>
+							</div>
+						  </div>
+						  <div class="elementor-element elementor-element-8856330 elementor-widget elementor-widget-html"
+							data-id="8856330" data-element_type="widget" data-widget_type="html.default">
+							<div class="elementor-widget-container" style="text-align: center;padding-top: 20px;">
+							  <img src="{% static 'assets/images/how-we-help.png' %}" width="800" />
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-a8711df elementor-align-center elementor-widget elementor-widget-button"
+							data-id="a8711df" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="{% url 'register' %}">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Partner with Us</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-3201877 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="3201877" data-element_type="section"
+					data-settings='{"stretch_section":"section-stretched","background_background":"classic"}'>
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a5c06b6"
+						data-id="a5c06b6" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-4712e5a students-laptop animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+							data-id="4712e5a" data-element_type="widget" data-settings='{"_animation":"fadeIn"}'
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h2 class="elementor-heading-title elementor-size-default">
+								We assist students in gaining admission to top international educational institutions.
+							  </h2>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-02441dc rp-laptop animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+							data-id="02441dc" data-element_type="widget" data-settings='{"_animation":"fadeIn"}'
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h2 class="elementor-heading-title elementor-size-default">
+								A user-friendly platform designed to streamline quality applications and more.
+							  </h2>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-60e06fe elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="60e06fe" data-element_type="section"
+					data-settings='{"stretch_section":"section-stretched","background_background":"classic"}'>
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d7bee84"
+						data-id="d7bee84" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-75c2c98 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+							data-id="75c2c98" data-element_type="section" id="laptop-toggle"
+							data-settings='{"background_background":"classic"}'>
+							<div class="elementor-container elementor-column-gap-default">
+							  <div
+								class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b978f23"
+								data-id="b978f23" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-b20c24f elementor-align-center elementor-widget elementor-widget-button"
+									data-id="b20c24f" data-element_type="widget" data-widget_type="button.default">
+									<div class="elementor-widget-container">
+									  <div class="elementor-button-wrapper">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="{% url 'account' %}"
+										  id="students-toggle-btn">
+										  <span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text">Students</span>
+										  </span>
+										</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div
+								class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-aaf77b4"
+								data-id="aaf77b4" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-e65757f elementor-align-center elementor-widget elementor-widget-button"
+									data-id="e65757f" data-element_type="widget" data-widget_type="button.default">
+									<div class="elementor-widget-container">
+									  <div class="elementor-button-wrapper">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="#"
+										  id="rp-toggle-btn">
+										  <span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text">Recruitment Partners</span>
+										  </span>
+										</a>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </section>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-8344db8 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="8344db8" data-element_type="section"
+					data-settings='{"stretch_section":"section-stretched","background_background":"classic"}'>
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0f59be5"
+						data-id="0f59be5" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div
+							class="elementor-element elementor-element-23c2026 students-laptop elementor-widget elementor-widget-html"
+							data-id="23c2026" data-element_type="widget" data-widget_type="html.default">
+							<div class="elementor-widget-container">
+							  <!-- video -->
+							  <p>&nbsp;</p>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-1ca4a08 rp-laptop elementor-widget elementor-widget-html"
+							data-id="1ca4a08" data-element_type="widget" data-widget_type="html.default">
+							<div class="elementor-widget-container">
+							  <!-- video -->
+							  <p>&nbsp;</p>
+							</div>
+						  </div>
+						  <section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-97a84a7 students-laptop elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+							data-id="97a84a7" data-element_type="section" data-settings='{"animation":"fadeInUp"}'>
+							<div class="elementor-container elementor-column-gap-default">
+							  <div
+								class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7c7d5b7"
+								data-id="7c7d5b7" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-b142e4b elementor-widget elementor-widget-image"
+									data-id="b142e4b" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<picture>
+											<source
+												data-lazy-srcset="{% static 'assets/images/find-program.png' %} 192w, {% static 'assets/images/find-program-150x150.png' %} 150w, {% static 'assets/images/find-program-50x50.png' %} 50w, {% static 'assets/images/find-program-100x100.png' %} 100w"
+												sizes="(max-width: 192px) 100vw, 192px" type="image/webp" />
+											<img
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E"
+												height="192" width="192"
+												data-lazy-srcset="{% static 'assets/images/find-program.png' %} 192w, {% static 'assets/images/find-program.png' %} 150w, {% static 'assets/images/find-program.png' %} 50w, {% static 'assets/images/find-program.png' %} 100w"
+												data-lazy-sizes="(max-width: 192px) 100vw, 192px"
+												class="attachment-full size-full wp-image-11835 sp-no-webp" alt="" decoding="async"
+												data-lazy-src="{% static 'assets/images/find-program.png' %}" />
+											<noscript>
+												<img
+													src="{% static 'assets/images/find-program.png' %}"
+													height="192" width="192" srcset="
+                                                        {% static 'assets/images/find-program.png' %}         192w,
+														{% static 'assets/images/find-program.png' %} 150w,
+														{% static 'assets/images/find-program.png' %}    50w,
+														{% static 'assets/images/find-program.png' %} 100w
+													" sizes="(max-width: 192px) 100vw, 192px"
+													class="attachment-full size-full wp-image-11835 sp-no-webp" alt="" loading="lazy"
+													decoding="async" />
+											</noscript>
+										</picture>
+										
+									</div>
+								  </div>
+								  <div
+									class="elementor-element elementor-element-4c78982 elementor-widget elementor-widget-heading"
+									data-id="4c78982" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+									  <h3 class="elementor-heading-title elementor-size-default">
+										Find Programs <br />Faster
+									  </h3>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div
+								class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-89efd7e"
+								data-id="89efd7e" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-eb682a5 elementor-widget elementor-widget-image"
+									data-id="eb682a5" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<picture>
+											<source
+												data-lazy-srcset="{% static 'assets/images/support.png' %} 192w, {% static 'assets/images/support.png' %} 150w, {% static 'assets/images/support.png' %} 50w, {% static 'assets/images/support.png' %} 100w"
+												sizes="(max-width: 192px) 100vw, 192px" type="image/webp" />
+											<img
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E"
+												height="192" width="192"
+												data-lazy-srcset="{% static 'assets/images/support.png' %} 192w, {% static 'assets/images/support.png' %} 150w, {% static 'assets/images/support.png' %} 50w, {% static 'assets/images/support.png' %} 100w"
+												data-lazy-sizes="(max-width: 192px) 100vw, 192px"
+												class="attachment-full size-full wp-image-11825 sp-no-webp" alt="" decoding="async"
+												data-lazy-src="{% static 'assets/images/support.png' %}" />
+											<noscript>
+												<img
+													src="{% static 'assets/images/support.png' %}"
+													height="192" width="192" srcset="
+                                                        {% static 'assets/images/support.png' %}         192w,
+														{% static 'assets/images/support.png' %} 150w,
+														{% static 'assets/images/support.png' %}    50w,
+														{% static 'assets/images/support.png' %} 100w
+													" sizes="(max-width: 192px) 100vw, 192px"
+													class="attachment-full size-full wp-image-11825 sp-no-webp" alt="" loading="lazy"
+													decoding="async" />
+											</noscript>
+										</picture>
+										
+									</div>
+								  </div>
+								  <div
+									class="elementor-element elementor-element-98ef69f elementor-widget elementor-widget-heading"
+									data-id="98ef69f" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+									  <h3 class="elementor-heading-title elementor-size-default">
+										Helpful and devoted support team.
+									  </h3>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div
+								class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-78cae61"
+								data-id="78cae61" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-122a21e elementor-widget elementor-widget-image"
+									data-id="122a21e" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<picture>
+											<source
+												data-lazy-srcset="{% static 'assets/images/tuition.png' %} 192w, {% static 'assets/images/tuition.png' %} 150w, {% static 'assets/images/tuition.png' %} 50w, {% static 'assets/images/tuition.png' %} 100w"
+												sizes="(max-width: 192px) 100vw, 192px" type="image/webp" />
+											<img
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E"
+												height="192" width="192"
+												data-lazy-srcset="{% static 'assets/images/tuition.png' %} 192w, {% static 'assets/images/tuition.png' %} 150w, {% static 'assets/images/tuition.png' %} 50w, {% static 'assets/images/tuition.png' %} 100w"
+												data-lazy-sizes="(max-width: 192px) 100vw, 192px"
+												class="attachment-full size-full wp-image-11838 sp-no-webp" alt="" decoding="async"
+												data-lazy-src="{% static 'assets/images/tuition.png' %}" />
+											<noscript>
+												<img
+													src="{% static 'assets/images/tuition.png' %}"
+													height="192" width="192" srcset="
+                                                        {% static 'assets/images/tuition.png' %}         192w,
+														{% static 'assets/images/tuition.png' %} 150w,
+														{% static 'assets/images/tuition.png' %}    50w,
+														{% static 'assets/images/tuition.png' %} 100w
+													" sizes="(max-width: 192px) 100vw, 192px"
+													class="attachment-full size-full wp-image-11838 sp-no-webp" alt="" loading="lazy"
+													decoding="async" />
+											</noscript>
+										</picture>
+										
+									</div>
+								  </div>
+								  <div
+									class="elementor-element elementor-element-d126557 elementor-widget elementor-widget-heading"
+									data-id="d126557" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+									  <h3 class="elementor-heading-title elementor-size-default">
+										Access to Exclusive Scholarships
+									  </h3>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </section>
+						  <section
+							class="elementor-section elementor-inner-section elementor-element elementor-element-c313ae0 rp-laptop elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+							data-id="c313ae0" data-element_type="section" data-settings='{"animation":"fadeInUp"}'>
+							<div class="elementor-container elementor-column-gap-default">
+							  <div
+								class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-05040c2"
+								data-id="05040c2" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-a02d4cc elementor-widget elementor-widget-image"
+									data-id="a02d4cc" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<picture>
+											<source
+												data-lazy-srcset="{% static 'assets/images/application.png' %} 192w, {% static 'assets/images/application.png' %} 150w, {% static 'assets/images/application.png' %} 50w, {% static 'assets/images/application.png' %} 100w"
+												sizes="(max-width: 192px) 100vw, 192px" type="image/webp" />
+											<img
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E"
+												height="192" width="192"
+												data-lazy-srcset="{% static 'assets/images/application.png' %} 192w, {% static 'assets/images/application.png' %} 150w, {% static 'assets/images/application.png' %} 50w, {% static 'assets/images/application.png' %} 100w"
+												data-lazy-sizes="(max-width: 192px) 100vw, 192px"
+												class="attachment-full size-full wp-image-11829 sp-no-webp" alt="" decoding="async"
+												data-lazy-src="{% static 'assets/images/application.png' %}" />
+											<noscript>
+												<img
+													src="{% static 'assets/images/application.png' %}"
+													height="192" width="192" srcset="
+                                                        {% static 'assets/images/application.png' %}         192w,
+														{% static 'assets/images/application.png' %} 150w,
+														{% static 'assets/images/application.png' %}    50w,
+														{% static 'assets/images/application.png' %} 100w
+													" sizes="(max-width: 192px) 100vw, 192px"
+													class="attachment-full size-full wp-image-11829 sp-no-webp" alt="" loading="lazy"
+													decoding="async" />
+											</noscript>
+										</picture>
+										
+									</div>
+								  </div>
+								  <div
+									class="elementor-element elementor-element-59855ff elementor-widget elementor-widget-heading"
+									data-id="59855ff" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+									  <h3 class="elementor-heading-title elementor-size-default">
+										One Easy Application Platform
+									  </h3>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div
+								class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3547f99"
+								data-id="3547f99" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-846db7d elementor-widget elementor-widget-image"
+									data-id="846db7d" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<picture>
+											<source
+												data-lazy-srcset="{% static 'assets/images/support.png' %} 192w, {% static 'assets/images/support.png' %} 150w, {% static 'assets/images/support.png' %} 50w, {% static 'assets/images/support.png' %} 100w"
+												sizes="(max-width: 192px) 100vw, 192px" type="image/webp" />
+											<img
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E"
+												height="192" width="192"
+												data-lazy-srcset="{% static 'assets/images/support.png' %} 192w, {% static 'assets/images/support.png' %} 150w, {% static 'assets/images/support.png' %} 50w, {% static 'assets/images/support.png' %} 100w"
+												data-lazy-sizes="(max-width: 192px) 100vw, 192px"
+												class="attachment-full size-full wp-image-11825 sp-no-webp" alt="" decoding="async"
+												data-lazy-src="{% static 'assets/images/support.png' %}" />
+											<noscript>
+												<img
+													src="{% static 'assets/images/support.png' %}"
+													height="192" width="192" srcset="
+                                                        {% static 'assets/images/support.png' %}         192w,
+														{% static 'assets/images/support.png' %} 150w,
+														{% static 'assets/images/support.png' %}    50w,
+														{% static 'assets/images/support.png' %} 100w
+													" sizes="(max-width: 192px) 100vw, 192px"
+													class="attachment-full size-full wp-image-11825 sp-no-webp" alt="" loading="lazy"
+													decoding="async" />
+											</noscript>
+										</picture>
+										
+									</div>
+								  </div>
+								  <div
+									class="elementor-element elementor-element-f9eb6e9 elementor-widget elementor-widget-heading"
+									data-id="f9eb6e9" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+									  <h3 class="elementor-heading-title elementor-size-default">
+										Knowledgeable Support Team
+									  </h3>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div
+								class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-28aabaa"
+								data-id="28aabaa" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+								  <div
+									class="elementor-element elementor-element-abe9aaf elementor-widget elementor-widget-image"
+									data-id="abe9aaf" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<picture>
+											<source
+												data-lazy-srcset="{% static 'assets/images/analytics.png' %} 192w, {% static 'assets/images/analytics.png' %} 150w, {% static 'assets/images/analytics.png' %} 50w, {% static 'assets/images/analytics.png' %} 100w"
+												sizes="(max-width: 192px) 100vw, 192px" type="image/webp" />
+											<img
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E"
+												height="192" width="192"
+												data-lazy-srcset="{% static 'assets/images/analytics.png' %} 192w, {% static 'assets/images/analytics.png' %} 150w, {% static 'assets/images/analytics.png' %} 50w, {% static 'assets/images/analytics.png' %} 100w"
+												data-lazy-sizes="(max-width: 192px) 100vw, 192px"
+												class="attachment-full size-full wp-image-11836 sp-no-webp"
+												alt="A bar chart with blue bars rising to the right of the screen. Over top of them is an arrow."
+												decoding="async"
+												data-lazy-src="{% static 'assets/images/analytics.png' %}" />
+											<noscript>
+												<img
+													src="{% static 'assets/images/analytics.png' %}"
+													height="192" width="192" srcset="
+                                                        {% static 'assets/images/analytics.png' %}         192w,
+														{% static 'assets/images/analytics.png' %} 150w,
+														{% static 'assets/images/analytics.png' %}    50w,
+														{% static 'assets/images/analytics.png' %} 100w
+													" sizes="(max-width: 192px) 100vw, 192px"
+													class="attachment-full size-full wp-image-11836 sp-no-webp"
+													alt="A bar chart with blue bars rising to the right of the screen. Over top of them is an arrow."
+													loading="lazy" decoding="async" />
+											</noscript>
+										</picture>
+										
+									</div>
+								  </div>
+								  <div
+									class="elementor-element elementor-element-f4805ae elementor-widget elementor-widget-heading"
+									data-id="f4805ae" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+									  <h3 class="elementor-heading-title elementor-size-default">
+										Data Driven <br />Insights
+									  </h3>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </section>
+						  <div
+							class="elementor-element elementor-element-f4f0ad5 elementor-align-center elementor-widget elementor-widget-button"
+							data-id="f4f0ad5" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-sm"
+								  href="{% url 'account' %}">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Try It Today</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  
+				  
+				  
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-fa0202f elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="fa0202f" data-element_type="section"
+					data-settings='{"stretch_section":"section-stretched","background_background":"classic"}'>
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4c6659"
+						data-id="d4c6659" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-8cdcbf4 elementor-widget elementor-widget-heading"
+							data-id="8cdcbf4" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h2 class="elementor-heading-title elementor-size-default">
+								We contribute to the entire education sector through student guidance and thought leadership.
+							  </h2>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-5cfebc0 uael-equal__height-yes recent-posts elementor-widget elementor-widget-uael-posts"
+							data-id="5cfebc0" data-element_type="widget"
+							data-settings='{"classic_slides_to_show":3,"classic_slides_to_show_tablet":2,"classic_slides_to_show_mobile":1}'
+							data-widget_type="uael-posts.classic">
+							<div class="elementor-widget-container">
+							  <div class="uael-post__header"></div>
+							  <div class="uael-post__body">
+								<div class="uael-blog-terms-position- uael-post-image-top uael-post-grid uael-posts"
+								  data-query-type="custom" data-structure="normal" data-layout="" data-page="837"
+								  data-skin="classic" data-filter-default="" data-offset-top="30">
+								  <div
+									class="uael-post-grid__inner uael-post__columns-3 uael-post__columns-tablet-2 uael-post__columns-mobile-1">
+									<div class="uael-post-wrapper blog">
+									  <div class="uael-post__bg-wrap">
+										<div class="uael-post__inner-wrap">
+										  <div class="uael-post__thumbnail">
+											<a href="{% url 'ielts-writing' %}" target="_self"
+											  title="Celebrating Women in STEM on International Women&#8217;s Day"><img
+												width="350" height="160" decoding="async"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20160'%3E%3C/svg%3E"
+												title="Celebrating Women in STEM on International Women&#8217;s Day"
+												alt="Two women with curly hair and pastel pink and purple blazers stand with their arms around each other&#039;s shoulders. They are framed by semi-transparent silhouettes, each of a different women&#039;s profile, in shades of purple."
+												data-lazy-src="{% static 'assets/images/blog-1.webp' %}" /><noscript><img
+												  width="350" height="160" decoding="async"
+												  src="{% static 'assets/images/blog-1.webp' %}"
+												  title="Celebrating Women in STEM on International Women&#8217;s Day"
+												  alt="Two women with curly hair and pastel pink and purple blazers stand with their arms around each other&#039;s shoulders. They are framed by semi-transparent silhouettes, each of a different women&#039;s profile, in shades of purple."
+												  loading="lazy" /></noscript></a>
+										  </div>
+	  
+										  <div class="uael-post__content-wrap">
+											<h3 class="uael-post__title">
+											  <a href="{% url 'ielts-writing' %}" target="_self">
+												IELTS Writing:
+												7 Study Tips to Increase Your Score
+											  </a>
+											</h3>
+											<div class="uael-post__meta-data">
+											  <span class="uael-post__date">
+												March 16, 2024
+											  </span>
+											</div>
+											<a class="uael-post__read-more elementor-button" href="{% url 'ielts-writing' %}" target="_self"
+											  aria-labelledby="uael-post-18614">
+											  <span class="elementor-button-content-wrapper">
+												<span class="elementor-button-icon elementor-align-icon-right">
+												  <i aria-hidden="true" class="fas fa-arrow-right"></i>
+												</span>
+	  
+												<span class="elementor-button-text" id="uael-post-18614">Read More</span>
+											  </span>
+											</a>
+										  </div>
+										</div>
+									  </div>
+									</div>
+	  
+									<div class="uael-post-wrapper blog">
+									  <div class="uael-post__bg-wrap">
+										<div class="uael-post__inner-wrap">
+										  <div class="uael-post__thumbnail">
+											<a href="{% url 'affordablecities' %}" target="_self"
+											  title="10 Affordable Student Cities in 5 Countries"><img width="350"
+												height="160" decoding="async"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20160'%3E%3C/svg%3E"
+												title=""
+												alt="A piggy bank wearing a graduation cap, surrounded by a stack of books and scattered gold coins."
+												data-lazy-src="{% static 'assets/images/blog-2.webp' %}" /><noscript><img
+												  width="350" height="160" decoding="async"
+												  src="{% static 'assets/images/blog-2.webp' %}"
+												  title=""
+												  alt="A piggy bank wearing a graduation cap, surrounded by a stack of books and scattered gold coins."
+												  loading="lazy" /></noscript></a>
+										  </div>
+	  
+										  <div class="uael-post__content-wrap">
+											<h3 class="uael-post__title">
+											  <a href="{% url 'affordablecities' %}" target="_self">
+												10 Affordable Student Cities in 5
+												Countries
+											  </a>
+											</h3>
+											<div class="uael-post__meta-data">
+											  <span class="uael-post__date">
+												March 7, 2024
+											  </span>
+											</div>
+											<a class="uael-post__read-more elementor-button" href="{% url 'affordablecities' %}" target="_self"
+											  aria-labelledby="uael-post-18616">
+											  <span class="elementor-button-content-wrapper">
+												<span class="elementor-button-icon elementor-align-icon-right">
+												  <i aria-hidden="true" class="fas fa-arrow-right"></i>
+												</span>
+	  
+												<span class="elementor-button-text" id="uael-post-18616">Read More</span>
+											  </span>
+											</a>
+										  </div>
+										</div>
+									  </div>
+									</div>
+	  
+									<div class="uael-post-wrapper blog">
+									  <div class="uael-post__bg-wrap">
+										<div class="uael-post__inner-wrap">
+										  <div class="uael-post__thumbnail">
+											<a href="#" target="_self"
+											  title="Find High-Job-Demand Study Options with Program Tags"><img width="350"
+												height="160" decoding="async"
+												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20160'%3E%3C/svg%3E"
+												title="job-demand-program-tags"
+												alt="A banner with an open laptop showcasing new Program Tags on Admissions Platform&#039;s search engine."
+												data-lazy-src="{% static 'assets/images/blog-3.webp' %}" /><noscript><img
+												  width="350" height="160" decoding="async"
+												  src="{% static 'assets/images/blog-3.webp' %}"
+												  title="job-demand-program-tags"
+												  alt="A banner with an open laptop showcasing new Program Tags on AdmissionsPlatform&#039;s search engine."
+												  loading="lazy" /></noscript></a>
+										  </div>
+	  
+										  <div class="uael-post__content-wrap">
+											<h3 class="uael-post__title">
+											  <a href="#" target="_self">
+												Find High-Job-Demand Study Options
+												with Program Tags
+											  </a>
+											</h3>
+											<div class="uael-post__meta-data">
+											  <span class="uael-post__date">
+												March 6, 2024
+											  </span>
+											</div>
+											<a class="uael-post__read-more elementor-button" href="#" target="_self"
+											  aria-labelledby="uael-post-18607">
+											  <span class="elementor-button-content-wrapper">
+												<span class="elementor-button-icon elementor-align-icon-right">
+												  <i aria-hidden="true" class="fas fa-arrow-right"></i>
+												</span>
+	  
+												<span class="elementor-button-text" id="uael-post-18607">Read More</span>
+											  </span>
+											</a>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="uael-post__footer"></div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-763177f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="763177f" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d0f0552"
+						data-id="d0f0552" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-d14d50e elementor-widget elementor-widget-heading"
+							data-id="d14d50e" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h2 class="elementor-heading-title elementor-size-default">
+								Get Started with Admissions Platform
+							  </h2>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-6216ff7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="6216ff7" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-de94636"
+						data-id="de94636" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-8e3c7e6 elementor-widget elementor-widget-image"
+							data-id="8e3c7e6" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							  <picture>
+								<source
+								  data-lazy-srcset="{% static 'assets/images/reg1.jpg' %} "
+								  type="image/webp" />
+								<img
+								  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%20187'%3E%3C/svg%3E"
+								  height="187" width="254" class="attachment-medium size-medium wp-image-10593 sp-no-webp"
+								  alt="" decoding="async"
+								  data-lazy-src="{% static 'assets/images/reg1.jpg' %}" /><noscript><img
+									src="{% static 'assets/images/reg1.jpg' %}" height="187"
+									width="254" class="attachment-medium size-medium wp-image-10593 sp-no-webp" alt=""
+									loading="lazy" decoding="async" /></noscript>
+							  </picture>
+							</div>
+						  </div>
+						  <div class="elementor-element elementor-element-ff29035 elementor-widget elementor-widget-heading"
+							data-id="ff29035" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h3 class="elementor-heading-title elementor-size-default">
+								Students
+							  </h3>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-73158c0 elementor-widget elementor-widget-text-editor"
+							data-id="73158c0" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+							  <p>
+								Are you a student looking to study abroad in Canada,
+								the United States, the United Kingdom, Australia, or
+								Ireland? Let our team of experts guide you through
+								your journey.
+							  </p>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-05ec511 elementor-align-center elementor-widget elementor-widget-button"
+							data-id="05ec511" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Student Registration</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div
+						class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f74d670"
+						data-id="f74d670" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-1a7265d elementor-widget elementor-widget-image"
+							data-id="1a7265d" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							  <picture>
+								<source
+								  data-lazy-srcset="{% static 'assets/images/uni1.jpg' %} "
+								  type="image/webp" />
+								<img
+								  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%20191'%3E%3C/svg%3E"
+								  height="191" width="254" class="attachment-medium size-medium wp-image-10594 sp-no-webp"
+								  alt="" decoding="async"
+								  data-lazy-src="{% static 'assets/images/uni1.jpg' %}" /><noscript><img
+									src="{% static 'assets/images/uni1.jpg' %}" height="191"
+									width="254" class="attachment-medium size-medium wp-image-10594 sp-no-webp" alt=""
+									loading="lazy" decoding="async" /></noscript>
+							  </picture>
+							</div>
+						  </div>
+						  <div class="elementor-element elementor-element-0a4101c elementor-widget elementor-widget-heading"
+							data-id="0a4101c" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h3 class="elementor-heading-title elementor-size-default">
+								Partner Institutions
+							  </h3>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-15fa920 elementor-widget elementor-widget-text-editor"
+							data-id="15fa920" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+							  <p>
+								Become an AdmissionsPlatform partner institution to
+								diversify your campus by attracting qualified
+								students from around the world. Connect with our
+								Partner Relations team here.
+							  </p>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-4f67c2a elementor-align-center elementor-widget elementor-widget-button"
+							data-id="4f67c2a" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Partner Inquiry</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div
+						class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3b6d98c"
+						data-id="3b6d98c" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-3eccb29 elementor-widget elementor-widget-image"
+							data-id="3eccb29" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							  <picture>
+								<source
+								  data-lazy-srcset="{% static 'assets/images/home-2.webp' %} "
+								  type="image/webp" />
+								<img
+								  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20258%20192'%3E%3C/svg%3E"
+								  height="192" width="258" class="attachment-medium size-medium wp-image-10595 sp-no-webp"
+								  alt="" decoding="async"
+								  data-lazy-src="{% static 'assets/images/home-2.webp' %}" /><noscript><img
+									src="{% static 'assets/images/home-2.webp' %}" height="192"
+									width="258" class="attachment-medium size-medium wp-image-10595 sp-no-webp" alt=""
+									loading="lazy" decoding="async" /></noscript>
+							  </picture>
+							</div>
+						  </div>
+						  <div class="elementor-element elementor-element-a575ab4 elementor-widget elementor-widget-heading"
+							data-id="a575ab4" data-element_type="widget" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+							  <h3 class="elementor-heading-title elementor-size-default">
+								Recruitment Partners
+							  </h3>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-9f5ff80 elementor-widget elementor-widget-text-editor"
+							data-id="9f5ff80" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+							  <p>
+								Do you recruit prospective students who want to
+								study in Canada, the United States, the United
+								Kingdom, Australia, or Ireland? Become an
+								Admission Platform recruitment partner.
+							  </p>
+							</div>
+						  </div>
+						  <div
+							class="elementor-element elementor-element-2511003 elementor-align-center elementor-widget elementor-widget-button"
+							data-id="2511003" data-element_type="widget" data-widget_type="button.default">
+							<div class="elementor-widget-container">
+							  <div class="elementor-button-wrapper">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+								  <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Recruiter Registration</span>
+								  </span>
+								</a>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				  <section
+					class="elementor-section elementor-top-section elementor-element elementor-element-0bd29a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+					data-id="0bd29a3" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+					  <div
+						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61b0e4b"
+						data-id="61b0e4b" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+						  <div class="elementor-element elementor-element-040accd elementor-widget elementor-widget-html"
+							data-id="040accd" data-element_type="widget" data-widget_type="html.default">
+							<div class="elementor-widget-container">
+							  <style>
+								a:focus {
+								  outline: none;
+								}
+	  
+								div#home-blog-aggregator .tb-post-label {
+								  display: none;
+								}
+	  
+								div#home-blog-aggregator .tb-post {
+								  box-shadow: 0px 3px 9px 3px rgba(0, 0, 0, 0.08);
+								  border-radius: 4px;
+								  background: #ffffff;
+								  height: 396px;
+								}
+	  
+								div#home-blog-aggregator h2.tb-post-title>a:after {
+								  content: "\A Read more";
+								  color: #005956;
+								  white-space: pre-wrap;
+								  font-weight: 600;
+								  font-size: 16px;
+								  line-height: 28px;
+								  position: absolute;
+								  left: 35px;
+								  bottom: 20px;
+								}
+	  
+								div#home-blog-aggregator h2.tb-post-title>a:hover:after {
+								  color: #005956;
+								}
+	  
+								div#home-blog-aggregator .tb-post.tb-style11 {
+								  display: flex;
+								  flex-direction: column;
+								}
+	  
+								div#home-blog-aggregator .tb-post-info {
+								  /*display: flex;
+			  align-items: center;
+			  flex-direction: row;
+			  flex: 1;*/
+								  padding: 10px 20px;
+								}
+	  
+								#audience-toggle .swiper-container,
+								#audience-toggle .swiper-slide {
+								  pointer-events: none;
+								}
+	  
+								#audience-toggle .swiper-slide a,
+								#audience-toggle .swiper-container .swiper-pagination {
+								  pointer-events: all;
+								}
+	  
+								#audience-toggle-btns .elementor-column,
+								#laptop-toggle .elementor-column,
+								#video-testimonial-slider-toggle .elementor-column {
+								  padding-left: 0;
+								  padding-right: 0;
+								}
+	  
+								#laptop-toggle .elementor-button-text,
+								#audience-toggle-btns .elementor-button-text {
+								  display: flex;
+								  align-items: center;
+								}
+	  
+								#laptop-toggle .elementor-button-link {
+								  display: flex;
+								  justify-content: center;
+								}
+	  
+								.toggle-btn-active {
+								  background-color: #369e61 !important;
+								  color: #ffffff !important;
+								}
+	  
+								ul.map-stats-list {
+								  list-style: none;
+								}
+	  
+								.map-stats-list li {
+								  padding-bottom: 40px;
+								  opacity: 30%;
+								}
+	  
+								.map-stats-list li.active-stat {
+								  opacity: unset;
+								}
+	  
+								span.map-stat {
+								  color: #005956;
+								  font-size: 40px;
+								  line-height: 50px;
+								  font-weight: 700;
+								}
+	  
+								@media only screen and (max-width: 767px) {
+	  
+								  section#laptop-toggle,
+								  section#video-testimonial-slider-toggle {
+									background: none;
+								  }
+	  
+								  a#students-toggle-btn,
+								  a#rp-toggle-btn,
+								  a#schools-toggle-btn,
+								  a#video-students-toggle-btn,
+								  a#video-rp-toggle-btn,
+								  a#video-schools-toggle-btn {
+									color: #005956 !important;
+									background-color: #ffffff !important;
+									border-radius: 5px !important;
+									border: 2px solid #005956;
+								  }
+	  
+								  a#students-toggle-btn.toggle-btn-active,
+								  a#rp-toggle-btn.toggle-btn-active,
+								  a#schools-toggle-btn.toggle-btn-active,
+								  a#video-students-toggle-btn.toggle-btn-active,
+								  a#video-rp-toggle-btn.toggle-btn-active,
+								  a#video-schools-toggle-btn.toggle-btn-active {
+									background-color: #005956 !important;
+									color: #ffffff !important;
+								  }
+								}
+	  
+								@media only screen and (min-width: 992px) {
+	  
+								  div#home-blog-aggregator .tb-post-label,
+								  .row.tb-post-outerwrapper .col-lg-3.col-sm-6:nth-child(4) {
+									display: none;
+								  }
+	  
+								  .row.tb-post-outerwrapper .col-lg-3.col-sm-6 {
+									max-width: 33% !important;
+									flex: 0 0 33%;
+								  }
+								}
+							  </style>
+	  
+							  <script>
+								document.addEventListener(
+								  "DOMContentLoaded",
+								  function (event) {
+									jQuery(window).on("load", function () {
+									  // Audience carousel
+									  const audienceSwiper = jQuery(
+										"#audience-toggle .swiper-container"
+									  ).data("swiper");
+									  audienceSwiper.on("slideChange", function () {
+										// Select corresponding Audience toggle
+										jQuery("#audience-toggle-btns a")
+										  .blur()
+										  .removeClass("toggle-btn-active");
+										jQuery("#audience-toggle-btns a")
+										  .eq(audienceSwiper.activeIndex)
+										  .addClass("toggle-btn-active");
+									  });
+	  
+									  // Audience toggle
+									  jQuery("#audience-toggle-btns a").each(
+										function (index) {
+										  jQuery(this).click(function (e) {
+											audienceSwiper.slideTo(index);
+											e.preventDefault();
+										  });
+										}
+									  );
+									  jQuery("#audience-toggle-students-btn a")
+										.eq(0)
+										.addClass("toggle-btn-active");
+	  
+									  // Laptop toggle
+									  jQuery("#students-toggle-btn").click(
+										function (e) {
+										  laptopTargetToggle("students");
+										  e.preventDefault();
+										}
+									  );
+									  jQuery("#rp-toggle-btn").click(function (e) {
+										laptopTargetToggle("rp");
+										e.preventDefault();
+									  });
+									  laptopTargetToggle("students");
+									  function laptopTargetToggle(laptopTarget) {
+										jQuery("#students-toggle-btn").removeClass(
+										  "toggle-btn-active"
+										);
+										jQuery("#rp-toggle-btn").removeClass(
+										  "toggle-btn-active"
+										);
+										jQuery(
+										  "#" + laptopTarget + "-toggle-btn"
+										).addClass("toggle-btn-active");
+	  
+										jQuery(".students-laptop").hide();
+										jQuery(".rp-laptop").hide();
+										jQuery(
+										  "." + laptopTarget + "-laptop"
+										).show();
+									  }
+									});
+								  }
+								);
+							  </script>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </section>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+		<div data-elementor-type="footer" data-elementor-id="11636"
+		  class="elementor elementor-11636 elementor-location-footer" data-elementor-post-type="elementor_library">
+		  <section
+			class="elementor-section elementor-top-section elementor-element elementor-element-71fbd0c7 elementor-section-full_width elementor-section-height-min-height elementor-section-items-top elementor-hidden-mobile elementor-section-stretched elementor-section-height-default"
+			data-id="71fbd0c7" data-element_type="section"
+			data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'>
+			<div class="elementor-container elementor-column-gap-default">
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3d9593f"
+				data-id="3d9593f" data-element_type="column">
+				<div class="elementor-widget-wrap"></div>
+			  </div>
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7c2457a9"
+				data-id="7c2457a9" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-1ed148ed elementor-hidden-mobile elementor-widget elementor-widget-image"
+					data-id="1ed148ed" data-element_type="widget" data-widget_type="image.default">
+					<div class="elementor-widget-container">
+					  <img src="assets/images/admission-platform-blue-header-mid.png"
+						class="attachment-full size-full wp-image-11893" alt="AdmissionPlatform Logo"
+						data-lazy-src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" /><noscript><img
+						  src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}"
+						  class="attachment-full size-full wp-image-11893" alt="AdmissionPlatform Logo" /></noscript>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-65631b99 elementor-hidden-mobile address elementor-widget elementor-widget-text-editor"
+					data-id="65631b99" data-element_type="widget" id="address" data-widget_type="text-editor.default">
+					<div class="elementor-widget-container">
+					  <p>partners@admissionplatform.io<br>apply@admissionplatform.io</p>
+					</div>
+				  </div>
+				  <div class="elementor-element elementor-element-6d9b171a elementor-widget elementor-widget-spacer"
+					data-id="6d9b171a" data-element_type="widget" data-widget_type="spacer.default">
+					<div class="elementor-widget-container">
+					  <div class="elementor-spacer">
+						<div class="elementor-spacer-inner"></div>
+					  </div>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-163fd3bc elementor-hidden-mobile elementor-widget elementor-widget-heading"
+					data-id="163fd3bc" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+					  <h2 class="elementor-heading-title elementor-size-default">
+						Get Social
+					  </h2>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-72e654e5 elementor-grid-6 elementor-grid-tablet-5 e-grid-align-tablet-left elementor-hidden-mobile elementor-shape-square e-grid-align-left elementor-widget elementor-widget-social-icons"
+					data-id="72e654e5" data-element_type="widget" data-widget_type="social-icons.default">
+					<div class="elementor-widget-container">
+					  <div class="elementor-social-icons-wrapper elementor-grid">
+						<span class="elementor-grid-item">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-7c51fa1"
+							href="#" target="_blank" aria-label="linkedin link">
+							<span class="elementor-screen-only">Linkedin-in</span>
+							<i class="fab fa-linkedin-in"></i>
+						  </a>
+						</span>
+						<span class="elementor-grid-item">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-f1d6ed5"
+							href="#" target="_blank" aria-label="facebook link">
+							<span class="elementor-screen-only">Facebook-f</span>
+							<i class="fab fa-facebook-f"></i>
+						  </a>
+						</span>
+						<span class="elementor-grid-item">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-5192d54"
+							href="#" target="_blank" aria-label="instagram link">
+							<span class="elementor-screen-only">Instagram</span>
+							<i class="fab fa-instagram"></i>
+						  </a>
+						</span>
+						<span class="elementor-grid-item">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-e738541"
+							href="#" target="_blank" aria-label="Youtube link">
+							<span class="elementor-screen-only">Youtube</span>
+							<i class="fab fa-youtube"></i>
+						  </a>
+						</span>
+						<span class="elementor-grid-item">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-repeater-item-40f24b0"
+							href="#" target="_blank" aria-label="tiktok link">
+							<span class="elementor-screen-only">Tiktok</span>
+							<i class="fab fa-tiktok"></i>
+						  </a>
+						</span>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3b996952"
+				data-id="3b996952" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-771f5ad elementor-nav-menu__align-justify elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
+					data-id="771f5ad" data-element_type="widget"
+					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
+					data-widget_type="nav-menu.default">
+					<div class="elementor-widget-container">
+					  <nav
+						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+						<ul id="menu-1-771f5ad" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15559">
+							<a href="{% url 'studyabroad' %}" class="elementor-item">Students</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10892">
+							<a href="{% url 'schools' %}" class="elementor-item">Schools</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10414">
+							<a href="{% url 'recruiters' %}" class="elementor-item">Recruiters</a>
+						  </li>
+						</ul>
+					  </nav>
+					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+						<ul id="menu-2-771f5ad" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15559">
+							<a href="{% url 'studyabroad' %}" class="elementor-item" tabindex="-1">Students</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10892">
+							<a href="{% url 'schools' %}" class="elementor-item" tabindex="-1">Schools</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10414">
+							<a href="{% url 'recruiters' %}" class="elementor-item" tabindex="-1">Recruiters</a>
+						  </li>
+						</ul>
+					  </nav>
+					</div>
+				  </div>
+				  <div class="elementor-element elementor-element-7f96792 elementor-widget elementor-widget-spacer"
+					data-id="7f96792" data-element_type="widget" data-widget_type="spacer.default">
+					<div class="elementor-widget-container">
+					  <div class="elementor-spacer">
+						<div class="elementor-spacer-inner"></div>
+					  </div>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-182492ac elementor-hidden-mobile elementor-widget elementor-widget-heading"
+					data-id="182492ac" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+					  <h2 class="elementor-heading-title elementor-size-default">
+						Discover
+					  </h2>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-59938746 elementor-nav-menu__align-start elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-mobile elementor-hidden-mobile elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
+					data-id="59938746" data-element_type="widget"
+					data-settings='{"layout":"vertical","full_width":"stretch","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"},"toggle":"burger"}'
+					data-widget_type="nav-menu.default">
+					<div class="elementor-widget-container">
+					  <nav
+						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+						<ul id="menu-1-59938746" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1187">
+							<a target="_blank" rel="noopener" href="#" class="elementor-item">Discover Schools and
+							  Programs</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11178">
+							<a href="{% url 'register' %}" class="elementor-item">Register</a>
+						  </li>
+						</ul>
+					  </nav>
+					  <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle"
+						aria-expanded="false">
+						<i aria-hidden="true" role="presentation"
+						  class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true"
+						  role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>
+						<span class="elementor-screen-only">Menu</span>
+					  </div>
+					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+						<ul id="menu-2-59938746" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1187">
+							<a target="_blank" rel="noopener" href="#" class="elementor-item" tabindex="-1">Discover Schools
+							  and Programs</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11178">
+							<a href="{% url 'register' %}" class="elementor-item" tabindex="-1">Register</a>
+						  </li>
+						</ul>
+					  </nav>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-4ebdcc26"
+				data-id="4ebdcc26" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-76cd316f elementor-hidden-mobile elementor-widget elementor-widget-heading"
+					data-id="76cd316f" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+					  <h2 class="elementor-heading-title elementor-size-default">
+						About
+					  </h2>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-3e1e1411 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
+					data-id="3e1e1411" data-element_type="widget"
+					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
+					data-widget_type="nav-menu.default">
+					<div class="elementor-widget-container">
+					  <nav
+						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+						<ul id="menu-1-3e1e1411" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16605">
+							<a href="{% url 'story' %}" class="elementor-item">Our Story</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16611">
+							<a href="{% url 'careers' %}" class="elementor-item">Careers</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
+							<a href="{% url 'blog' %}" class="elementor-item">Blog</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16616">
+							<a href="{% url 'press' %}" class="elementor-item">Press</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16618">
+							<a href="{% url 'life' %}" class="elementor-item">Life</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16634">
+							<a href="{% url 'leadership' %}" class="elementor-item">Leadership</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16635">
+							<a href="{% url 'contact' %}" class="elementor-item">Contact</a>
+						  </li>
+						</ul>
+					  </nav>
+					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+						<ul id="menu-2-3e1e1411" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16605">
+							<a href="{% url 'story' %}" class="elementor-item" tabindex="-1">Our Story</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16611">
+							<a href="{% url 'careers' %}" class="elementor-item" tabindex="-1">Careers</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
+							<a href="{% url 'blog' %}" class="elementor-item" tabindex="-1">Blog</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16616">
+							<a href="{% url 'press' %}" class="elementor-item" tabindex="-1">Press</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16618">
+							<a href="{% url 'life' %}" class="elementor-item" tabindex="-1">Life</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16634">
+							<a href="{% url 'leadership' %}" class="elementor-item" tabindex="-1">Leadership</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16635">
+							<a href="{% url 'contact' %}" class="elementor-item" tabindex="-1">Contact</a>
+						  </li>
+						</ul>
+					  </nav>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-5d867c73"
+				data-id="5d867c73" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div
+					class="elementor-element elementor-element-63a9c60a elementor-hidden-mobile elementor-widget elementor-widget-heading"
+					data-id="63a9c60a" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+					  <h2 class="elementor-heading-title elementor-size-default">
+						Resources
+					  </h2>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-1e5563e1 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
+					data-id="1e5563e1" data-element_type="widget"
+					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
+					data-widget_type="nav-menu.default">
+					<div class="elementor-widget-container">
+					  <nav
+						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+						<ul id="menu-1-1e5563e1" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220">
+							<a href="#" class="elementor-item">UK Resources</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
+							<a href="#" class="elementor-item">AU Resources</a>
+						  </li>
+						</ul>
+					  </nav>
+					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+						<ul id="menu-2-1e5563e1" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220">
+							<a href="#" class="elementor-item" tabindex="-1">UK Resources</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
+							<a href="#" class="elementor-item" tabindex="-1">AU Resources</a>
+						  </li>
+						</ul>
+					  </nav>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-58c4fce9 elementor-widget-tablet__width-inherit elementor-hidden-mobile elementor-widget elementor-widget-heading"
+					data-id="58c4fce9" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+					  <h2 class="elementor-heading-title elementor-size-default">
+						Legal
+					  </h2>
+					</div>
+				  </div>
+				  <div
+					class="elementor-element elementor-element-53c1cfd elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
+					data-id="53c1cfd" data-element_type="widget"
+					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
+					data-widget_type="nav-menu.default">
+					<div class="elementor-widget-container">
+					  <nav
+						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+						<ul id="menu-1-53c1cfd" class="elementor-nav-menu sm-vertical">
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7886">
+							<a href="{% url 'privacy' %}" class="elementor-item">Privacy &#038; Cookies Policy</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671">
+							<a href="{% url 'terms' %}" class="elementor-item">Terms &#038; Conditions</a>
+						  </li>
+						  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8243">
+							<a href="{% url 'fees' %}" class="elementor-item">Admission Platform Fees</a>
+						  </li>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16822">
+							<a href="{% url 'statement' %}" class="elementor-item">Modern Slavery Statement</a>
+						  </li>
+						</ul>
+					  </nav>
+					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+						<ul id="menu-2-53c1cfd" class="elementor-nav-menu sm-vertical">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7886">
+								<a href="{% url 'privacy' %}" class="elementor-item">Privacy &#038; Cookies Policy</a>
+							  </li>
+							  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671">
+								<a href="{% url 'terms' %}" class="elementor-item">Terms &#038; Conditions</a>
+							  </li>
+							  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8243">
+								<a href="{% url 'fees' %}" class="elementor-item">Admission Platform Fees</a>
+							  </li>
+							  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16822">
+								<a href="{% url 'statement' %}" class="elementor-item">Modern Slavery Statement</a>
+							  </li>
+						</ul>
+					  </nav>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-221b0103"
+				data-id="221b0103" data-element_type="column">
+				<div class="elementor-widget-wrap"></div>
+			  </div>
+			</div>
+		  </section>
+		  <section
+			class="elementor-section elementor-top-section elementor-element elementor-element-715213b8 elementor-hidden-mobile elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+			data-id="715213b8" data-element_type="section"
+			data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'>
+			<div class="elementor-container elementor-column-gap-default">
+			  <div
+				class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-58f2d881"
+				data-id="58f2d881" data-element_type="column">
+				<div class="elementor-widget-wrap elementor-element-populated">
+				  <div class="elementor-element elementor-element-3b854135 elementor-widget elementor-widget-heading"
+					data-id="3b854135" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+					  <p class="elementor-heading-title elementor-size-default">
+						© 2024 Admission Platform
+					  </p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  
+		</div>
+		
+<link rel='stylesheet' id='webify-button-css' href="{% static 'assets/wp-content/themes/webify/assets/css/shortcodes/button.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' %}" type='text/css' media='all' />
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/jquery/ui/core.min.js' %}" id="jquery-ui-core-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/jquery/ui/datepicker.min.js' %}" id="jquery-ui-datepicker-js"></script>
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/comment-reply.min.js' %}" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/themes/webify/assets/js/parallax.min.js' %}" id="parallax-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/themes/webify/assets/js/jquery.formstone.min.js' %}" id="form-stone-js"></script>
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/themes/webify/assets/js/main.js' %}" id="webify-main-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/imagesloaded.min.js' %}" id="imagesloaded-js"></script>
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js' %}" id="smartmenus-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/min-js/uael-nav-menu.min.js' %}" id="uael-nav-menu-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/lib/jquery-element-resize/jquery_resize.min.js' %}" id="uael-element-resize-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/lib/js-cookie/js_cookie.min.js' %}" id="uael-cookie-lib-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/lib/slick/slick.min.js' %}" id="uael-slick-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/lib/isotope/isotope.min.js' %}" id="uael-isotope-js"></script>
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/ultimate-elementor/assets/min-js/uael-posts.min.js' %}" id="uael-posts-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js' %}" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js' %}" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' %}" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js' %}" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/dist/vendor/regenerator-runtime.min.js' %}" id="regenerator-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/dist/vendor/wp-polyfill.min.js' %}" id="wp-polyfill-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/dist/hooks.min.js' %}" id="wp-hooks-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/dist/i18n.min.js' %}" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.applyboard.com\/wp-admin\/admin-ajax.php","nonce":"352c8e0b0b","urls":{"assets":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":""},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{},"lottie":{"defaultAnimationUrl":""}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor-pro/assets/js/frontend.min.js' %}" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js' %}" id="elementor-waypoints-js"></script>
+
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true},"urls":{"assets":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":837,"title":"ApplyBoard%20%7C%20Study%20Abroad%20Application%20Platform","excerpt":"","featuredImage":"https:\/\/www.applyboard.com\/wp-content\/uploads\/2020\/10\/Social_Media_Preview_Main_Blog-1024x538.png"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor/assets/js/frontend.min.js' %}" id="elementor-frontend-js"></script>
+
+
+
+<script>
+	document.addEventListener(
+	  "DOMContentLoaded",
+	  function (event) {
+		function addClassToNavWhenScrolledBelowElement(
+		  elementSelector,
+		  navAtTopClass
+		) {
+		  addHeaderClass();
+		  document.addEventListener(
+			"scroll",
+			function (e) {
+			  addHeaderClass();
+			}
+		  );
+
+		  function addHeaderClass() {
+			const lastKnownScrollPosition =
+			  window.scrollY;
+			//const elementBottom = jQuery(elementSelector).offset().top + jQuery(elementSelector).height()
+			//if (lastKnownScrollPosition > elementBottom) {
+			if (lastKnownScrollPosition > 5) {
+			  jQuery("header").removeClass(
+				navAtTopClass
+			  );
+			} else {
+			  jQuery("header").addClass(navAtTopClass);
+			}
+		  }
+		}
+
+		addClassToNavWhenScrolledBelowElement(
+		  "#home-hero-video",
+		  "header-nav-scrolled-top"
+		);
+	  }
+	);
+  </script>
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js' %}" id="pro-elements-handlers-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js' %}" id="e-sticky-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="{% static 'assets/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js' %}"></script>
+</body>
+</html>
+

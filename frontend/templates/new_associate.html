@@ -1,0 +1,77 @@
+{% extends 'partials/base.html' %}
+            
+{% load static %}
+
+{% block content %}
+      
+
+<div class="container mt-5">
+    <h2>Contact Information</h2>
+    <p>Please ensure the owner of the organization completes this form and that the information below matches their business registration document.</p>
+    <form>
+      <div class="form-group">
+        <label for="businessCertificate">Business Certificate</label>
+        <input type="file" class="form-control-file" id="businessCertificate" accept=".pdf, .doc, .docx">
+      </div>
+      <div class="form-group">
+        <label for="businessLogo">Business Logo (optional)</label>
+        <input type="file" class="form-control-file" id="businessLogo" accept="image/*">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="ownerFirstName">Owner's First Name</label>
+          <input type="text" class="form-control" id="ownerFirstName" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="ownerLastName">Owner's Last Name</label>
+          <input type="text" class="form-control" id="ownerLastName" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" class="form-control" id="phoneNumber" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="preferredContactMethod">Preferred Contact Method</label>
+        <select class="form-control" id="preferredContactMethod" required>
+          <option value="">Select...</option>
+          <option>Call</option>
+          <option>SMS</option>
+          <option>Email</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="howFound">How did you find out about ApplyBoard?</label>
+        <input type="text" class="form-control" id="howFound" required>
+      </div>
+      <div class="form-group">
+        <label for="referredBy">Has anyone at ApplyBoard referred you? If yes, who? (optional)</label>
+        <input type="text" class="form-control" id="referredBy">
+      </div>
+      <div class="form-group">
+        <label for="recruitingYear">In which year did you begin recruiting students?</label>
+        <input type="text" class="form-control" id="recruitingYear" pattern="\d{4}" placeholder="yyyy" required>
+      </div>
+      <div class="form-group">
+        <label for="sourceCountry">Please specify the main source country of your students</label>
+        <input type="text" class="form-control" id="sourceCountry" required>
+      </div>
+      <div class="form-group">
+        <label for="servicesProvided">What services do you provide to your clients?</label>
+        <textarea class="form-control" id="servicesProvided" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <p>&nbsp;</p>
+
+
+
+{% endblock content %}

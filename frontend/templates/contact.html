@@ -1,0 +1,32 @@
+{% extends 'partials/base.html' %}
+            
+{% load static %}
+
+{% block content %}
+      
+<style>
+    .center-aligned-card {
+      width: 400px;
+      margin: 0 auto; /* Center align horizontally */
+      text-align: center; /* Center align text content */
+    }
+  </style>
+
+<h1 style="text-align: center;font-weight: 600; font-size: 40px;margin-top: 40px;">Contact Us</h1>
+
+
+<div class="container mt-5" style="margin-bottom: 60px;">
+    <div class="card center-aligned-card">
+      <div class="card-header">
+        <h5 class="card-title" style="font-size: 20px;">Email</h5>
+      </div>
+      <div class="card-divider"></div>
+      <div class="card-body">
+        <p class="card-text">partners@admissionplatform.io</p>
+        <p class="card-text">apply@admissionplatform.io</p>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock content %}
