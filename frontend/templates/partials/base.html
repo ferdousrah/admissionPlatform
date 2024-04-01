@@ -41,7 +41,20 @@
 <link rel='stylesheet' id='webify-font-awesome-v4-css' href="{% static 'assets/wp-content/themes/webify/assets/css/fontawesome/css/v4-shims.min.css' %}" type='text/css' media='all' />
 <script src="{% static 'assets/application.js' %}"></script>
 
-
+<style>
+  /* CSS to make the first column wider */
+  @media (min-width: 992px) {
+    /* Adjust the width of the first column */
+    #new-footer .col:first-child {
+      flex: 0 0 40%; /* Adjust the width as needed */
+    }
+    
+    /* Ensure content within the first column expands */
+    #new-footer .col:first-child > * {
+      width: 100%;
+    }
+  }
+  </style>
 
 </head>
 
@@ -160,10 +173,10 @@
                         <a href="{% url 'say_hello' %}">
                           <img src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" alt="AdmissionsPlatform logo white" />
               </a>        </div>
-                      <div class="location-wrapper">
+                      <div class="logo-wrapper">
                         <a href="#" target="_blank" rel="noopener">
                           <span>
-                            partners@admissionplatform.io<br>apply@admissionplatform.io
+                            partners@admissionplatform.io, apply@admissionplatform.io
                           </span>
                         </a>
                       </div>

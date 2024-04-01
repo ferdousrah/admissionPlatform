@@ -94,3 +94,7 @@ def affordablecities(request):
 def oursolutions(request):
     page_name = "oursolutions"
     return render(request, 'oursolutions.html', {'page_name': page_name})
+
+def studyinuk(request):
+    page_name = "Study in UK"
+    return render(request, 'studyinuk.html', {'page_name': page_name})

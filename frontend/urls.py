@@ -25,4 +25,5 @@ urlpatterns = [
     path('ielts-writing/', views.ieltswriting, name='ielts-writing'),
     path('affordablecities/', views.affordablecities, name='affordablecities'),
     path('our-solutions/', views.oursolutions, name='oursolutions'),
+    path('study-in-uk/', views.studyinuk, name='studyinuk'),
 ]

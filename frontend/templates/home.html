@@ -51,6 +51,23 @@
 
 
 </style>
+
+<style>
+	/* CSS to make the first column wider */
+	@media (min-width: 992px) {
+	  /* Adjust the width of the first column */
+	  #new-footer .col:first-child {
+		flex: 0 0 40%; /* Adjust the width as needed */
+	  }
+	  
+	  /* Ensure content within the first column expands */
+	  #new-footer .col:first-child > * {
+		width: 100%;
+	  }
+	}
+</style>
+
+
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -418,6 +435,14 @@ a:focus {
 	  header.header-nav-scrolled-top .elementor-nav-menu a {
 		color: #fff !important;
 	  }
+	}
+
+
+	@media (min-width: 992px) {
+.elementor-11636 .elementor-element.elementor-element-7c2457a9 {
+    width: 40%;
+}
+
 	}
   </style>
 
@@ -2250,12 +2275,8 @@ a:focus {
 		  </div>
 		</div>
 	  
-		<div data-elementor-type="footer" data-elementor-id="11636"
-		  class="elementor elementor-11636 elementor-location-footer" data-elementor-post-type="elementor_library">
-		  <section
-			class="elementor-section elementor-top-section elementor-element elementor-element-71fbd0c7 elementor-section-full_width elementor-section-height-min-height elementor-section-items-top elementor-hidden-mobile elementor-section-stretched elementor-section-height-default"
-			data-id="71fbd0c7" data-element_type="section"
-			data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'>
+		<div data-elementor-type="footer" data-elementor-id="11636" class="elementor elementor-11636 elementor-location-footer" data-elementor-post-type="elementor_library">
+		  <section class="elementor-section elementor-top-section elementor-element elementor-element-71fbd0c7 elementor-section-full_width elementor-section-height-min-height elementor-section-items-top elementor-hidden-mobile elementor-section-stretched elementor-section-height-default" data-id="71fbd0c7" data-element_type="section" data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'>
 			<div class="elementor-container elementor-column-gap-default">
 			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3d9593f"
 				data-id="3d9593f" data-element_type="column">
@@ -2279,20 +2300,11 @@ a:focus {
 					class="elementor-element elementor-element-65631b99 elementor-hidden-mobile address elementor-widget elementor-widget-text-editor"
 					data-id="65631b99" data-element_type="widget" id="address" data-widget_type="text-editor.default">
 					<div class="elementor-widget-container">
-					  <p>partners@admissionplatform.io<br>apply@admissionplatform.io</p>
+					  <p>partners@admissionplatform.io, apply@admissionplatform.io</p>
 					</div>
 				  </div>
-				  <div class="elementor-element elementor-element-6d9b171a elementor-widget elementor-widget-spacer"
-					data-id="6d9b171a" data-element_type="widget" data-widget_type="spacer.default">
-					<div class="elementor-widget-container">
-					  <div class="elementor-spacer">
-						<div class="elementor-spacer-inner"></div>
-					  </div>
-					</div>
-				  </div>
-				  <div
-					class="elementor-element elementor-element-163fd3bc elementor-hidden-mobile elementor-widget elementor-widget-heading"
-					data-id="163fd3bc" data-element_type="widget" data-widget_type="heading.default">
+				  
+				  <div class="elementor-element elementor-element-163fd3bc elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="163fd3bc" data-element_type="widget" data-widget_type="heading.default" style="margin-top: 30px;">
 					<div class="elementor-widget-container">
 					  <h2 class="elementor-heading-title elementor-size-default">
 						Get Social
@@ -2611,27 +2623,7 @@ a:focus {
 			  </div>
 			</div>
 		  </section>
-		  <section
-			class="elementor-section elementor-top-section elementor-element elementor-element-715213b8 elementor-hidden-mobile elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-			data-id="715213b8" data-element_type="section"
-			data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'>
-			<div class="elementor-container elementor-column-gap-default">
-			  <div
-				class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-58f2d881"
-				data-id="58f2d881" data-element_type="column">
-				<div class="elementor-widget-wrap elementor-element-populated">
-				  <div class="elementor-element elementor-element-3b854135 elementor-widget elementor-widget-heading"
-					data-id="3b854135" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-					  <p class="elementor-heading-title elementor-size-default">
-						© 2024 Admission Platform
-					  </p>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </section>
+		  
 		  
 		</div>
 		
