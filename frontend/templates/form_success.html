@@ -1,0 +1,14 @@
+{% extends 'partials/base.html' %}
+            
+{% load static %}
+
+{% block content %}
+      
+<div class="container mt-5">
+    <h2>Form Submitted Successfully!</h2>
+    <p>Thank you for submitting your form. We will be in touch soon.</p>
+    <a href="{% url 'new_associate' %}" class="btn btn-primary">Submit Another Response</a>
+</div>
+
+
+{% endblock content %}

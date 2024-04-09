@@ -39,6 +39,7 @@
 <link rel='stylesheet' id='webify-font-awesome-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css' %}" type='text/css' media='all' />
 <link rel='stylesheet' id='webify-font-awesome-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css' %}" type='text/css' media='all' />
 <link rel='stylesheet' id='webify-font-awesome-v4-css' href="{% static 'assets/wp-content/themes/webify/assets/css/fontawesome/css/v4-shims.min.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='icons-mind-css' href="{% static 'assets/wp-content/plugins/elementor-pro/assets/css/frontend.min.css' %}" type='text/css' media='all' />
 <script src="{% static 'assets/application.js' %}"></script>
 
 <style>
@@ -72,10 +73,14 @@
           <img src="{% static 'assets/images/admisson-platform.png' %}" alt="AdmissionsPlatform logo" />
 </a>      </div>
 
-      <div class="btn-group desktop" role="group">
+      <div class="btn-group desktop" role="group" style="font-family: 'Montserrat', Sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0px;">
         <a class="btn btn-link" role="button" href="{% url 'studyabroad' %}">Students</a>
         <a class="btn btn-link" role="button" href="{% url 'recruiters' %}">Recruitment Partners</a>
-        <a class="btn btn-link" role="button" href="{% url 'schools' %}">Schools</a>
+        <a class="btn btn-link" role="button" href="{% url 'schools' %}">Institutions</a>
       </div>
 
       <div class="btn-group menu-wrapper">
@@ -87,35 +92,32 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-link tablet" href="{% url 'studyabroad' %}">Students</a>
               <a class="dropdown-link tablet" href="{% url 'recruiters' %}">Recruitment Partners</a>
-              <a class="dropdown-link tablet" href="{% url 'schools' %}">Schools</a>
-              <a class="dropdown-link desktop-show" href="{% url 'oursolutions' %}">Our Solutions</a>
+              <a class="dropdown-link tablet" href="{% url 'schools' %}">Institutions</a>
+              <a class="dropdown-link desktop-show" href="{% url 'whyadmissionplatform' %}">Why Admission Platform</a>
               <a class="dropdown-link desktop-show" href="{% url 'story' %}">Our Story</a>
+              <a class="dropdown-link desktop-show" href="{% url 'missionvision' %}">Mission & Vision</a>
+              <a class="dropdown-link desktop-show" href="{% url 'ourvalue' %}">Our Value</a>
+              <a class="dropdown-link desktop-show" href="{% url 'globalrecognition' %}">Global Recognition</a>
+              <a class="dropdown-link desktop-show" href="{% url 'team' %}">Meet the Team</a>
               <a class="dropdown-link desktop-show" href="{% url 'careers' %}">Careers</a>
-              <a class="dropdown-link desktop-show" href="{% url 'press' %}">Press</a>
-              <a class="dropdown-link desktop-show" href="{% url 'life' %}">Life</a>
-              <a class="dropdown-link desktop-show" href="{% url 'leadership' %}">Leadership</a>
-              <a class="dropdown-link desktop-show" href="{% url 'contact' %}">Contact</a>
-              <a class="dropdown-link desktop-show" href="{% url 'blog' %}">Blog</a>
-              <a class="dropdown-link desktop-show" href="#">Applyinsights</a>
-              <a class="dropdown-link desktop-show" href="#">Events</a>
+              <a class="dropdown-link desktop-show" href="{% url 'events' %}">Events</a>
+              
 
               <a class="dropdown-link desktop-hide" href="#about-menu" data-toggle="collapse" aria-expanded="false" aria-controls="about-menu">
                 About <span class="fa fa-angle-down about-toggle"> </span>
               </a>
               <div class="collapse desktop-hide" id="about-menu">
-                <a class="dropdown-link" href="{% url 'studyabroad' %}">Students</a>
-                <a class="dropdown-link" href="{% url 'recruiters' %}">Recruitment Partners</a>
-                <a class="dropdown-link" href="{% url 'schools' %}">Schools</a>
-                <a class="dropdown-link" href="{% url 'oursolutions' %}">Our Solutions</a>
-                <a class="dropdown-link" href="{% url 'story' %}">Our Story</a>
-                <a class="dropdown-link" href="{% url 'careers' %}">Careers</a>
-                <a class="dropdown-link" href="{% url 'press' %}">Press</a>
-                <a class="dropdown-link" href="{% url 'life' %}">Life</a>
-                <a class="dropdown-link" href="{% url 'leadership' %}">Leadership</a>
-                <a class="dropdown-link" href="{% url 'contact' %}">Contact</a>
-                <a class="dropdown-link" href="{% url 'blog' %}">Blog</a>
-                <a class="dropdown-link" href="#">Applyinsights</a>
-                <a class="dropdown-link" href="#">Events</a>
+                <a class="dropdown-link tablet" href="{% url 'studyabroad' %}">Students</a>
+                <a class="dropdown-link tablet" href="{% url 'recruiters' %}">Recruitment Partners</a>
+                <a class="dropdown-link tablet" href="{% url 'schools' %}">Institutions</a>
+                <a class="dropdown-link desktop-show" href="{% url 'whyadmissionplatform' %}">Why Admission Platform</a>
+                <a class="dropdown-link desktop-show" href="{% url 'story' %}">Our Story</a>
+                <a class="dropdown-link desktop-show" href="{% url 'missionvision' %}">Mission & Vision</a>
+                <a class="dropdown-link desktop-show" href="{% url 'ourvalue' %}">Our Value</a>
+                <a class="dropdown-link desktop-show" href="{% url 'globalrecognition' %}">Global Recognition</a>
+                <a class="dropdown-link desktop-show" href="{% url 'team' %}">Meet the Team</a>
+                <a class="dropdown-link desktop-show" href="{% url 'careers' %}">Careers</a>
+                <a class="dropdown-link desktop-show" href="{% url 'events' %}">Events</a>
               </div>
 
               <div class="btn-group mobile">
@@ -165,242 +167,138 @@
                     
                   </div>
                   <!-- Footer -->
-                  <footer id="new-footer">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="logo-wrapper">
-                        <a href="{% url 'say_hello' %}">
-                          <img src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" alt="AdmissionsPlatform logo white" />
-              </a>        </div>
-                      <div class="logo-wrapper">
-                        <a href="#" target="_blank" rel="noopener">
-                          <span>
-                            partners@admissionplatform.io, apply@admissionplatform.io
-                          </span>
-                        </a>
-                      </div>
-              
-                      <div class="social-section-wrapper">
-                        <div class="footer-section-header"> <span> Get Social </span> </div>
-                        <div class="social-section">
-                          <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/admissionsplatform">
-                            <img src="https://assets.applyboard.com/assets/footer-linkedin-5f7892b3b244609d3d229bf2296bf3d4cbdd513b1e7ca8353ddccd5ecb56e770.svg" alt="Footer linkedin" />
-                          </a>
-                          <a target="_blank" rel="noopener" href="https://www.facebook.com/admissionsplatform">
-                            <img src="https://assets.applyboard.com/assets/footer-facebook-3c51cd505852e83b6ffdd65498a941a35cfe867e619b9b87f06643798a01c98f.svg" alt="Footer facebook" />
-                          </a>
-                          <a target="_blank" rel="noopener" href="https://www.instagram.com/admissionsplatform">
-                            <img src="https://assets.applyboard.com/assets/footer-instagram-1c5a7837d2850d44ef20cc652741f44e12e3c7172a1bdaff405244a8f72a91aa.svg" alt="Footer instagram" />
-                          </a>
-                          <a target="_blank" rel="noopener" href="https://www.twitter.com/admissionsplatform">
-                            <img src="https://assets.applyboard.com/assets/footer-twitter-b97db063e802a0dca0ddebdbb9114994781b700ec4917a957a128ba0e9f8dc14.svg" alt="Footer twitter" />
-                          </a>
-                          <a target="_blank" rel="noopener" href="https://www.youtube.com/admissionsplatform">
-                            <img src="https://assets.applyboard.com/assets/footer-youtube-24d5948e8cd17c045350b032785e14df9f28d11cdb6c9cfcb41b52190e327a08.svg" alt="Footer youtube" />
-                          </a>
+                <footer id="new-footer">
+                  <div class="container">
+                    <div class="row" style="padding-top: 20px;">
+                      <div class="col-lg-6 col-md-6">
+                        <div class="logo-wrapper">
+                          <a href="{% url 'say_hello' %}">
+                            <img src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" alt="AdmissionsPlatform logo white" />
+                          </a>        
                         </div>
-                      </div>
-                    </div>
-              
-                    <div class="col">
-                      <div class="mobile">
-                        <div class="footer-section">
-                          <div class="footer-section-header">
-                            <a href="{% url 'studyabroad' %}"> <span> Students </span> </a>
+                        <div class="elementor-element elementor-element-65631b99 elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="65631b99" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                              <p style="text-align: left; color: #FFFFFF; font-family: 'Open Sans', Sans-serif; font-size: 17px; font-weight: 400; line-height: 28px;text-align: justify;">The admissions platform simplifies the study abroad search, application, and acceptance process by connecting international students, placement partners, and academic institutions on one platform.<br></p>
+                              <p style="text-align: left; color: #FFFFFF; font-family: 'Open Sans', Sans-serif; font-size: 17px; font-weight: 400; line-height: 28px;margin-top: 40px;">For any queries please contact -<br>partners@admissionplatform.io</p>
+                            </div>
                           </div>
-                          <div class="footer-section-header">
-                            <a href="{% url 'schools' %}"> <span> Schools </span> </a>
-                          </div>
-                          <div class="footer-section-header">
-                            <a href="{% url 'recruiters' %}"> <span> Recruiters </span> </a>
+                
+                        <div class="social-section-wrapper" style="padding-top: 30px;padding-bottom: 30px;">
+                          <div class="footer-section-header" style="color: #FFFFFF; font-family: 'Montserrat', Sans-serif; font-size: 20px; font-weight: 600; line-height: 28px;"> <span> Get Social </span> </div>
+                          <div class="social-section">
+                            <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/admission-platform/">
+                              <img src="{% static 'assets/images/linkedin.svg' %}" alt="Footer linkedin" />
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://www.facebook.com/admissionplatform.io?mibextid=LQQJ4d">
+                              <img src="{% static 'assets/images/facebook.svg' %}" alt="Footer facebook" />
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://www.instagram.com/admissionsplatform">
+                              <img src="{% static 'assets/images/instagram.svg' %}" alt="Footer instagram" />
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCYySXJA7R-Asz_PyTLyx3KQ">
+                              <img src="{% static 'assets/images/youtube.svg' %}" alt="Footer youtube" />
+                            </a>
+                            <!--<a target="_blank" rel="noopener" href="https://www.twitter.com/admissionsplatform">
+                              <img src="https://assets.applyboard.com/assets/footer-twitter-b97db063e802a0dca0ddebdbb9114994781b700ec4917a957a128ba0e9f8dc14.svg" alt="Footer twitter" />
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://www.youtube.com/admissionsplatform">
+                              <img src="https://assets.applyboard.com/assets/footer-youtube-24d5948e8cd17c045350b032785e14df9f28d11cdb6c9cfcb41b52190e327a08.svg" alt="Footer youtube" />
+                            </a>-->
                           </div>
                         </div>
-              
-                        <div class="footer-section">
-                          <a class="footer-section-header" href="#discover-menu" data-toggle="collapse" aria-expanded="false" aria-controls="discover-menu">
-                            <span> Discover </span>
-                            <span class="fa fa-angle-down"> </span>
-                          </a>
-                          <ul class="footer-section-list collapse" id="discover-menu">
-                            <li>
-                              <a href="#">Discover Programs</a>
-                            </li>
-                            <li>
-                              <a href="#">Discover Schools</a>
-                            </li>
-                            <li>
-                              <a href="{% url 'register' %}">Register</a>
-                            </li>
-                          </ul>
-                        </div>
                       </div>
-              
-                      <div class="desktop">
-                        <div class="footer-section">
-                          <div class="footer-section-header">
-                            <a href="{% url 'studyabroad' %}"> <span> Students </span> </a>
-                          </div>
-                          <div class="footer-section-header">
-                            <a href="{% url 'schools' %}"> <span> Schools </span> </a>
-                          </div>
-                          <div class="footer-section-header first-section">
-                            <a href="{% url 'recruiters' %}"> <span> Recruiters </span> </a>
-                          </div>
+                
+                                    
+                      <div class="col-lg-3 col-md-3">
+                        <div class="mobile footer-section">
+                          
+                          <h2 class="elementor-heading-title elementor-size-default" style="color: #FFFFFF; font-family: 'Montserrat', Sans-serif; font-size: 18px; font-weight: 600; line-height: 28px;">RESOURCES</h2>
+                          
+                          <nav style="padding-top: 30px;" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+                            <ul id="menu-1-3e1e1411" class="elementor-nav-menu sm-vertical" style="font-family: 'Open Sans', Sans-serif;">
+                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16605">
+                              <a href="{% url 'australia' %}" class="elementor-item">Australia</a>
+                              </li>
+                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16611">
+                              <a href="{% url 'canada' %}" class="elementor-item">Canada</a>
+                              </li>
+                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
+                              <a href="{% url 'newzealand' %}" class="elementor-item">New Zealand</a>
+                              </li>
+                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16616">
+                              <a href="{% url 'unitedkingdom' %}" class="elementor-item">United Kingdom</a>
+                              </li>
+                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16618">
+                              <a href="{% url 'unitedstates' %}" class="elementor-item">United States of America</a>
+                              </li>
+                              
+                            </ul>
+                            </nav>
                         </div>
-              
-                        <div class="footer-section">
-                          <div class="footer-section-header"> <span> Discover </span> </div>
-                          <ul class="footer-section-list">
-                            <li>
-                              <a href="#">Discover Programs</a>
-                            </li>
-                            <li>
-                              <a href="#">Discover Schools</a>
-                            </li>
-                            <li>
-                              <a href="{% url 'register' %}">Register</a>
-                            </li>
-                          </ul>
-                        </div>
+                
+                        
                       </div>
-                    </div>
-              
-                    <div class="col">
-                      <div class="mobile footer-section">
-                        <a class="footer-section-header" href="#about-menu" data-toggle="collapse" aria-expanded="false" aria-controls="about-menu">
-                          <span> About </span>
-                          <span class="fa fa-angle-down"> </span>
-                        </a>
-                        <ul class="footer-section-list collapse" id="about-menu">
-                          <li>
-                            <a href="{% url 'story' %}">Our Story</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'careers' %}">Careers</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'blog' %}">Blog</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'press' %}">Press</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'life' %}">Life</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'leadership' %}">Leadership</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'contact' %}">Contact</a>
-                          </li>
-                        </ul>
-                      </div>
-              
-                      <div class="desktop">
-                        <div class="footer-section-header"> <span> About </span> </div>
-                        <ul class="footer-section-list">
-                          <li>
-                            <a href="{% url 'story' %}">Our Story</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'careers' %}">Careers</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'blog' %}">Blog</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'press' %}">Press</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'life' %}">Life</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'leadership' %}">Leadership</a>
-                          </li>
-                          <li>
-                            <a href="{% url 'contact' %}">Contact</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-              
-                    <div class="col">
-                      <div class="mobile">
-                        <div class="footer-section">
-                          <a class="footer-section-header" href="#resources-menu" data-toggle="collapse" aria-expanded="false" aria-controls="resources-menu">
-                            <span> Resources </span>
-                            <span class="fa fa-angle-down"> </span>
-                          </a>
-                          <ul class="footer-section-list collapse" id="resources-menu">
-                            <li>
-                              <a href="#">Our Solutions</a>
-                            </li>
-                            <li>
-                              <a href="#">UK Resources</a>
-                            </li>
-                            <li>
-                              <a href="#">AU Resources</a>
-                            </li>
-                          </ul>
+
+                      <div class="col-lg-3 col-md-3">
+                        <div class="mobile footer-section">
+                          
+                          <h2 class="elementor-heading-title elementor-size-default" style="color: #FFFFFF; font-family: 'Montserrat', Sans-serif; font-size: 18px; font-weight: 600; line-height: 28px;">IMPORTANT LINKS</h2>
+                          
+                          <nav style="padding-top: 30px;" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+                            <ul id="menu-1-3e1e1411" class="elementor-nav-menu sm-vertical" style="font-family: 'Open Sans', Sans-serif;">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220">
+                                <a href="{% url 'contact' %}" class="elementor-item" tabindex="-1">Contact Us</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
+                                <a href="{% url 'privacy' %}" class="elementor-item">Privacy Policy</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
+                                <a href="{% url 'terms' %}" class="elementor-item">Terms and Conditions</a>
+                                </li>
+                              
+                            </ul>
+                            </nav>
                         </div>
-                        <div class="footer-section">
-                          <a class="footer-section-header" href="#legal-menu" data-toggle="collapse" aria-expanded="false" aria-controls="legal-menu">
-                            <span> Legal </span>
-                            <span class="fa fa-angle-down"> </span>
-                          </a>
-                          <ul class="footer-section-list collapse" id="legal-menu">
-                            <li>
-                              <a href="{% url 'privacy' %}">Privacy &amp; Cookies Policy</a>
-                            </li>
-                            <li>
-                              <a href="{% url 'terms' %}">Terms &amp; Conditions</a>
-                            </li>
-                            
-                            <li>
-                              <a href="{% url 'fees' %}">Admission Platform Fees</a>
-                            </li>
-                          </ul>
-                        </div>
+                
+                        
                       </div>
-                      <div class="desktop">
-                        <div class="footer-section">
-                          <div class="footer-section-header"> <span> Resources </span> </div>
-                          <ul class="footer-section-list first-section">
-                            <li>
-                              <a href="#">Our Solutions</a>
-                            </li>
-                            <li>
-                              <a href="#">UK Resources</a>
-                            </li>
-                            <li>
-                              <a href="#">AU Resources</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="footer-section">
-                          <div class="footer-section-header"> <span> Legal </span> </div>
-                          <ul class="footer-section-list">
-                            <li>
-                              <a href="{% url 'privacy' %}">Privacy &amp; Cookies Policy</a>
-                            </li>
-                            <li>
-                              <a href="{% url 'terms' %}">Terms &amp; Conditions</a>
-                            </li>
-                            
-                            <li>
-                              <a href="{% url 'fees' %}">Admission Platform Fees</a>
-                            </li>
-                          </ul>
-                        </div>
+                
+                      <!--  <div class="col-lg-3 col-md-3">
+                              <div class="mobile">
+                                <div class="mobile footer-section">
+                                  <h2 class="elementor-heading-title elementor-size-default" style="color: #FFFFFF; font-family: 'Montserrat', Sans-serif; font-size: 20px; font-weight: 600; line-height: 28px;">IMPORTANT LINKS</h2>
+                                  
+                                </div>
+                                <div class="footer-section">
+                                  
+                                  <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+                                    <ul id="menu-1-1e5563e1" class="elementor-nav-menu sm-vertical" style="font-family: 'Open Sans', Sans-serif;">
+                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220">
+                                      <a href="{% url 'contact' %}" class="elementor-item" tabindex="-1">Contact Us</a>
+                                      </li>
+                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
+                                      <a href="{% url 'privacy' %}" class="elementor-item">Privacy Policy</a>
+                                      </li>
+                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
+                                      <a href="{% url 'terms' %}" class="elementor-item">Terms and Conditions</a>
+                                      </li>
+                                    </ul>
+                                    </nav>
+                                </div>
+                              </div>
+                              
+                            </div> -->
                       </div>
-                    </div>
                   </div>
-                </div>
-                <div class="footer-copyright text-center py-3">
-                  <span> © 2023-2024 Admission Platform. </span>
-                </div>
+
+                  <div class="container">
+                    <p>&nbsp;</p><p>&nbsp;</p>
+                  </div>
+                  
               </footer>
+
+
+              
               
                 </div>
                 <!-- End page wrapper-->

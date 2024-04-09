@@ -1,0 +1,518 @@
+{% extends 'partials/base.html' %}
+            
+{% load static %}
+
+{% block content %}
+
+
+
+<style>
+   
+    .jumbotron {
+        background-color: #0056b3;
+        color: white;
+    }
+    .benefit-card {
+        transition: transform .2s;
+    }
+    .benefit-card:hover {
+        transform: scale(1.05);
+    }
+    .card-header {
+        background-color: #007bff;
+        color: white;
+    }
+</style>
+
+
+
+<style>
+    /* Custom border style */
+    .custom-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      height: 100%; /* Ensure cards fill the height of their parent */
+      display: flex; /* Use flexbox for equal height */
+      flex-direction: column; /* Align content in column */
+    }
+
+    /* Custom container background color */
+    .custom-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Flex utilities for equal height */
+    .d-flex {
+      display: flex;
+    }
+
+    .align-items-stretch {
+      align-items: stretch;
+    }
+  </style>
+
+  <style>
+    /* Styling for tab menu */
+    .nav-tabs .nav-link {
+      border: 1px solid #ccc;
+      border-radius: 5px 5px 0 0;
+      color: #333;
+    }
+
+    .nav-tabs .nav-link.active {
+      background-color: #077969; /* Background color for active tab */
+      border-color: #ddd #ddd #f8f9fa;
+      color: #fff;
+    }
+  </style>
+
+
+
+<link rel='stylesheet' id='elementor-frontend-css' href='{% static 'assets/css/frontend.min.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='{% static 'assets/css/swiper.min.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='uael-frontend-css' href='{% static 'assets/css/uael-frontend.min.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-15463-css' href='{% static 'assets/css/post-15463.css' %}' type='text/css' media='all' />
+
+<link rel='stylesheet' id='elementor-post-18302-css' href='{% static 'assets/css/post-18302.css' %}' type='text/css' media='all' />
+
+<link rel='stylesheet' id='elementor-post-18304-css' href='{% static 'assets/css/post-18304.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17764-css' href='{% static 'assets/css/post-17764.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17765-css' href='{% static 'assets/css/post-17765.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17766-css' href='{% static 'assets/css/post-17766.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17767-css' href='{% static 'assets/css/post-17767.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17768-css' href='{% static 'assets/css/post-17768.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css' href='{% static 'assets/css/animations.min.css' %}' type='text/css' media='all' />
+
+
+
+    <div data-elementor-type="header" data-elementor-id="11628" class="elementor elementor-11628 elementor-location-header" data-elementor-post-type="elementor_library">
+        <div data-elementor-type="wp-post" data-elementor-id="15463" class="elementor elementor-15463" data-elementor-post-type="page">
+            <header class="elementor-section elementor-top-section elementor-element elementor-element-32b8533d elementor-section-stretched elementor-section-content-middle elementor-reverse-mobile elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="32b8533d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:15464,&quot;url&quot;:&quot;{% static 'assets/images/why-australia-min.webp' %}&quot;}],&quot;background_slideshow_transition_duration&quot;:0,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;}">
+                <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1689d996" data-id="1689d996" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-306da59c elementor-widget elementor-widget-heading" data-id="306da59c" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h1 class="elementor-heading-title elementor-size-default" style="color: #fff;font-size: 60px;">Why Study in Australia</h1>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7dd3f4f2 elementor-widget elementor-widget-text-editor" data-id="7dd3f4f2" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p style="font-size: 18px;">&nbsp;</p>
+                                </div>
+                            </div>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-6fa65a0f elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6fa65a0f" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6190af21" data-id="6190af21" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-57055896 uael-button-stack-mobile uael-tablet-button-halign-center uael-mobile-button-halign-justify uael-button-halign-left elementor-widget elementor-widget-uael-buttons" data-id="57055896" data-element_type="widget" data-widget_type="uael-buttons.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="uael-dual-button-outer-wrap">
+                                                        <div class="uael-dual-button-wrap">
+                                                            <div class="uael-button-wrapper elementor-button-wrapper uael-dual-button elementor-repeater-item-8e94458 uael-dual-button-0">
+                                                                
+                                                            </div>
+                                                            <div class="uael-button-wrapper elementor-button-wrapper uael-dual-button elementor-repeater-item-ea7a7ae uael-dual-button-1">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-55b87046 elementor-hidden-tablet elementor-hidden-mobile" data-id="55b87046" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    
+
+
+    <div class="container-fluid py-5" style="background-color: #fff;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="regular-content text-center">
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                    Australia ranks third for international students among English-speaking countries, with many students worldwide choosing it as their top study destination. Its reputation for academic excellence and multicultural environment attract students globally.
+
+                </p>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                    Australian qualifications and institutions are esteemed globally for their exceptional quality. Graduates from Australia demonstrate remarkable success in securing employment, often obtaining prominent positions worldwide. Furthermore, they are highly sought after for postgraduate studies at renowned international universities, underscoring the prestigious reputation of Australian education. This recognition highlights the comprehensive skills and knowledge acquired through Australian academic programs, empowering graduates to excel in their careers on a global scale and contributing significantly to their professional success and advancement in diverse fields.
+
+                </p>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                    Australia attracts over 280,000 international students from 195 countries, representing about half of all international enrollments in Australian courses. The country upholds stringent quality standards, protecting the titles "University" and "Degree" to denote institutions meeting rigorous criteria. This commitment ensures that Australian education maintains its esteemed reputation for excellence and integrity on the global stage.
+
+                </p>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                    Australia boasts 39 universities listed on the Australian Qualifications Framework, along with recognized higher education institutions. These universities offer overseas branch campuses, twinning arrangements, and exchange programs for global students and staff. Australia fosters international collaborations, with nearly 4000 formal agreements established with universities worldwide, promoting academic exchange and cooperation.
+
+                </p>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                    Australian universities offer a diverse range of academic focuses, from traditional to vocational and applied fields. They emphasize a combination of tuition and research, ensuring a comprehensive and dynamic educational experience.
+
+                </p>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                    Australia's innovative and research-intensive culture is a major draw for international postgraduate students. The country's substantial investment in research and development places it among the top OECD nations in this regard.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+      <div class="container-fluid py-5" style="background-color: #f1f5fa;">
+        <div class="container">
+          
+            <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="regular-content">
+                
+                <!-- -->
+
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Why Choose Australia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Study Cost</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Living Cost</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <p>&nbsp;</p>                    
+                    <p style="text-align: justify;font-size: 18px;">
+                      Studying in Australia offers a wealth of opportunities for international students. Renowned for its high-quality education system, Australian institutions consistently rank among the world's best. With diverse landscapes, from stunning beaches to rugged outback, students experience a rich natural environment alongside their studies. Australia's multicultural society embraces various cultures, languages, and traditions, providing a truly global experience. The country's higher education system, comprising state, private, and independent universities, offers a wide range of courses and degrees to suit diverse interests and career aspirations. Additionally, Australia's strong economy and innovative culture provide ample opportunities for internships, work experience, and networking. With a focus on research and development, Australia attracts postgraduate students seeking to immerse themselves in a culture of innovation. Moreover, Australia's commitment to student welfare and safety ensures a supportive environment for international students to thrive academically and personally, making it an ideal destination for those seeking a world-class education and unforgettable experiences.
+                    </p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Australian Education System</h2>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Universities</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      In Australia, universities offer the highest level of education, providing undergraduate and postgraduate programs. Emphasizing independent research, students engage in a wide range of courses, from traditional academic disciplines to practical, vocational-oriented fields. Most universities follow a semester system, although some programs operate on a trimester basis. With a focus on academic rigor and practical application, Australian universities prepare students for success in their chosen careers through comprehensive education and research opportunities.
+                    </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Vocational</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Australia's vocational education is provided by government-funded TAFE institutes and select private colleges. These institutions prioritize practical, industry-linked courses, equipping students with in-demand skills valued by employers. Vocational studies in Australia offer a direct pathway to careers or can serve as a stepping stone to further university education, ensuring graduates are well-prepared for the workforce and equipped with the necessary skills for success in their chosen fields.
+                    </p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Australia Visa Requirements</h2>
+                    <ul style="font-size: 18px;">
+                      <li>Letter of Offer</li>
+                      <li>eCoE</li>
+                      <li>Statement of Purpose (SOP)</li>
+                      <li>Valid Passport</li>
+                      <li>Passport size Photographs (4 Nos.)</li>
+                      <li>Academic documents (IELTS/TOFEL iBT/PTE Mark Sheet)</li>
+                      <li>Work-experience (if applicable) – from present and previous employers providing their contact details. Applicants are also required to submit a Statement of purpose giving details of why they opted to study this course in Australia</li>
+                      <li>Financial requirements – as per AL 1 & details can be found at www.immi.gov.au</li>
+                      <li>Financial Documents for Australian Student Visas</li>  
+                    </ul>
+                    <p style="text-align: justify;font-size: 18px;font-weight: 600;">Please contact us at Admission Platform personally for further assistance on the above and Visa Procedure.</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Other Facility & Requirement in Australia</h2>
+                    <p style="text-align: justify;font-size: 18px;">Work regulations in Australia for international students include:</p>
+                    <ul style="font-size: 18px;">
+                      <li>20 hours per week during term time</li>
+                      <li>Full-time work rights during scheduled study breaks</li>
+                      <li>Post-study work rights</li>
+                      <li>Bachelor and Masters degree holders: two years post-study work rights after completing at least two academic years of study & Regional Area PSW Up to 5 Years.</li>
+                      <li>Masters by Research graduates: three years post-study work rights</li>
+                      <li>PhD graduates: four years post-study work rights</li>
+                    </ul>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Intakes</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Australian universities offer multiple intakes depending on the institution. Common intakes include February, June, and October, while some universities also offer intakes in March, July, and November. These various intake options provide flexibility for students to begin their studies throughout the year.
+                    </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Application Fees</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Application fees for Australian universities vary, typically ranging from $50 to $100. Occasionally, fees may be waived during events like Spot Admissions organized by Admission Platform, where students can meet university representatives in person and potentially receive special offers or incentives.
+                    </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Processing Time</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      For Assessment Level 1 applications, the standard processing time for both paper and eVisa applications is 90 days. While efforts are made to process 75% of cases within this timeframe, individual processing times may vary due to various factors. Source: www.immi.gov.au.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <p>&nbsp;</p>
+                    <p style="text-align: justify;font-size: 18px;">How Much does it Cost : </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">University</h4>
+                    <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $25,000- $40,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $26,000- $45,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>PQP/MQP/PEP</span> - $14,000-16,0000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Scholarship</span> - Up to 30% -Depend on the Institutions</p>
+                    
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Private College  &  Tafe :</h4>
+                    <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $16,000- $20,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $20,000- $28,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Scholarship</span> : Up to 30% -Depend on the Institutions </p>
+
+                    <p style="text-align: justify;font-size: 18px;">Note: High value courses like Medical ,Pharmacy and veterinary are not included</p>
+
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">In-Depth Details</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      International students are typically required to pay 50% of their first year's tuition fee upfront to secure enrollment, along with the cost of Overseas Student Health Cover (OSHC). This upfront payment system ensures financial commitment and covers essential expenses before studies commence. Additionally, other costs such as course materials and access to university facilities may be charged once studies begin. By requiring payment in advance, universities ensure that international students are prepared financially and can fully engage in their academic journey upon arrival in Australia without worrying about immediate expenses.
+                    </p>
+
+                  </div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Average student living costs in Australia</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      International students living in Australia typically require between 1,400 and 2,500 AUD per month to cover all living expenses, encompassing accommodation, food, and social activities. It's essential to note that when applying for a student visa in Australia, demonstrating adequate financial resources to support living and study expenses is necessary. This ensures that students can sustain themselves financially throughout their time studying in the country, contributing to a comfortable and fulfilling experience.
+                    </p>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Check the average budget you'll need for some of the most popular student cities in Australia:
+                    </p>
+                    <ul style="font-size: 18px;">
+                      <li>Sydney: Starting at 1,900 AUD/month</li>
+                      <li>Adelaide: Starting at 1,300 AUD/month</li>
+                      <li>Brisbane: Starting at 1,400 AUD/month</li>
+                      <li>Melbourne: Starting at 1,500 AUD/month</li>
+                      <li>Canberra: Starting at 1,400 AUD/month</li>
+                    </ul>
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      You can also use a cost of living calculator to determine how much money you need if you want to study in Australia.
+                    </p>
+
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Accommodation costs in Australia</h2>
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      Most universities offer a limited number of student dormitories for on-campus accommodation. As a result, many international students prefer to rent private properties or opt for homestay arrangements with local families. This provides students with a range of accommodation options to suit their preferences and needs while studying in Australia.
+                    </p>
+
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      Average prices for common accommodation options:
+                    </p>
+
+                    <ul style="font-size: 18px;">
+                      <li>Homestay: 450 – 1,200 AUD/month</li>
+                      <li>Student halls of residence: 440 – 1,100 AUD/month</li>
+                      <li>Rent an apartment: 750 – 1,700 AUD/month</li>
+                      <li>Share a rented apartment/house: 380 – 850 AUD/month</li>
+                    </ul>
+
+                    <p style="text-align: justify;font-size: 18px;">You can find quality affordable student halls in Australia at BestStudentH252774s.com </p>
+
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Other costs associated with accommodation</h2>
+
+                    <p style="font-size: 18px;">Apart from rent, your accommodation requires extra expenses, like:</p>
+
+                    <ul style="font-size: 18px;">
+                      <li>Utilities: around 200 AUD/month</li>
+                      <li>Internet: 70 – 120 AUD/month</li>
+                    </ul>
+
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Food costs in Australia</h2>
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      Groceries in local supermarkets typically cost between 500 and 1,000 AUD per month. Shopping at budget-friendly supermarkets like Aldi, Coles, and Woolworths can help save money. Dining out, an inexpensive restaurant meal averages 18 AUD, while a three-course meal for two is around 80 AUD. Various Asian, Greek, and Italian restaurants offer diverse cuisine options.
+                    </p>                    
+                    
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Transportation costs in Australia</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Some universities collaborate with private transport suppliers to assist students residing on campus or requiring access to remote areas. Additionally, students living in certain regions may qualify for discounts through state programs like QLD (Queensland), SA (South Australia), or VIC (Melbourne). Alternatively, students can opt for a public transport pass, ranging from 30 to 70 AUD per month, depending on the city. Bicycle rentals are another convenient option, available for around 40 AUD per day, providing students with flexible and affordable transportation solutions.
+                    </p>
+
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Extra costs</h2>
+
+                    <ul style="font-size: 18px;">
+                      <li>Books and other study materials: between 500 - 1,000 AUD/year</li>
+                      <li>Health insurance: rates start at 30 AUD/month</li>
+                    </ul>
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      You can also use the Numbeo website to check out other prices and costs in Australia.
+                    </p>
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      <b>Link</b>:<br>
+
+                      <b>Australia High Commission</b> <br>
+                      https://bangladesh.embassy.gov.au/daca/home.html <br>
+
+
+                      <b>VFS Australia</b> <br>
+                      https://www.vfsglobal.com/australia/ <br>
+
+
+                      <b>Immi Visa Australia</b> <br>
+                      https://online.immi.gov.au/lusc/login <br>
+                    </p>
+
+                  </div>
+                </div>
+
+
+                <!-- -->
+                
+              </div>
+            </div>
+          </div>         
+          
+          
+        </div>
+      </div>
+
+
+
+      
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+				
+				
+		
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/core.min.js' %}" id="jquery-ui-core-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/datepicker.min.js' %}" id="jquery-ui-datepicker-js"></script>
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/parallax.min.js' %}" id="parallax-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/jquery.formstone.min.js' %}" id="form-stone-js"></script>
+
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/webpack-pro.runtime.min.js' %}" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/webpack.runtime.min.js' %}" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/frontend-modules.min.js' %}" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/wp-polyfill-inert.min.js' %}" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/regenerator-runtime.min.js' %}" id="regenerator-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/wp-polyfill.min.js' %}" id="wp-polyfill-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/hooks.min.js' %}" id="wp-hooks-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/i18n.min.js' %}" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.applyboard.com\/wp-admin\/admin-ajax.php","nonce":"d61f740cf2","urls":{"assets":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.applyboard.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/frontend.min.js' %}" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/waypoints.min.js' %}" id="elementor-waypoints-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-extra">
+/* <![CDATA[ */
+var uael_particles_script = {"uael_particles_url":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/min-js\/uael-particles.min.js","particles_url":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/lib\/particles\/particles.min.js","snowflakes_image":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/snowflake.svg","gift":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/gift.png","tree":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/tree.png","skull":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/skull.png","ghost":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/ghost.png","moon":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/moon.png","bat":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/bat.png","pumpkin":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/pumpkin.png"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true},"urls":{"assets":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":15463,"title":"Why%20Study%20in%20Australia%3F%20%7C%20Study%20Abroad%20with%20ApplyBoard","excerpt":"","featuredImage":"https:\/\/www.applyboard.com\/wp-content\/uploads\/2020\/10\/Social_Media_Preview_Main_Blog-1024x538.png"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/frontendtwo.min.js' %}" id="elementor-frontend-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-after">
+/* <![CDATA[ */
+window.scope_array = [];
+								window.backend = 0;
+								jQuery.cachedScript = function( url, options ) {
+									// Allow user to set any option except for dataType, cache, and url.
+									options = jQuery.extend( options || {}, {
+										dataType: "script",
+										cache: true,
+										url: url
+									});
+									// Return the jqXHR object so we can chain callbacks.
+									return jQuery.ajax( options );
+								};
+							    jQuery( window ).on( "elementor/frontend/init", function() {
+									elementorFrontend.hooks.addAction( "frontend/element_ready/global", function( $scope, $ ){
+										if ( "undefined" == typeof $scope ) {
+												return;
+										}
+										if ( $scope.hasClass( "uael-particle-yes" ) ) {
+											window.scope_array.push( $scope );
+											$scope.find(".uael-particle-wrapper").addClass("js-is-enabled");
+										}else{
+											return;
+										}
+										if(elementorFrontend.isEditMode() && $scope.find(".uael-particle-wrapper").hasClass("js-is-enabled") && window.backend == 0 ){
+											var uael_url = uael_particles_script.uael_particles_url;
+
+											jQuery.cachedScript( uael_url );
+											window.backend = 1;
+										}else if(elementorFrontend.isEditMode()){
+											var uael_url = uael_particles_script.uael_particles_url;
+											jQuery.cachedScript( uael_url ).done(function(){
+												var flag = true;
+											});
+										}
+									});
+								});
+								 jQuery( document ).on( "ready elementor/popup/show", () => {
+									if ( jQuery.find( ".uael-particle-yes" ).length < 1 ) {
+										return;
+									}
+									var uael_url = uael_particles_script.uael_particles_url;
+									jQuery.cachedScript = function( url, options ) {
+										// Allow user to set any option except for dataType, cache, and url.
+										options = jQuery.extend( options || {}, {
+											dataType: "script",
+											cache: true,
+											url: url
+										});
+										// Return the jqXHR object so we can chain callbacks.
+										return jQuery.ajax( options );
+									};
+									jQuery.cachedScript( uael_url );
+								});	
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/elements-handlers.min.js' %}" id="pro-elements-handlers-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/jquery.sticky.min.js' %}" id="e-sticky-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script>
+
+<script data-no-minify="1" async src="{% static 'assets/js/lazyload.min.js' %}"></script>
+
+
+
+
+
+{% endblock content %}

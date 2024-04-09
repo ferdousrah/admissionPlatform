@@ -1,0 +1,580 @@
+{% extends 'partials/base.html' %}
+            
+{% load static %}
+
+{% block content %}
+
+
+
+<style>
+   
+    .jumbotron {
+        background-color: #0056b3;
+        color: white;
+    }
+    .benefit-card {
+        transition: transform .2s;
+    }
+    .benefit-card:hover {
+        transform: scale(1.05);
+    }
+    .card-header {
+        background-color: #007bff;
+        color: white;
+    }
+</style>
+
+
+
+<style>
+    /* Custom border style */
+    .custom-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      height: 100%; /* Ensure cards fill the height of their parent */
+      display: flex; /* Use flexbox for equal height */
+      flex-direction: column; /* Align content in column */
+    }
+
+    /* Custom container background color */
+    .custom-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Flex utilities for equal height */
+    .d-flex {
+      display: flex;
+    }
+
+    .align-items-stretch {
+      align-items: stretch;
+    }
+  </style>
+
+  <style>
+    /* Styling for tab menu */
+    .nav-tabs .nav-link {
+      border: 1px solid #ccc;
+      border-radius: 5px 5px 0 0;
+      color: #333;
+    }
+
+    .nav-tabs .nav-link.active {
+      background-color: #077969; /* Background color for active tab */
+      border-color: #ddd #ddd #f8f9fa;
+      color: #fff;
+    }
+  </style>
+
+
+
+<link rel='stylesheet' id='elementor-frontend-css' href='{% static 'assets/css/frontend.min.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='{% static 'assets/css/swiper.min.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='uael-frontend-css' href='{% static 'assets/css/uael-frontend.min.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-15463-css' href='{% static 'assets/css/post-15463.css' %}' type='text/css' media='all' />
+
+<link rel='stylesheet' id='elementor-post-18302-css' href='{% static 'assets/css/post-18302.css' %}' type='text/css' media='all' />
+
+<link rel='stylesheet' id='elementor-post-18304-css' href='{% static 'assets/css/post-18304.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17764-css' href='{% static 'assets/css/post-17764.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17765-css' href='{% static 'assets/css/post-17765.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17766-css' href='{% static 'assets/css/post-17766.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17767-css' href='{% static 'assets/css/post-17767.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-17768-css' href='{% static 'assets/css/post-17768.css' %}' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css' href='{% static 'assets/css/animations.min.css' %}' type='text/css' media='all' />
+
+
+
+    <div data-elementor-type="header" data-elementor-id="11628" class="elementor elementor-11628 elementor-location-header" data-elementor-post-type="elementor_library">
+        <div data-elementor-type="wp-post" data-elementor-id="15463" class="elementor elementor-15463" data-elementor-post-type="page">
+            <header class="elementor-section elementor-top-section elementor-element elementor-element-32b8533d elementor-section-stretched elementor-section-content-middle elementor-reverse-mobile elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="32b8533d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:15464,&quot;url&quot;:&quot;{% static 'assets/images/why-usa-min.webp' %}&quot;}],&quot;background_slideshow_transition_duration&quot;:0,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;}">
+                <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1689d996" data-id="1689d996" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-306da59c elementor-widget elementor-widget-heading" data-id="306da59c" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h1 class="elementor-heading-title elementor-size-default" style="color: #fff;font-size: 60px;">Why Study in USA</h1>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7dd3f4f2 elementor-widget elementor-widget-text-editor" data-id="7dd3f4f2" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p style="font-size: 18px;">&nbsp;</p>
+                                </div>
+                            </div>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-6fa65a0f elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6fa65a0f" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6190af21" data-id="6190af21" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-57055896 uael-button-stack-mobile uael-tablet-button-halign-center uael-mobile-button-halign-justify uael-button-halign-left elementor-widget elementor-widget-uael-buttons" data-id="57055896" data-element_type="widget" data-widget_type="uael-buttons.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="uael-dual-button-outer-wrap">
+                                                        <div class="uael-dual-button-wrap">
+                                                            <div class="uael-button-wrapper elementor-button-wrapper uael-dual-button elementor-repeater-item-8e94458 uael-dual-button-0">
+                                                                
+                                                            </div>
+                                                            <div class="uael-button-wrapper elementor-button-wrapper uael-dual-button elementor-repeater-item-ea7a7ae uael-dual-button-1">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-55b87046 elementor-hidden-tablet elementor-hidden-mobile" data-id="55b87046" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    
+
+
+    <div class="container-fluid py-5" style="background-color: #fff;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="regular-content">
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                  The United States of America, commonly known as the USA, is a vast and diverse country situated in North America. With 50 states and a federal district, the USA is a multifaceted nation. Its cities, such as New York City, Los Angeles, and Chicago, are hubs of culture and economic activity. Boasting the world's largest economy, with a GDP surpassing $21 trillion, driven by industries like technology, finance, and healthcare, the USA enjoys one of the highest per capita incomes globally, ensuring a high standard of living for many of its residents. With a population exceeding 330 million people, it ranks among the most populous nations. Renowned for its cultural, economic, and technological influence, the USA's dynamic economy encompasses sectors like technology, finance, entertainment, and manufacturing. Its landscapes vary from bustling urban centers to breathtaking natural wonders like the Grand Canyon and Yellowstone National Park. The USA's global significance is evident in its pivotal role in both political and economic spheres.
+
+                </p>
+
+                <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Population and Main Cities</h4>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                  As of my last update in January 2022, the population of the United States of America was approximately 331 million people. However, please note that population figures may have changed since then due to various factors such as birth rates, immigration, and other demographic shifts.
+
+                </p>
+
+                <h4 style="color: #077969;font-weight: 600;font-size: 18px;">The main cities in the USA  include</h4>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                  Regarding the main city in the USA, it's subjective and can be interpreted in different ways. However, some of the most populous and culturally significant cities in the USA include:
+
+                </p>
+
+                <h4 style="color: #077969;font-weight: 600;font-size: 18px;">1.	New York City</h4>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                  located in the state of New York, is often considered the most populous city in the country and serves as a global center for finance, culture, and media.
+
+                </p>
+
+                <h4 style="color: #077969;font-weight: 600;font-size: 18px;">2.	Los Angeles</h4>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                  situated in California, is known for its entertainment industry, including Hollywood, as well as its diverse population and vibrant cultural scene.
+
+                </p>
+
+                <h4 style="color: #077969;font-weight: 600;font-size: 18px;">3.	Chicago</h4>
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+
+                  located in Illinois, is a major financial center and transportation hub, known for its architecture, museums, and deep-dish pizza.
+
+                </p>
+
+                <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
+                  These cities, among others, play crucial roles in shaping the cultural, economic, and social landscape of the United States.
+                </p>
+
+                <h4 style="color: #077969;font-weight: 600;font-size: 18px;">USA  Economy</h4>
+                <ol style="font-size: 18px;">
+                  <li>Largest Economy: The USA boasts the world's largest economy, with a Gross Domestic Product (GDP) exceeding $21 trillion. Its economy is diversified across various sectors including technology, finance, healthcare, manufacturing, and entertainment.</li>
+                  <li>Innovation Hub: Known for its innovation and entrepreneurship, the USA is home to leading technology companies such as Apple, Google, and Amazon. Silicon Valley in California and other tech hubs across the country drive innovation and development in the global tech sector.</li>
+                  <li>Financial Center: Wall Street in New York City is a global financial hub, housing the New York Stock Exchange and numerous financial institutions. The USA's financial sector plays a crucial role in global markets, including banking, investment, and asset management.</li>
+                  <li>Consumer Market: With a large and affluent population, the USA is a major consumer market. Domestic consumption fuels economic growth, supported by high levels of disposable income, consumer confidence, and a culture of spending.</li>
+                  <li>Trade Powerhouse: The USA is a significant player in international trade, both importing and exporting a wide range of goods and services. It has extensive trade relationships with countries around the world, with key trading partners including China, Canada, and Mexico.</li>
+                  <li>Job Market: The USA has a dynamic job market, offering employment opportunities across various industries and sectors. It has a diverse workforce and attracts talent from around the globe, contributing to its economic vitality and innovation. However, challenges such as income inequality and disparities in job opportunities exist, prompting ongoing discussions about labor policies and workforce development.</li>
+                </ol>
+                
+                
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+      <div class="container-fluid py-5" style="background-color: #f1f5fa;">
+        <div class="container">
+          
+            <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="regular-content">
+                
+                <!-- -->
+
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Why Choose Study in  USA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Study Cost</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Living Cost</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <p>&nbsp;</p>                    
+                    <p style="text-align: justify;font-size: 18px;">
+                      Studying in the USA offers a plethora of advantages, making it a top choice for international students. Here are several compelling reasons why:
+                    </p>
+
+                    <ol style="font-size: 18px;">
+                      <li>Academic Excellence: The USA boasts some of the world's top universities and colleges renowned for their academic excellence, cutting-edge research, and innovative teaching methods. Students have access to a wide range of high-quality programs across various disciplines.</li>
+                      <li>Diverse Educational Opportunities: The USA offers a diverse array of educational opportunities, including undergraduate, graduate, and professional programs. Whether you're interested in STEM fields, liberal arts, business, or the arts, there are programs tailored to suit your interests and career goals.</li>
+                      <li>Global Recognition: Degrees from US institutions carry significant global recognition and prestige, enhancing your credentials and opening doors to opportunities worldwide. Employers, research institutions, and organizations value the rigorous academic standards and reputation of US education.</li>
+                      <li>Research and Innovation: US universities are at the forefront of research and innovation, providing students with access to state-of-the-art facilities, renowned faculty, and groundbreaking research opportunities. Engaging in research can enhance your academic experience and contribute to advancements in your field.</li>
+                      <li>Cultural Diversity: Studying in the USA exposes you to a rich tapestry of cultures, perspectives, and experiences. You'll have the opportunity to interact with students from diverse backgrounds, fostering cross-cultural understanding, collaboration, and lifelong friendships.</li>
+                      <li>Career Opportunities: The USA offers abundant career opportunities and internships in various industries, allowing students to gain practical experience, build professional networks, and enhance their employability. Many US universities have strong ties with industry partners, facilitating internships, co-op programs, and job placements.</li>
+                      <li>Flexible Education System: The US education system emphasizes flexibility and academic freedom, allowing students to tailor their coursework, pursue interdisciplinary studies, and explore their interests. This flexibility encourages creativity, critical thinking, and independent learning.</li>
+                      <li>English Language Proficiency: Studying in an English-speaking environment provides an immersive language experience, enhancing your English language skills and communication abilities. Proficiency in English is a valuable asset in today's globalized world, opening doors to international opportunities.</li>
+                      <li>Scholarship and Financial Aid: Many US universities offer scholarships, grants, and financial aid to international students based on academic merit, talent, and financial need. These resources can help alleviate the financial burden of studying abroad and make US education more accessible.</li>
+                      <li>Personal Growth and Development: Studying in the USA is a transformative experience that fosters personal growth, independence, and resilience. Living in a new culture, navigating unfamiliar challenges, and embracing diverse perspectives contribute to your personal and intellectual development, preparing you for success in an interconnected world.</li>
+                    </ol>
+                    
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">USA  Education System</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The education system in the United States is highly diverse and offers a wide range of options from early childhood education to postgraduate studies. Here's an overview of the structure of the USA education system:
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Types of Institutions</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The USA has various types of higher education institutions, including:
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Community Colleges</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Offer two-year associate degrees and vocational programs.
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Liberal Arts Colleges</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        Focus on undergraduate education in the liberal arts and sciences.
+                      </p>
+
+                      <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Public Universities</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        State-funded institutions that offer a wide range of programs and degrees.
+                      </p>
+
+                      <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Private Universities</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        Privately funded institutions with diverse offerings, often with a focus on research.
+                      </p>
+
+                      <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Technical and Vocational Schools</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        Provide specialized training in fields like healthcare, technology, and trades.
+                      </p>
+
+                      <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Higher Education</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        Higher education in the USA includes undergraduate and graduate studies at colleges, universities, and vocational institutions. Undergraduate programs lead to bachelor's degrees, typically completed in four years. Graduate programs offer advanced study and research opportunities, leading to master's degrees, doctoral degrees, and professional degrees such as MD, JD, or MBA.
+                      </p>
+
+                      <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Flexibility and Diversity</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        The USA education system emphasizes flexibility, allowing students to choose their courses, explore interdisciplinary studies, and tailor their educational experience to their interests and career goals.
+                      </p>
+
+                      <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Financial Aid</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        Many students in the USA rely on financial aid to fund their education. This may include scholarships, grants, loans, and work-study programs offered by institutions, government agencies, and private organizations.
+                      </p>
+
+                      <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Accreditation</h2>
+                      <p style="text-align: justify;font-size: 18px;">
+                        Accreditation ensures the quality and standards of higher education institutions and programs in the USA. Accredited institutions undergo rigorous evaluation by accrediting agencies to ensure they meet educational standards and requirements.
+                      </p>
+
+
+
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">USA  F1 Visa Requirements</h2>
+                    <ul style="font-size: 18px;">
+                      <li>Letter of Offer</li>
+                      <li>I-20</li>
+                      <li>Statement of Purpose (SOP)</li>
+                      <li>Valid Passport</li>
+                      <li>Passport size Photographs (4 Nos.)</li>
+                      <li>Academic documents (IELTS/TOEFL iBT/PTE Mark Sheet)</li>
+                      <li>Work-experience (if applicable) – from present and previous employers providing their contact details. Applicants are also required to submit a Statement of purpose giving details of why they opted to study this course in USA</li>
+                      <li>Financial requirements – as per AL 1 & details can be found at USA Embassy website</li>
+                      <li>Financial Documents for USA Student Visas</li>
+                      <li>Visa Application and Interview</li>  
+                    </ul>
+                    <p style="text-align: justify;font-size: 18px;font-weight: 600;">Please contact us at Admission Platform personally for further assistance on the above and Visa Procedure.</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Other Facility & Requirement in USA</h2>
+                    <p style="text-align: justify;font-size: 18px;">Work regulations in Canada for international students include:</p>
+                    <ul style="font-size: 18px;">
+                      <li>20 hours per week during term time</li>
+                      <li>Full-time work rights during scheduled study breaks</li>
+                      <li>Post-study work rights:</li>
+                      <li>Two years post-study work rights after completing Bachelor or Masters Degree</li>
+                    </ul>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Intakes</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      In the United States, the main intake periods for international students typically coincide with the academic calendar of U.S. universities. The two primary intakes are:
+                    </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Fall Intake (August/September)</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The fall intake is the most common and significant intake period in U.S. universities. It aligns with the beginning of the academic year, usually starting in August or September. Many undergraduate and graduate programs begin in the fall semester, offering students the opportunity to start their studies at the beginning of the academic year. The application deadline for the fall intake typically falls between December and February, although it can vary depending on the institution and program.
+                    </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Spring Intake (January/February)</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The spring intake is the second major intake period in U.S. universities. It begins in January or February, marking the start of the spring semester. While not as common as the fall intake, the spring intake provides an additional opportunity for international students to begin their studies. Application deadlines for the spring intake are usually between August and October, though they may vary by institution.
+                    </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Processing Time</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The processing time for an F1 student visa for the USA can vary depending on various factors, including the applicant's home country, the time of year, and the workload at the U.S. embassy or consulate where the visa application is being processed. However, generally speaking, the process can take several weeks to a few months from start to finish. Here's a breakdown of the typical timeline:
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Visa Application Submission</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      Once the applicant submits the online visa application (DS-160) and pays the visa application fee, they must schedule a visa interview at the nearest U.S. embassy or consulate in their home country. The timing of this step can vary, but it's essential to schedule the interview as soon as possible, especially during peak seasons.
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Visa Interview Appointment</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The applicant attends the visa interview at the scheduled date and time. During the interview, the consular officer will ask questions about the applicant's academic plans, financial resources, ties to their home country, and intent to return home after completing their studies. The interview appointment is usually relatively brief, typically lasting around 10-15 minutes.
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Administrative Processing (if necessary)</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      In some cases, additional administrative processing may be required after the visa interview. This can add extra time to the overall processing time, ranging from a few days to several weeks or even months, depending on the complexity of the case and the workload at the embassy or consulate.
+                    </p>
+
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Visa Approval and Passport Return</h4>
+                    <p style="text-align: justify;font-size: 18px;">
+                      If the visa application is approved, the applicant's passport will be returned to them with the F1 visa stamped inside. The processing time for visa approval and passport return can vary, but it typically takes a few days to a few weeks after the visa interview.
+                    </p>
+                    <p style="text-align: justify;font-size: 18px;">
+                      It's essential for applicants to plan ahead and apply for the F1 visa well in advance of their intended travel date to allow for any potential delays in the processing time. Additionally, applicants should monitor the status of their visa application online and follow any instructions provided by the embassy or consulate throughout the process.
+                    </p>
+
+
+                  </div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <p>&nbsp;</p>
+                    <p style="text-align: justify;font-size: 18px;">How Much does it Cost : </p>
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">University</h4>
+                    <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $12,000-$40,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $12,000-$40,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Scholarship</span> - Up to  $50% -Depend on the Universities.</p>
+                    
+                    <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Community College :</h4>
+                    <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $12,000-$16,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $12,000-$16,000</p>
+                    <p style="text-align: justify;font-size: 18px;"><span>Scholarship</span> : Up to  $20% -Depend on the Universities. </p>
+
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">In-Depth Details</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      International students intending to enroll in US universities typically aren't required to pay tuition fees before obtaining their visa. However, after securing their visa, they usually need to pay 50% of their first year's tuition fees to confirm enrollment and commitment to the program. This payment is crucial for finalizing enrollment. Additionally, students must cover additional expenses such as Overseas Health Care Fees, which provide essential health services during their stay in the USA. Moreover, budgeting for supplementary expenses like textbooks, averaging around $60 per book, is essential to support academic studies effectively. Planning and budgeting accordingly are crucial for ensuring a smooth and successful academic journey in the USA.
+                    </p>
+
+                  </div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <p>&nbsp;</p>
+                    <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Living Cost</h2>
+                    <p style="text-align: justify;font-size: 18px;">
+                      The cost of living for international students in the USA can vary significantly depending on factors such as the city or region they choose to live in, their lifestyle preferences, and the specific university they attend. Here's a breakdown of the typical expenses international students can expect to encounter:
+                    </p>
+                    
+                    <ol style="font-size: 18px;">
+                      <li>Tuition Fees: Tuition fees vary widely depending on the institution, program, and whether the student attends a public or private university. On average, international students can expect to pay between $20,000 to $40,000 per year for tuition.</li>
+  <li>Housing: Housing costs also vary depending on location and housing options. Renting an apartment or shared accommodation can range from $500 to $2,000 or more per month, depending on whether the student lives on-campus or off-campus and the city they are in.</li>
+  <li>Utilities: Utilities such as electricity, water, heating, and internet can add up to around $100 to $300 per month, depending on usage and location.</li>
+  <li>Food: Food expenses can vary based on dietary preferences and whether the student cooks at home or eats out. On average, students may spend around $200 to $400 per month on groceries and dining out.</li>
+  <li>Transportation: Transportation costs can include public transportation fares, fuel if the student owns a car, and maintenance expenses. Monthly transportation costs can range from $50 to $200 or more, depending on location and mode of transportation.</li>
+  <li>Health Insurance: International students are often required to have health insurance coverage while studying in the USA. The cost of health insurance can vary but typically ranges from $500 to $1,500 per year, depending on the coverage and provider.</li>
+  <li>Books and Supplies: International students should budget for textbooks, supplies, and other educational materials, which can amount to several hundred dollars per semester.</li>
+  <li>Personal Expenses: Personal expenses such as clothing, entertainment, and miscellaneous items can vary widely depending on individual preferences and lifestyle choices. It's essential for students to budget for these expenses accordingly.</li>
+
+                    </ol>
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      Overall, international students should expect to budget between $15,000 to $40,000 or more per year for living expenses, in addition to tuition fees. Costs can vary significantly depending on the location and lifestyle of the student, so careful planning and budgeting are crucial for managing expenses effectively.
+                    </p>
+
+                    
+
+                    <p style="text-align: justify;font-size: 18px;">
+                      <b>Link</b>:<br>
+
+                      <b>USA Embassy Dhaka</b> <br>
+                      https://bd.usembassy.gov/ <br>
+
+
+                      <b>USA VFS Dhaka</b> <br>
+                      https://visa.vfsglobal.com/bgd/en/aut/attend-centre/dhaka <br>
+
+
+                      
+                    </p>
+
+                  </div>
+                </div>
+
+
+                <!-- -->
+                
+              </div>
+            </div>
+          </div>         
+          
+          
+        </div>
+      </div>
+
+
+
+      
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+				
+				
+		
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/core.min.js' %}" id="jquery-ui-core-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/datepicker.min.js' %}" id="jquery-ui-datepicker-js"></script>
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/parallax.min.js' %}" id="parallax-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/jquery.formstone.min.js' %}" id="form-stone-js"></script>
+
+
+
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/webpack-pro.runtime.min.js' %}" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/webpack.runtime.min.js' %}" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/frontend-modules.min.js' %}" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/wp-polyfill-inert.min.js' %}" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/regenerator-runtime.min.js' %}" id="regenerator-runtime-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/wp-polyfill.min.js' %}" id="wp-polyfill-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/hooks.min.js' %}" id="wp-hooks-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/i18n.min.js' %}" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.applyboard.com\/wp-admin\/admin-ajax.php","nonce":"d61f740cf2","urls":{"assets":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.applyboard.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/frontend.min.js' %}" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/waypoints.min.js' %}" id="elementor-waypoints-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-extra">
+/* <![CDATA[ */
+var uael_particles_script = {"uael_particles_url":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/min-js\/uael-particles.min.js","particles_url":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/lib\/particles\/particles.min.js","snowflakes_image":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/snowflake.svg","gift":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/gift.png","tree":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/tree.png","skull":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/skull.png","ghost":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/ghost.png","moon":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/moon.png","bat":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/bat.png","pumpkin":"https:\/\/www.applyboard.com\/wp-content\/plugins\/ultimate-elementor\/assets\/img\/pumpkin.png"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true},"urls":{"assets":"https:\/\/www.applyboard.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":15463,"title":"Why%20Study%20in%20Australia%3F%20%7C%20Study%20Abroad%20with%20ApplyBoard","excerpt":"","featuredImage":"https:\/\/www.applyboard.com\/wp-content\/uploads\/2020\/10\/Social_Media_Preview_Main_Blog-1024x538.png"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/frontendtwo.min.js' %}" id="elementor-frontend-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-after">
+/* <![CDATA[ */
+window.scope_array = [];
+								window.backend = 0;
+								jQuery.cachedScript = function( url, options ) {
+									// Allow user to set any option except for dataType, cache, and url.
+									options = jQuery.extend( options || {}, {
+										dataType: "script",
+										cache: true,
+										url: url
+									});
+									// Return the jqXHR object so we can chain callbacks.
+									return jQuery.ajax( options );
+								};
+							    jQuery( window ).on( "elementor/frontend/init", function() {
+									elementorFrontend.hooks.addAction( "frontend/element_ready/global", function( $scope, $ ){
+										if ( "undefined" == typeof $scope ) {
+												return;
+										}
+										if ( $scope.hasClass( "uael-particle-yes" ) ) {
+											window.scope_array.push( $scope );
+											$scope.find(".uael-particle-wrapper").addClass("js-is-enabled");
+										}else{
+											return;
+										}
+										if(elementorFrontend.isEditMode() && $scope.find(".uael-particle-wrapper").hasClass("js-is-enabled") && window.backend == 0 ){
+											var uael_url = uael_particles_script.uael_particles_url;
+
+											jQuery.cachedScript( uael_url );
+											window.backend = 1;
+										}else if(elementorFrontend.isEditMode()){
+											var uael_url = uael_particles_script.uael_particles_url;
+											jQuery.cachedScript( uael_url ).done(function(){
+												var flag = true;
+											});
+										}
+									});
+								});
+								 jQuery( document ).on( "ready elementor/popup/show", () => {
+									if ( jQuery.find( ".uael-particle-yes" ).length < 1 ) {
+										return;
+									}
+									var uael_url = uael_particles_script.uael_particles_url;
+									jQuery.cachedScript = function( url, options ) {
+										// Allow user to set any option except for dataType, cache, and url.
+										options = jQuery.extend( options || {}, {
+											dataType: "script",
+											cache: true,
+											url: url
+										});
+										// Return the jqXHR object so we can chain callbacks.
+										return jQuery.ajax( options );
+									};
+									jQuery.cachedScript( uael_url );
+								});	
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/elements-handlers.min.js' %}" id="pro-elements-handlers-js"></script>
+<script type="text/javascript" defer='defer' src="{% static 'assets/js/jquery.sticky.min.js' %}" id="e-sticky-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script>
+
+<script data-no-minify="1" async src="{% static 'assets/js/lazyload.min.js' %}"></script>
+
+
+
+
+
+{% endblock content %}

@@ -446,6 +446,52 @@ a:focus {
 	}
   </style>
 
+  <style>
+    /* Optional CSS to customize the footer appearance */
+    footer {
+      background: linear-gradient(to bottom right, #014743, #02766f, #03847c);
+      color: white;
+      padding: 20px 0;
+    }
+    .footer-column {
+      padding: 0 15px;
+    }
+
+	.footer{
+		background: linear-gradient(to bottom right, #014743, #02766f, #03847c);
+		color:white;
+		font-family: "Open Sans", Sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 28px;
+				
+		.links{
+		  ul {list-style-type: none;}
+		  li a{
+			color: white;
+			transition: color .2s;
+			&:hover{
+			  text-decoration:none;
+			  color:#4180CB;
+			  }
+		  }
+		}  
+		.about-company{
+		  i{font-size: 25px;}
+		  a{
+			color:white;
+			transition: color .2s;
+			&:hover{color:#4180CB}
+		  }
+		} 
+		.location{
+		  i{font-size: 18px;}
+		}
+		.copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+	  }
+	  
+  </style>
+
 
 		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
 		<body
@@ -548,7 +594,7 @@ a:focus {
 								  <ul id="menu-1-4cf27e71" class="uael-nav-menu">
 									<li id="menu-item-17181"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'oursolutions' %}" class="uael-menu-item">Our Solutions</a>
+									  <a href="{% url 'whyadmissionplatform' %}" class="uael-menu-item">Why Admission Platform</a>
 									</li>
 									<li id="menu-item-16600"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
@@ -556,40 +602,29 @@ a:focus {
 									</li>
 									<li id="menu-item-16608"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'careers' %}" class="uael-menu-item">Careers</a>
+									  <a href="{% url 'missionvision' %}" class="uael-menu-item">Mission & Vision</a>
 									</li>
 									<li id="menu-item-16613"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'press' %}" class="uael-menu-item">Press</a>
+									  <a href="{% url 'ourvalue' %}" class="uael-menu-item">Our Value</a>
 									</li>
 									<li id="menu-item-16619"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'life' %}" class="uael-menu-item">Life</a>
+									  <a href="{% url 'globalrecognition' %}" class="uael-menu-item">Global Recognition</a>
 									</li>
 									<li id="menu-item-16627"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'leadership' %}" class="uael-menu-item">Leadership</a>
+									  <a href="{% url 'team' %}" class="uael-menu-item">Meet the Team</a>
+									</li>
+									<li id="menu-item-16627"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'careers' %}" class="uael-menu-item">Careers</a>
 									</li>
 									<li id="menu-item-16630"
 									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'contact' %}" class="uael-menu-item">Contact</a>
+									  <a href="{% url 'events' %}" class="uael-menu-item">Events</a>
 									</li>
-									<li id="menu-item-11567"
-									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="{% url 'blog' %}" class="uael-menu-item">Blog</a>
-									</li>
-									<li id="menu-item-13195"
-									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="#" class="uael-menu-item">ApplyInsights</a>
-									</li>
-									<li id="menu-item-16483"
-									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="#" class="uael-menu-item">Events</a>
-									</li>
-									<li id="menu-item-18097"
-									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-									  <a href="#" class="uael-menu-item">Trends Report</a>
-									</li>
+									
 								  </ul>
 								</nav>
 							  </div>
@@ -694,16 +729,12 @@ a:focus {
 							<i aria-hidden="true" tabindex="0" class="fas fa-bars"></i>
 						  </div>
 						</div>
-						<nav class="uael-dropdown-expandible uael-nav-menu__layout-expandible uael-nav-menu__submenu-arrow"
+						<!--<nav class="uael-dropdown-expandible uael-nav-menu__layout-expandible uael-nav-menu__submenu-arrow"
 						  data-toggle-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
 						  data-close-icon='&lt;i aria-hidden="true" tabindex="0" class="fas fa-bars"&gt;&lt;/i&gt;'
 						  data-full-width="yes">
 						  <ul id="menu-1-f6ded5a" class="uael-nav-menu">
-							<li id="menu-item-11568"
-							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="index1dbc.html?page_id=8430" class="uael-menu-item">About Us</a>
-							</li>
-	  
+								  
 							<li id="menu-item-11568"
 							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
 							  <a href="index1dbc.html?page_id=8430" class="uael-menu-item">Students</a>
@@ -763,7 +794,7 @@ a:focus {
 							  <a href="#" class="uael-menu-item">ApplyInsights</a>
 							</li>
 						  </ul>
-						</nav>
+						</nav> -->
 					  </div>
 					</div>
 				  </div>
@@ -872,15 +903,15 @@ a:focus {
 						  <ul id="menu-1-2b676014" class="uael-nav-menu">
 							<li id="menu-item-15525"
 							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="#" class="uael-menu-item">Students</a>
+							  <a href="{% url 'studyabroad' %}" class="uael-menu-item">Students</a>
 							</li>
 							<li id="menu-item-11580"
 							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="#" class="uael-menu-item">Recruitment Partners</a>
+							  <a href="{% url 'recruiters' %}" class="uael-menu-item">Recruitment Partners</a>
 							</li>
 							<li id="menu-item-11581"
 							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="#" class="uael-menu-item">Institutions</a>
+							  <a href="{% url 'schools' %}" class="uael-menu-item">Institutions</a>
 							</li>
 							<li id="menu-item-11582"
 							  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent uael-has-submenu uael-creative-menu">
@@ -889,56 +920,35 @@ a:focus {
 									class="uael-menu-toggle sub-arrow uael-menu-child-0"><i class="fa"></i></span></a>
 							  </div>
 							  <ul class="sub-menu">
-								<li id="menu-item-17182"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Our Solutions</a>
-								</li>
-								<li id="menu-item-16601"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Our Story</a>
-								</li>
-								<li id="menu-item-16609"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Careers</a>
-								</li>
-								<li id="menu-item-16614"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Press</a>
-								</li>
-								<li id="menu-item-16620"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Life</a>
-								</li>
-								<li id="menu-item-16629"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Leadership</a>
-								</li>
-								<li id="menu-item-16631"
-								  class="menu-item menu-item-type-post_type menu-item-object-page uael-creative-menu">
-								  <a href="#" class="uael-sub-menu-item">Contact</a>
-								</li>
-							  </ul>
-							</li>
-							<li id="menu-item-11589"
-							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="#" class="uael-menu-item">Blog</a>
-							</li>
-							<li id="menu-item-18095"
-							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="#" class="uael-menu-item">Trends Report 2024</a>
-							</li>
-							<li id="menu-item-13196"
-							  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
-							  <a href="#" class="uael-menu-item">ApplyInsights</a>
-							</li>
-							<li id="menu-item-11590"
-							  class="loginbtn menu-item menu-item-type-custom menu-item-object-custom parent uael-creative-menu">
-							  <a href="{% url 'account' %}" class="uael-menu-item">Log In</a>
-							</li>
-							<li id="menu-item-11591"
-							  class="registerbtn menu-item menu-item-type-custom menu-item-object-custom parent uael-creative-menu">
-							  <a href="{% url 'register' %}" class="uael-menu-item">Register</a>
-							</li>
+								<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'whyadmissionplatform' %}" class="uael-menu-item">Why Admission Platform</a>
+									</li>
+									<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'story' %}" class="uael-menu-item">Our Story</a>
+									</li>
+									<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'missionvision' %}" class="uael-menu-item">Mission & Vision</a>
+									</li>
+									<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'ourvalue' %}" class="uael-menu-item">Our Value</a>
+									</li>
+									<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'globalrecognition' %}" class="uael-menu-item">Global Recognition</a>
+									</li>
+									<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'careers' %}" class="uael-menu-item">Careers</a>
+									</li>
+									<li id="menu-item-11590"
+									  class="menu-item menu-item-type-post_type menu-item-object-page parent uael-creative-menu">
+									  <a href="{% url 'events' %}" class="uael-menu-item">Events</a>
+									</li>
+
 						  </ul>
 						</nav>
 					  </div>
@@ -1224,7 +1234,7 @@ a:focus {
 						  <div class="elementor-element elementor-element-8856330 elementor-widget elementor-widget-html"
 							data-id="8856330" data-element_type="widget" data-widget_type="html.default">
 							<div class="elementor-widget-container" style="text-align: center;padding-top: 20px;">
-							  <img src="{% static 'assets/images/how-we-help.png' %}" width="800" />
+							  <img src="{% static 'assets/images/how-we-help.png' %}" style="max-width: 600px;" />
 							</div>
 						  </div>
 						  <div
@@ -1814,7 +1824,7 @@ a:focus {
 	  
 										  <div class="uael-post__content-wrap">
 											<h3 class="uael-post__title">
-											  <a href="#" target="_self">
+											  <a href="{% url 'findhighjob' %}" target="_self">
 												Find High-Job-Demand Study Options
 												with Program Tags
 											  </a>
@@ -1824,7 +1834,7 @@ a:focus {
 												March 6, 2024
 											  </span>
 											</div>
-											<a class="uael-post__read-more elementor-button" href="#" target="_self"
+											<a class="uael-post__read-more elementor-button" href="{% url 'findhighjob' %}" target="_self"
 											  aria-labelledby="uael-post-18607">
 											  <span class="elementor-button-content-wrapper">
 												<span class="elementor-button-icon elementor-align-icon-right">
@@ -1919,7 +1929,7 @@ a:focus {
 							data-id="05ec511" data-element_type="widget" data-widget_type="button.default">
 							<div class="elementor-widget-container">
 							  <div class="elementor-button-wrapper">
-								<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="{% url 'register' %}">
 								  <span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Student Registration</span>
 								  </span>
@@ -1976,7 +1986,7 @@ a:focus {
 							data-id="4f67c2a" data-element_type="widget" data-widget_type="button.default">
 							<div class="elementor-widget-container">
 							  <div class="elementor-button-wrapper">
-								<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="{% url 'schools' %}">
 								  <span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Partner Inquiry</span>
 								  </span>
@@ -2033,7 +2043,7 @@ a:focus {
 							data-id="2511003" data-element_type="widget" data-widget_type="button.default">
 							<div class="elementor-widget-container">
 							  <div class="elementor-button-wrapper">
-								<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+								<a class="elementor-button elementor-button-link elementor-size-sm" href="{% url 'new_associate' %}">
 								  <span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Recruiter Registration</span>
 								  </span>
@@ -2045,16 +2055,11 @@ a:focus {
 					  </div>
 					</div>
 				  </section>
-				  <section
-					class="elementor-section elementor-top-section elementor-element elementor-element-0bd29a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-					data-id="0bd29a3" data-element_type="section">
+				  <section class="elementor-section elementor-top-section elementor-element elementor-element-0bd29a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0bd29a3" data-element_type="section">
 					<div class="elementor-container elementor-column-gap-default">
-					  <div
-						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61b0e4b"
-						data-id="61b0e4b" data-element_type="column">
+					  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61b0e4b" data-id="61b0e4b" data-element_type="column">
 						<div class="elementor-widget-wrap elementor-element-populated">
-						  <div class="elementor-element elementor-element-040accd elementor-widget elementor-widget-html"
-							data-id="040accd" data-element_type="widget" data-widget_type="html.default">
+						  <div class="elementor-element elementor-element-040accd elementor-widget elementor-widget-html" data-id="040accd" data-element_type="widget" data-widget_type="html.default">
 							<div class="elementor-widget-container">
 							  <style>
 								a:focus {
@@ -2278,29 +2283,20 @@ a:focus {
 		<div data-elementor-type="footer" data-elementor-id="11636" class="elementor elementor-11636 elementor-location-footer" data-elementor-post-type="elementor_library">
 		  <section class="elementor-section elementor-top-section elementor-element elementor-element-71fbd0c7 elementor-section-full_width elementor-section-height-min-height elementor-section-items-top elementor-hidden-mobile elementor-section-stretched elementor-section-height-default" data-id="71fbd0c7" data-element_type="section" data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'>
 			<div class="elementor-container elementor-column-gap-default">
-			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3d9593f"
-				data-id="3d9593f" data-element_type="column">
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3d9593f" data-id="3d9593f" data-element_type="column">
 				<div class="elementor-widget-wrap"></div>
 			  </div>
-			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7c2457a9"
-				data-id="7c2457a9" data-element_type="column">
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7c2457a9" data-id="7c2457a9" data-element_type="column">
 				<div class="elementor-widget-wrap elementor-element-populated">
-				  <div
-					class="elementor-element elementor-element-1ed148ed elementor-hidden-mobile elementor-widget elementor-widget-image"
-					data-id="1ed148ed" data-element_type="widget" data-widget_type="image.default">
+				  <div class="elementor-element elementor-element-1ed148ed elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="1ed148ed" data-element_type="widget" data-widget_type="image.default">
 					<div class="elementor-widget-container">
-					  <img src="assets/images/admission-platform-blue-header-mid.png"
-						class="attachment-full size-full wp-image-11893" alt="AdmissionPlatform Logo"
-						data-lazy-src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" /><noscript><img
-						  src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}"
-						  class="attachment-full size-full wp-image-11893" alt="AdmissionPlatform Logo" /></noscript>
+					  <img src="assets/images/admission-platform-blue-header-mid.png" class="attachment-full size-full wp-image-11893" alt="AdmissionPlatform Logo" data-lazy-src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" /><noscript><img src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" class="attachment-full size-full wp-image-11893" alt="AdmissionPlatform Logo" /></noscript>
 					</div>
 				  </div>
-				  <div
-					class="elementor-element elementor-element-65631b99 elementor-hidden-mobile address elementor-widget elementor-widget-text-editor"
-					data-id="65631b99" data-element_type="widget" id="address" data-widget_type="text-editor.default">
+				  <div class="elementor-element elementor-element-65631b99 elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="65631b99" data-element_type="widget" id="address" data-widget_type="text-editor.default">
 					<div class="elementor-widget-container">
-					  <p>partners@admissionplatform.io, apply@admissionplatform.io</p>
+					  <p class="pr-5 text-white-50" style="text-align: justify;">The admissions platform simplifies the study abroad search, application, and acceptance process by connecting international students, placement partners, and academic institutions on one platform.<br></p>
+				  	  <p style="margin-top: 40px;">For any queries please contact -<br>partners@admissionplatform.io</p>
 					</div>
 				  </div>
 				  
@@ -2311,146 +2307,51 @@ a:focus {
 					  </h2>
 					</div>
 				  </div>
-				  <div
-					class="elementor-element elementor-element-72e654e5 elementor-grid-6 elementor-grid-tablet-5 e-grid-align-tablet-left elementor-hidden-mobile elementor-shape-square e-grid-align-left elementor-widget elementor-widget-social-icons"
-					data-id="72e654e5" data-element_type="widget" data-widget_type="social-icons.default">
+				  <div class="elementor-element elementor-element-72e654e5 elementor-grid-6 elementor-grid-tablet-5 e-grid-align-tablet-left elementor-hidden-mobile elementor-shape-square e-grid-align-left elementor-widget elementor-widget-social-icons" data-id="72e654e5" data-element_type="widget" data-widget_type="social-icons.default">
 					<div class="elementor-widget-container">
 					  <div class="elementor-social-icons-wrapper elementor-grid">
 						<span class="elementor-grid-item">
-						  <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-7c51fa1"
-							href="#" target="_blank" aria-label="linkedin link">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-7c51fa1" href="https://www.linkedin.com/company/admission-platform/" target="_blank" aria-label="linkedin link">
 							<span class="elementor-screen-only">Linkedin-in</span>
 							<i class="fab fa-linkedin-in"></i>
 						  </a>
 						</span>
 						<span class="elementor-grid-item">
-						  <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-f1d6ed5"
-							href="#" target="_blank" aria-label="facebook link">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-f1d6ed5" href="https://www.facebook.com/admissionplatform.io?mibextid=LQQJ4d" target="_blank" aria-label="facebook link">
 							<span class="elementor-screen-only">Facebook-f</span>
 							<i class="fab fa-facebook-f"></i>
 						  </a>
 						</span>
 						<span class="elementor-grid-item">
-						  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-5192d54"
-							href="#" target="_blank" aria-label="instagram link">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-5192d54" href="#" target="_blank" aria-label="instagram link">
 							<span class="elementor-screen-only">Instagram</span>
 							<i class="fab fa-instagram"></i>
 						  </a>
 						</span>
 						<span class="elementor-grid-item">
-						  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-e738541"
-							href="#" target="_blank" aria-label="Youtube link">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-e738541" href="https://www.youtube.com/channel/UCYySXJA7R-Asz_PyTLyx3KQ" target="_blank" aria-label="Youtube link">
+							  <span class="elementor-screen-only">Youtube</span>
+							  <i class="fab fa-youtube"></i>
+							</a>
+						  </span>
+						<!--<span class="elementor-grid-item">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-e738541" href="#" target="_blank" aria-label="Youtube link">
 							<span class="elementor-screen-only">Youtube</span>
 							<i class="fab fa-youtube"></i>
 						  </a>
 						</span>
 						<span class="elementor-grid-item">
-						  <a class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-repeater-item-40f24b0"
-							href="#" target="_blank" aria-label="tiktok link">
+						  <a class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-repeater-item-40f24b0" href="#" target="_blank" aria-label="tiktok link">
 							<span class="elementor-screen-only">Tiktok</span>
 							<i class="fab fa-tiktok"></i>
 						  </a>
-						</span>
+						</span>-->
 					  </div>
 					</div>
 				  </div>
 				</div>
 			  </div>
-			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3b996952"
-				data-id="3b996952" data-element_type="column">
-				<div class="elementor-widget-wrap elementor-element-populated">
-				  <div
-					class="elementor-element elementor-element-771f5ad elementor-nav-menu__align-justify elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
-					data-id="771f5ad" data-element_type="widget"
-					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
-					data-widget_type="nav-menu.default">
-					<div class="elementor-widget-container">
-					  <nav
-						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
-						<ul id="menu-1-771f5ad" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15559">
-							<a href="{% url 'studyabroad' %}" class="elementor-item">Students</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10892">
-							<a href="{% url 'schools' %}" class="elementor-item">Schools</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10414">
-							<a href="{% url 'recruiters' %}" class="elementor-item">Recruiters</a>
-						  </li>
-						</ul>
-					  </nav>
-					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-						<ul id="menu-2-771f5ad" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15559">
-							<a href="{% url 'studyabroad' %}" class="elementor-item" tabindex="-1">Students</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10892">
-							<a href="{% url 'schools' %}" class="elementor-item" tabindex="-1">Schools</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10414">
-							<a href="{% url 'recruiters' %}" class="elementor-item" tabindex="-1">Recruiters</a>
-						  </li>
-						</ul>
-					  </nav>
-					</div>
-				  </div>
-				  <div class="elementor-element elementor-element-7f96792 elementor-widget elementor-widget-spacer"
-					data-id="7f96792" data-element_type="widget" data-widget_type="spacer.default">
-					<div class="elementor-widget-container">
-					  <div class="elementor-spacer">
-						<div class="elementor-spacer-inner"></div>
-					  </div>
-					</div>
-				  </div>
-				  <div
-					class="elementor-element elementor-element-182492ac elementor-hidden-mobile elementor-widget elementor-widget-heading"
-					data-id="182492ac" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-					  <h2 class="elementor-heading-title elementor-size-default">
-						Discover
-					  </h2>
-					</div>
-				  </div>
-				  <div
-					class="elementor-element elementor-element-59938746 elementor-nav-menu__align-start elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-mobile elementor-hidden-mobile elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
-					data-id="59938746" data-element_type="widget"
-					data-settings='{"layout":"vertical","full_width":"stretch","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"},"toggle":"burger"}'
-					data-widget_type="nav-menu.default">
-					<div class="elementor-widget-container">
-					  <nav
-						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
-						<ul id="menu-1-59938746" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1187">
-							<a target="_blank" rel="noopener" href="#" class="elementor-item">Discover Schools and
-							  Programs</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11178">
-							<a href="{% url 'register' %}" class="elementor-item">Register</a>
-						  </li>
-						</ul>
-					  </nav>
-					  <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle"
-						aria-expanded="false">
-						<i aria-hidden="true" role="presentation"
-						  class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true"
-						  role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>
-						<span class="elementor-screen-only">Menu</span>
-					  </div>
-					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-						<ul id="menu-2-59938746" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1187">
-							<a target="_blank" rel="noopener" href="#" class="elementor-item" tabindex="-1">Discover Schools
-							  and Programs</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11178">
-							<a href="{% url 'register' %}" class="elementor-item" tabindex="-1">Register</a>
-						  </li>
-						</ul>
-					  </nav>
-					</div>
-				  </div>
-				</div>
-			  </div>
+			  
 			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-4ebdcc26"
 				data-id="4ebdcc26" data-element_type="column">
 				<div class="elementor-widget-wrap elementor-element-populated">
@@ -2458,68 +2359,34 @@ a:focus {
 					class="elementor-element elementor-element-76cd316f elementor-hidden-mobile elementor-widget elementor-widget-heading"
 					data-id="76cd316f" data-element_type="widget" data-widget_type="heading.default">
 					<div class="elementor-widget-container">
-					  <h2 class="elementor-heading-title elementor-size-default">
-						About
+					  <h2 class="elementor-heading-title elementor-size-default" style="font-size: 18px;">
+						RESOURCES
 					  </h2>
 					</div>
 				  </div>
-				  <div
-					class="elementor-element elementor-element-3e1e1411 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
-					data-id="3e1e1411" data-element_type="widget"
-					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
-					data-widget_type="nav-menu.default">
+				  <div class="elementor-element elementor-element-3e1e1411 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu" data-id="3e1e1411" data-element_type="widget" data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}' data-widget_type="nav-menu.default">
 					<div class="elementor-widget-container">
-					  <nav
-						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+					  <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
 						<ul id="menu-1-3e1e1411" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16605">
-							<a href="{% url 'story' %}" class="elementor-item">Our Story</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16605" style="padding-left: 20px;">
+							<a href="{% url 'australia' %}" class="elementor-item">Australia</a>
 						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16611">
-							<a href="{% url 'careers' %}" class="elementor-item">Careers</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16611" style="padding-left: 20px;">
+							<a href="{% url 'canada' %}" class="elementor-item">Canada</a>
 						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
-							<a href="{% url 'blog' %}" class="elementor-item">Blog</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569" style="padding-left: 20px;">
+							<a href="{% url 'newzealand' %}" class="elementor-item">New Zealand</a>
 						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16616">
-							<a href="{% url 'press' %}" class="elementor-item">Press</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16616" style="padding-left: 20px;">
+							<a href="{% url 'unitedkingdom' %}" class="elementor-item">United Kingdom</a>
 						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16618">
-							<a href="{% url 'life' %}" class="elementor-item">Life</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16618" style="padding-left: 20px;">
+							<a href="{% url 'unitedstates' %}" class="elementor-item">United States of America</a>
 						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16634">
-							<a href="{% url 'leadership' %}" class="elementor-item">Leadership</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16635">
-							<a href="{% url 'contact' %}" class="elementor-item">Contact</a>
-						  </li>
+						  
 						</ul>
 					  </nav>
-					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-						<ul id="menu-2-3e1e1411" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16605">
-							<a href="{% url 'story' %}" class="elementor-item" tabindex="-1">Our Story</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16611">
-							<a href="{% url 'careers' %}" class="elementor-item" tabindex="-1">Careers</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569">
-							<a href="{% url 'blog' %}" class="elementor-item" tabindex="-1">Blog</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16616">
-							<a href="{% url 'press' %}" class="elementor-item" tabindex="-1">Press</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16618">
-							<a href="{% url 'life' %}" class="elementor-item" tabindex="-1">Life</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16634">
-							<a href="{% url 'leadership' %}" class="elementor-item" tabindex="-1">Leadership</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16635">
-							<a href="{% url 'contact' %}" class="elementor-item" tabindex="-1">Contact</a>
-						  </li>
-						</ul>
-					  </nav>
+					  
 					</div>
 				  </div>
 				</div>
@@ -2531,8 +2398,8 @@ a:focus {
 					class="elementor-element elementor-element-63a9c60a elementor-hidden-mobile elementor-widget elementor-widget-heading"
 					data-id="63a9c60a" data-element_type="widget" data-widget_type="heading.default">
 					<div class="elementor-widget-container">
-					  <h2 class="elementor-heading-title elementor-size-default">
-						Resources
+					  <h2 class="elementor-heading-title elementor-size-default" style="font-size: 18px;">
+						IMPORTANT LINKS
 					  </h2>
 					</div>
 				  </div>
@@ -2542,91 +2409,41 @@ a:focus {
 					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
 					data-widget_type="nav-menu.default">
 					<div class="elementor-widget-container">
-					  <nav
-						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+					  <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
 						<ul id="menu-1-1e5563e1" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220">
-							<a href="#" class="elementor-item">UK Resources</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220" style="padding-left: 20px;">
+							<a href="{% url 'contact' %}" class="elementor-item" tabindex="-1">Contact Us</a>
 						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
-							<a href="#" class="elementor-item">AU Resources</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338" style="padding-left: 20px;">
+							<a href="{% url 'privacy' %}" class="elementor-item">Privacy Policy</a>
 						  </li>
-						</ul>
-					  </nav>
-					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-						<ul id="menu-2-1e5563e1" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12220">
-							<a href="#" class="elementor-item" tabindex="-1">UK Resources</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338">
-							<a href="#" class="elementor-item" tabindex="-1">AU Resources</a>
+						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12338" style="padding-left: 20px;">
+							<a href="{% url 'terms' %}" class="elementor-item">Terms and Conditions</a>
 						  </li>
 						</ul>
 					  </nav>
+					  
 					</div>
 				  </div>
-				  <div
-					class="elementor-element elementor-element-58c4fce9 elementor-widget-tablet__width-inherit elementor-hidden-mobile elementor-widget elementor-widget-heading"
-					data-id="58c4fce9" data-element_type="widget" data-widget_type="heading.default">
-					<div class="elementor-widget-container">
-					  <h2 class="elementor-heading-title elementor-size-default">
-						Legal
-					  </h2>
-					</div>
-				  </div>
-				  <div
-					class="elementor-element elementor-element-53c1cfd elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-hidden-mobile elementor-widget elementor-widget-nav-menu"
-					data-id="53c1cfd" data-element_type="widget"
-					data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
-					data-widget_type="nav-menu.default">
-					<div class="elementor-widget-container">
-					  <nav
-						class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
-						<ul id="menu-1-53c1cfd" class="elementor-nav-menu sm-vertical">
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7886">
-							<a href="{% url 'privacy' %}" class="elementor-item">Privacy &#038; Cookies Policy</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671">
-							<a href="{% url 'terms' %}" class="elementor-item">Terms &#038; Conditions</a>
-						  </li>
-						  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8243">
-							<a href="{% url 'fees' %}" class="elementor-item">Admission Platform Fees</a>
-						  </li>
-						  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16822">
-							<a href="{% url 'statement' %}" class="elementor-item">Modern Slavery Statement</a>
-						  </li>
-						</ul>
-					  </nav>
-					  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-						<ul id="menu-2-53c1cfd" class="elementor-nav-menu sm-vertical">
-							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7886">
-								<a href="{% url 'privacy' %}" class="elementor-item">Privacy &#038; Cookies Policy</a>
-							  </li>
-							  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671">
-								<a href="{% url 'terms' %}" class="elementor-item">Terms &#038; Conditions</a>
-							  </li>
-							  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8243">
-								<a href="{% url 'fees' %}" class="elementor-item">Admission Platform Fees</a>
-							  </li>
-							  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16822">
-								<a href="{% url 'statement' %}" class="elementor-item">Modern Slavery Statement</a>
-							  </li>
-						</ul>
-					  </nav>
-					</div>
-				  </div>
+				  
+				  
 				</div>
 			  </div>
-			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-221b0103"
-				data-id="221b0103" data-element_type="column">
+			  <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-221b0103" data-id="221b0103" data-element_type="column">
 				<div class="elementor-widget-wrap"></div>
 			  </div>
 			</div>
 		  </section>
+
+
+		  
 		  
 		  
 		</div>
-		
+
+
+
+				
 <link rel='stylesheet' id='webify-button-css' href="{% static 'assets/wp-content/themes/webify/assets/css/shortcodes/button.css' %}" type='text/css' media='all' />
 <link rel='stylesheet' id='e-animations-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' %}" type='text/css' media='all' />
 <script type="text/javascript" defer='defer' src="{% static 'assets/wp-includes/js/jquery/ui/core.min.js' %}" id="jquery-ui-core-js"></script>
