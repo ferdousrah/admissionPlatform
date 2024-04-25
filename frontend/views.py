@@ -293,3 +293,8 @@ def usapartner(request):
 def team(request):
     page_name = "Meet the Team"
     return render(request, 'team.html', {'page_name': page_name})
+
+
+def australiaresources(request):
+    page_name = "Resources"
+    return render(request, 'australia-resources.html', {'page_name': page_name})

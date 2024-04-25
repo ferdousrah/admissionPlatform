@@ -70,6 +70,34 @@
   </style>
 
 
+  <style>
+    .full-width-section {
+        height: 200px; /* You can adjust the height as needed */
+        background-image: url({% static 'assets/images/3837-min.jpg' %}); /* Replace 'background-image.jpg' with your image file path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; /* Text color */
+    }
+
+    .btn-group-lg .btn {
+      background-color: white; /* Set background color of buttons to white */
+      color: #000; /* Set text color to black */
+      border: 1px solid #ced4da; /* Optional: Add border for better visibility */
+      transition: all 0.3s; /* Add transition for smooth effect */
+  }
+
+  .btn-group-lg .btn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Add box-shadow on hover */
+  }
+
+</style>
+
+
 
 <link rel='stylesheet' id='elementor-frontend-css' href='{% static 'assets/css/frontend.min.css' %}' type='text/css' media='all' />
 <link rel='stylesheet' id='swiper-css' href='{% static 'assets/css/swiper.min.css' %}' type='text/css' media='all' />
@@ -258,7 +286,7 @@
                   </div>
                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <p>&nbsp;</p>
-                    <p style="text-align: justify;font-size: 18px;">How Much does it Cost : </p>
+                    
                     <h4 style="color: #077969;font-weight: 600;font-size: 18px;">University</h4>
                     <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $25,000- $40,000</p>
                     <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $26,000- $45,000</p>
@@ -355,21 +383,9 @@
                       You can also use the Numbeo website to check out other prices and costs in Australia.
                     </p>
 
-                    <p style="text-align: justify;font-size: 18px;">
-                      <b>Link</b>:<br>
+                    <p>&nbsp;</p>
 
-                      <b>Australia High Commission</b> <br>
-                      https://bangladesh.embassy.gov.au/daca/home.html <br>
-
-
-                      <b>VFS Australia</b> <br>
-                      https://www.vfsglobal.com/australia/ <br>
-
-
-                      <b>Immi Visa Australia</b> <br>
-                      https://online.immi.gov.au/lusc/login <br>
-                    </p>
-
+                    
                   </div>
                 </div>
 
@@ -388,7 +404,22 @@
 
       
 
-      
+      <div class="full-width-section">
+        <div class="container">
+            <div class="row align-items-center"> <!-- Added align-items-center to vertically center -->
+                <div class="col-md-3">
+                    <p style="margin-bottom: 0;font-size: 20px;">Important Links <img src="{% static 'assets/images/arrow-right.png' %}" /></p> <!-- Wrapped text in a paragraph -->
+                </div>
+                <div class="col-md-9">
+                  <div class="btn-group btn-group-lg btn-block" role="group" aria-label="Button group">
+                    <a href="https://bangladesh.embassy.gov.au/daca/home.html" target="_blank" type="button" class="btn btn-secondary">Australia High Commission</a>
+                    <a href="https://www.vfsglobal.com/australia/" target="_blank" type="button" class="btn btn-secondary">VFS Australia</a>
+                    <a href="https://online.immi.gov.au/lusc/login" target="_blank" type="button" class="btn btn-secondary">Immi Visa Australia</a>                    
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
       

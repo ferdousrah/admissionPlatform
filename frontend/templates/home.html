@@ -8,7 +8,7 @@
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 <meta property="og:type" content="article" /> 
-<meta property="og:title" content="AdmissionPlatform" />
+<meta property="og:title" content="Admission Platform" />
 
 
 <title>Admission Platform | Study Abroad Application Platform</title>
@@ -18,7 +18,7 @@
 <link rel="canonical" href="https://admissionplatform.io" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="admissionplatform" />
+<meta property="og:title" content="admission platform" />
 <meta property="og:description" content="Admission Platform streamlines the study abroad journey by linking students, recruitment partners, and partner schools through a unified platform." />
 <meta property="og:url" content="https://www.admissionplatform.io/" />
 <meta property="og:site_name" content="admissionplatform" />
@@ -48,6 +48,38 @@
 		background-size: cover;
 		background-position: center;
 	}
+
+
+
+	/* styles.css */
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+}
+
+.cookie-consent p {
+    margin: 0;
+}
+
+.cookie-consent button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cookie-consent button:hover {
+    background-color: #0056b3;
+}
 
 
 </style>
@@ -493,6 +525,41 @@ a:focus {
   </style>
 
 
+  <style>
+	/* CSS */
+	#cookie-consent {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+		box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+		z-index: 1000;
+		display: none; /* Initially hidden */
+	}
+
+	#cookie-consent p {
+		margin: 0;
+	}
+
+	#cookie-consent button {
+		background-color: #005956;
+		color: #fff;
+		border: none;
+		padding: 8px 16px;
+		cursor: pointer;
+		margin-top: 10px;
+	}
+
+	#cookie-consent button:hover {
+		background-color: #247b55;
+	}
+</style>
+
+
 		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
 		<body
 		class="home page-template-default page page-id-837 wp-custom-logo wp-embed-responsive webify elementor-default elementor-kit-5088 elementor-page elementor-page-837">
@@ -512,10 +579,10 @@ a:focus {
 					<div class="elementor-widget-container">
 					  <a href="{% url 'say_hello' %}">
 						<img width="1253" height="192" src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}"
-						  class="attachment-full size-full wp-image-11868" alt="Admissions Platform Logo"
+						  class="attachment-full size-full wp-image-11868" alt="Admission Platform Logo"
 						  data-lazy-src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" /><noscript><img width="1253"
 							height="192" src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}"
-							class="attachment-full size-full wp-image-11868" alt="Admissions Platform Logo" /></noscript>
+							class="attachment-full size-full wp-image-11868" alt="Admission Platform Logo" /></noscript>
 					  </a>
 					</div>
 				  </div>
@@ -703,10 +770,10 @@ a:focus {
 					  <a href="{% url 'say_hello' %}">
 						<img width="1253" height="192"
 						  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201253%20192'%3E%3C/svg%3E"
-						  class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo"
+						  class="attachment-full size-full wp-image-11868" alt="AdmissionPlatform Logo"
 						  data-lazy-src="{% static 'assets/images/admisson-platform.png' %}" /><noscript><img width="1253"
 							height="192" src="{% static 'assets/images/admisson-platform.png' %}"
-							class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo" /></noscript>
+							class="attachment-full size-full wp-image-11868" alt="AdmissionPlatform Logo" /></noscript>
 					  </a>
 					</div>
 				  </div>
@@ -870,10 +937,10 @@ a:focus {
 					  <a href="{% url 'say_hello' %}">
 						<img width="1253" height="192"
 						  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201253%20192'%3E%3C/svg%3E"
-						  class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo"
+						  class="attachment-full size-full wp-image-11868" alt="AdmissionPlatform Logo"
 						  data-lazy-src="{% static 'assets/images/admisson-platform.png' %}" /><noscript><img width="1253"
 							height="192" src="{% static 'assets/images/admisson-platform.png' %}"
-							class="attachment-full size-full wp-image-11868" alt="AdmissionsPlatform Logo" /></noscript>
+							class="attachment-full size-full wp-image-11868" alt="AdmissionPlatform Logo" /></noscript>
 					  </a>
 					</div>
 				  </div>
@@ -1179,7 +1246,7 @@ a:focus {
 											Recruitment Partners
 										  </div>
 										  <div class="elementor-slide-description">
-											AdmissionsPlatform transcends being merely a platform; we're your reliable partner, committed to empowering you in your mission: guiding students worldwide to realize their aspirations for international education.
+											Admission Platform transcends being merely a platform; we're your reliable partner, committed to empowering you in your mission: guiding students worldwide to realize their aspirations for international education.
 										  </div>
 										  <a href="{% url 'recruiters' %}" class="elementor-button elementor-slide-button elementor-size-sm">Learn
 											More</a>
@@ -1813,12 +1880,12 @@ a:focus {
 												height="160" decoding="async"
 												src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20160'%3E%3C/svg%3E"
 												title="job-demand-program-tags"
-												alt="A banner with an open laptop showcasing new Program Tags on Admissions Platform&#039;s search engine."
+												alt="A banner with an open laptop showcasing new Program Tags on Admission Platform&#039;s search engine."
 												data-lazy-src="{% static 'assets/images/blog-3.webp' %}" /><noscript><img
 												  width="350" height="160" decoding="async"
 												  src="{% static 'assets/images/blog-3.webp' %}"
 												  title="job-demand-program-tags"
-												  alt="A banner with an open laptop showcasing new Program Tags on AdmissionsPlatform&#039;s search engine."
+												  alt="A banner with an open laptop showcasing new Program Tags on Admission Platform&#039;s search engine."
 												  loading="lazy" /></noscript></a>
 										  </div>
 	  
@@ -1870,7 +1937,7 @@ a:focus {
 							data-id="d14d50e" data-element_type="widget" data-widget_type="heading.default">
 							<div class="elementor-widget-container">
 							  <h2 class="elementor-heading-title elementor-size-default">
-								Get Started with Admissions Platform
+								Get Started with Admission Platform
 							  </h2>
 							</div>
 						  </div>
@@ -1919,7 +1986,7 @@ a:focus {
 							  <p>
 								Are you a student looking to study abroad in Canada,
 								the United States, the United Kingdom, Australia, or
-								Ireland? Let our team of experts guide you through
+								New Zealand? Let our team of experts guide you through
 								your journey.
 							  </p>
 							</div>
@@ -1974,11 +2041,12 @@ a:focus {
 							data-id="15fa920" data-element_type="widget" data-widget_type="text-editor.default">
 							<div class="elementor-widget-container">
 							  <p>
-								Become an AdmissionsPlatform partner institution to
+								Become an Admission Platform partner institution to
 								diversify your campus by attracting qualified
 								students from around the world. Connect with our
 								Partner Relations team here.
 							  </p>
+							  <p>&nbsp;</p>
 							</div>
 						  </div>
 						  <div
@@ -2033,7 +2101,7 @@ a:focus {
 							  <p>
 								Do you recruit prospective students who want to
 								study in Canada, the United States, the United
-								Kingdom, Australia, or Ireland? Become an
+								Kingdom, Australia, or New Zealand? Become an
 								Admission Platform recruitment partner.
 							  </p>
 							</div>
@@ -2295,7 +2363,7 @@ a:focus {
 				  </div>
 				  <div class="elementor-element elementor-element-65631b99 elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="65631b99" data-element_type="widget" id="address" data-widget_type="text-editor.default">
 					<div class="elementor-widget-container">
-					  <p class="pr-5 text-white-50" style="text-align: justify;">The admissions platform simplifies the study abroad search, application, and acceptance process by connecting international students, placement partners, and academic institutions on one platform.<br></p>
+					  <p class="pr-5 text-white-50" style="text-align: justify;">The admission platform simplifies the study abroad search, application, and acceptance process by connecting international students, placement partners, and academic institutions on one platform.<br></p>
 				  	  <p style="margin-top: 40px;">For any queries please contact -<br>partners@admissionplatform.io</p>
 					</div>
 				  </div>
@@ -2442,7 +2510,35 @@ a:focus {
 		</div>
 
 
+<!-- Cookie acceptance popup -->
+<div id="cookie-consent">
+	<p>This website uses cookies to ensure you get the best experience on our website. By clicking “Accept”, you agree to the use of cookies. <a style="color: #dd9621;" href="{% url 'privacy' %}" target="_blank">Privacy & Cookies Policy</a></p>
+	<button id="accept-cookies">Accept</button>
+</div>
 
+<script>
+	// JavaScript
+	document.addEventListener("DOMContentLoaded", function() {
+		var cookieConsent = document.getElementById("cookie-consent");
+		var acceptCookiesBtn = document.getElementById("accept-cookies");
+
+		// Check if the user has previously accepted cookies
+		var cookiesAccepted = localStorage.getItem("cookiesAccepted");
+
+		// If cookies are not accepted, show the popup
+		if (!cookiesAccepted) {
+			cookieConsent.style.display = "block";
+		}
+
+		// Event listener for the accept cookies button
+		acceptCookiesBtn.addEventListener("click", function() {
+			// Hide the popup
+			cookieConsent.style.display = "none";
+			// Store the user's consent
+			localStorage.setItem("cookiesAccepted", true);
+		});
+	});
+</script>
 				
 <link rel='stylesheet' id='webify-button-css' href="{% static 'assets/wp-content/themes/webify/assets/css/shortcodes/button.css' %}" type='text/css' media='all' />
 <link rel='stylesheet' id='e-animations-css' href="{% static 'assets/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' %}" type='text/css' media='all' />

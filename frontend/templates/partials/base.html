@@ -6,7 +6,7 @@
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>{{ page_name }} | Admissions Platform</title>
+<title>{{ page_name }} | Admission Platform</title>
 
   <meta property="og:url" content="https://admissionplatform.io"/>
   <meta name="twitter:card" content="summary_large_image"/>
@@ -57,6 +57,40 @@
   }
   </style>
 
+  <style>
+    /* CSS */
+    #cookie-consent {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      display: none; /* Initially hidden */
+    }
+  
+    #cookie-consent p {
+      margin: 0;
+    }
+  
+    #cookie-consent button {
+      background-color: #005956;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  
+    #cookie-consent button:hover {
+      background-color: #247b55;
+    }
+  </style>
+
 </head>
 
 <body class="g-sidenav-hidden top-navigation landing-page  mini-navbar fixed-nav">
@@ -70,7 +104,7 @@
     <div class="container">
       <div class="navbar-logo">
         <a href="{% url 'say_hello' %}">
-          <img src="{% static 'assets/images/admisson-platform.png' %}" alt="AdmissionsPlatform logo" />
+          <img src="{% static 'assets/images/admisson-platform.png' %}" alt="AdmissionPlatform logo" />
 </a>      </div>
 
       <div class="btn-group desktop" role="group" style="font-family: 'Montserrat', Sans-serif;
@@ -173,12 +207,12 @@
                       <div class="col-lg-6 col-md-6">
                         <div class="logo-wrapper">
                           <a href="{% url 'say_hello' %}">
-                            <img src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" alt="AdmissionsPlatform logo white" />
+                            <img src="{% static 'assets/images/admission-platform-blue-header-mid.png' %}" alt="AdmissionPlatform logo white" />
                           </a>        
                         </div>
                         <div class="elementor-element elementor-element-65631b99 elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="65631b99" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                              <p style="text-align: left; color: #FFFFFF; font-family: 'Open Sans', Sans-serif; font-size: 17px; font-weight: 400; line-height: 28px;text-align: justify;">The admissions platform simplifies the study abroad search, application, and acceptance process by connecting international students, placement partners, and academic institutions on one platform.<br></p>
+                              <p style="text-align: left; color: #FFFFFF; font-family: 'Open Sans', Sans-serif; font-size: 17px; font-weight: 400; line-height: 28px;text-align: justify;">The admission platform simplifies the study abroad search, application, and acceptance process by connecting international students, placement partners, and academic institutions on one platform.<br></p>
                               <p style="text-align: left; color: #FFFFFF; font-family: 'Open Sans', Sans-serif; font-size: 17px; font-weight: 400; line-height: 28px;margin-top: 40px;">For any queries please contact -<br>partners@admissionplatform.io</p>
                             </div>
                           </div>
@@ -305,6 +339,36 @@
               </div>
               <!-- End wrapper-->
               
+
+              <!-- Cookie acceptance popup -->
+<div id="cookie-consent">
+	<p>This website uses cookies to ensure you get the best experience on our website. By clicking “Accept”, you agree to the use of cookies. <a style="color: #dd9621;" href="{% url 'privacy' %}" target="_blank">Privacy & Cookies Policy</a></p>
+	<button id="accept-cookies">Accept</button>
+</div>
+
+<script>
+	// JavaScript
+	document.addEventListener("DOMContentLoaded", function() {
+		var cookieConsent = document.getElementById("cookie-consent");
+		var acceptCookiesBtn = document.getElementById("accept-cookies");
+
+		// Check if the user has previously accepted cookies
+		var cookiesAccepted = localStorage.getItem("cookiesAccepted");
+
+		// If cookies are not accepted, show the popup
+		if (!cookiesAccepted) {
+			cookieConsent.style.display = "block";
+		}
+
+		// Event listener for the accept cookies button
+		acceptCookiesBtn.addEventListener("click", function() {
+			// Hide the popup
+			cookieConsent.style.display = "none";
+			// Store the user's consent
+			localStorage.setItem("cookiesAccepted", true);
+		});
+	});
+</script>
                
               
               </body>

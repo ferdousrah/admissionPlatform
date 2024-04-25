@@ -69,6 +69,33 @@
     }
   </style>
 
+  <style>
+    .full-width-section {
+        height: 200px; /* You can adjust the height as needed */
+        background-image: url({% static 'assets/images/3837-min.jpg' %}); /* Replace 'background-image.jpg' with your image file path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; /* Text color */
+    }
+
+    .btn-group-lg .btn {
+      background-color: white; /* Set background color of buttons to white */
+      color: #000; /* Set text color to black */
+      border: 1px solid #ced4da; /* Optional: Add border for better visibility */
+      transition: all 0.3s; /* Add transition for smooth effect */
+  }
+
+  .btn-group-lg .btn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Add box-shadow on hover */
+  }
+
+</style>
+
 
 
 <link rel='stylesheet' id='elementor-frontend-css' href='{% static 'assets/css/frontend.min.css' %}' type='text/css' media='all' />
@@ -146,7 +173,7 @@
               <div class="regular-content text-center">
                 <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
 
-                  Canada, the world's second-largest country, boasts a population of 34,834,841 people and is officially bilingual in English and French. Its vast territory spans ten provinces and three territories, offering a diverse range of climates from hot summers to cold winters.
+                  Canada, the world's second-largest country, has a total population of 40,769,890 people as of 2024 and is officially bilingual in English and French. Its GDP estimate for 2024 is $2.472 trillion, with a per capita income of $54,866.
 
                 </p>
                 <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
@@ -295,7 +322,7 @@
                   </div>
                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <p>&nbsp;</p>
-                    <p style="text-align: justify;font-size: 18px;">How Much does it Cost : </p>
+                    
                     <h4 style="color: #077969;font-weight: 600;font-size: 18px;">University</h4>
                     <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $20,000- $36,000</p>
                     <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $22,000- $28,000</p>
@@ -373,26 +400,13 @@
                       Apart from rent, your accommodation requires extra expenses, like:
                     </p>
                     <ul style="font-size: 18px;">
-                      <li>	Utilities: around 200 CAD/month</li>
-                      <li>	Internet: 70 – 120 CAD/month</li>
+                      <li>Utilities: around 200 CAD/month</li>
+                      <li>Internet: 70 – 120 CAD/month</li>
                     </ul>
 
+                    <p>&nbsp;</p>
+
                     
-
-                    <p style="text-align: justify;font-size: 18px;">
-                      <b>Link</b>:<br>
-
-                      <b>Canada  High Commission</b> <br>
-                      https://www.canadainternational.gc.ca/bangladesh/index.aspx?lang=eng <br>
-
-
-                      <b>VFS Canada</b> <br>
-                      https://visa.vfsglobal.com/bgd/en/can/ <br>
-
-
-                      <b>IRCC Canada</b> <br>
-                      https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html <br>
-                    </p>
 
                   </div>
                 </div>
@@ -412,7 +426,22 @@
 
       
 
-      
+      <div class="full-width-section">
+        <div class="container">
+            <div class="row align-items-center"> <!-- Added align-items-center to vertically center -->
+                <div class="col-md-3">
+                    <p style="margin-bottom: 0;font-size: 20px;">Important Links <img src="{% static 'assets/images/arrow-right.png' %}" /></p> <!-- Wrapped text in a paragraph -->
+                </div>
+                <div class="col-md-9">
+                  <div class="btn-group btn-group-lg btn-block" role="group" aria-label="Button group">
+                    <a href="https://www.canadainternational.gc.ca/bangladesh/index.aspx?lang=eng" target="_blank" type="button" class="btn btn-secondary">Canada  High Commission</a>
+                    <a href="https://visa.vfsglobal.com/bgd/en/can/" target="_blank" type="button" class="btn btn-secondary">VFS Canada</a>
+                    <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html" target="_blank" type="button" class="btn btn-secondary">IRCC Canada</a>                    
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
       

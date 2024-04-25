@@ -49,4 +49,5 @@ urlpatterns = [
     path('why-newzealand/', views.whynewzealand, name='whynewzealand'),
     path('why-uk/', views.whyuk, name='whyuk'),
     path('why-usa/', views.whyusa, name='whyusa'),
+    path('australia-resources/', views.australiaresources, name='australiaresources'),
 ]

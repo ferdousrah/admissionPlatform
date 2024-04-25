@@ -69,6 +69,33 @@
     }
   </style>
 
+  <style>
+    .full-width-section {
+        height: 200px; /* You can adjust the height as needed */
+        background-image: url({% static 'assets/images/3837-min.jpg' %}); /* Replace 'background-image.jpg' with your image file path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; /* Text color */
+    }
+
+    .btn-group-lg .btn {
+      background-color: white; /* Set background color of buttons to white */
+      color: #000; /* Set text color to black */
+      border: 1px solid #ced4da; /* Optional: Add border for better visibility */
+      transition: all 0.3s; /* Add transition for smooth effect */
+  }
+
+  .btn-group-lg .btn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Add box-shadow on hover */
+  }
+
+</style>
+
 
 
 <link rel='stylesheet' id='elementor-frontend-css' href='{% static 'assets/css/frontend.min.css' %}' type='text/css' media='all' />
@@ -146,14 +173,15 @@
               <div class="regular-content">
                 <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
 
-                  The United States of America, commonly known as the USA, is a vast and diverse country situated in North America. With 50 states and a federal district, the USA is a multifaceted nation. Its cities, such as New York City, Los Angeles, and Chicago, are hubs of culture and economic activity. Boasting the world's largest economy, with a GDP surpassing $21 trillion, driven by industries like technology, finance, and healthcare, the USA enjoys one of the highest per capita incomes globally, ensuring a high standard of living for many of its residents. With a population exceeding 330 million people, it ranks among the most populous nations. Renowned for its cultural, economic, and technological influence, the USA's dynamic economy encompasses sectors like technology, finance, entertainment, and manufacturing. Its landscapes vary from bustling urban centers to breathtaking natural wonders like the Grand Canyon and Yellowstone National Park. The USA's global significance is evident in its pivotal role in both political and economic spheres.
+                  The United States of America, commonly known as the USA, is a vast and diverse country situated in North America. With 50 states and a federal district, the USA is a multifaceted nation. Its cities, such as New York City, Los Angeles, and Chicago, are hubs of culture and economic activity. 
+                  The USA boasts the world's largest economy, with a (GDP surpassing) $28.781 trillion(2024)  & Per Capita GDP: $85,373 and  Its economy is diversified across various sectors including technology, finance, healthcare, manufacturing, and entertainment. The USA enjoys one of the highest per capita incomes globally, ensuring a high standard of living for many of its residents. With a population exceeding 334 million people in 2023, it ranks among the most populous nations. Renowned for its cultural, economic, and technological influence, the USA's dynamic economy encompasses sectors like technology, finance, entertainment, and manufacturing. Its landscapes vary from bustling urban centers to breathtaking natural wonders like the Grand Canyon and Yellowstone National Park. The USA's global significance is evident in its pivotal role in both political and economic spheres.
 
                 </p>
 
                 <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Population and Main Cities</h4>
                 <p style="font-size: 18px;color: #323847;font-weight: 400;text-align: justify;">
 
-                  As of my last update in January 2022, the population of the United States of America was approximately 331 million people. However, please note that population figures may have changed since then due to various factors such as birth rates, immigration, and other demographic shifts.
+                  As of my last update in 2023, the population of the United States of America was approximately 334 million (<span style="font-size: 16px;">2023</span>) people. However, please note that population figures may have changed since then due to various factors such as birth rates, immigration, and other demographic shifts.
 
                 </p>
 
@@ -190,8 +218,8 @@
                 </p>
 
                 <h4 style="color: #077969;font-weight: 600;font-size: 18px;">USA  Economy</h4>
-                <ol style="font-size: 18px;">
-                  <li>Largest Economy: The USA boasts the world's largest economy, with a Gross Domestic Product (GDP) exceeding $21 trillion. Its economy is diversified across various sectors including technology, finance, healthcare, manufacturing, and entertainment.</li>
+                <ol style="font-size: 18px;text-align: justify;">
+                  <li>Largest Economy: The USA boasts the world's largest economy, with a Gross Domestic Product (GDP) exceeding $28.781 trillion. Its economy is diversified across various sectors including technology, finance, healthcare, manufacturing, and entertainment.</li>
                   <li>Innovation Hub: Known for its innovation and entrepreneurship, the USA is home to leading technology companies such as Apple, Google, and Amazon. Silicon Valley in California and other tech hubs across the country drive innovation and development in the global tech sector.</li>
                   <li>Financial Center: Wall Street in New York City is a global financial hub, housing the New York Stock Exchange and numerous financial institutions. The USA's financial sector plays a crucial role in global markets, including banking, investment, and asset management.</li>
                   <li>Consumer Market: With a large and affluent population, the USA is a major consumer market. Domestic consumption fuels economic growth, supported by high levels of disposable income, consumer confidence, and a culture of spending.</li>
@@ -240,7 +268,7 @@
                       Studying in the USA offers a plethora of advantages, making it a top choice for international students. Here are several compelling reasons why:
                     </p>
 
-                    <ol style="font-size: 18px;">
+                    <ol style="font-size: 18px;text-align: justify;">
                       <li>Academic Excellence: The USA boasts some of the world's top universities and colleges renowned for their academic excellence, cutting-edge research, and innovative teaching methods. Students have access to a wide range of high-quality programs across various disciplines.</li>
                       <li>Diverse Educational Opportunities: The USA offers a diverse array of educational opportunities, including undergraduate, graduate, and professional programs. Whether you're interested in STEM fields, liberal arts, business, or the arts, there are programs tailored to suit your interests and career goals.</li>
                       <li>Global Recognition: Degrees from US institutions carry significant global recognition and prestige, enhancing your credentials and opening doors to opportunities worldwide. Employers, research institutions, and organizations value the rigorous academic standards and reputation of US education.</li>
@@ -254,64 +282,64 @@
                     </ol>
                     
                     <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">USA  Education System</h2>
-                    <p style="text-align: justify;font-size: 18px;">
+                    <p style="text-align: justify;font-size: 18px;text-align: justify;">
                       The education system in the United States is highly diverse and offers a wide range of options from early childhood education to postgraduate studies. Here's an overview of the structure of the USA education system:
                     </p>
 
                     <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Types of Institutions</h4>
-                    <p style="text-align: justify;font-size: 18px;">
+                    <p style="text-align: justify;font-size: 18px;text-align: justify;">
                       The USA has various types of higher education institutions, including:
                     </p>
 
                     <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Community Colleges</h2>
-                    <p style="text-align: justify;font-size: 18px;">
+                    <p style="text-align: justify;font-size: 18px;text-align: justify;">
                       Offer two-year associate degrees and vocational programs.
                     </p>
 
                     <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Liberal Arts Colleges</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         Focus on undergraduate education in the liberal arts and sciences.
                       </p>
 
                       <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Public Universities</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         State-funded institutions that offer a wide range of programs and degrees.
                       </p>
 
                       <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Private Universities</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         Privately funded institutions with diverse offerings, often with a focus on research.
                       </p>
 
                       <h4 style="color: #077969;font-weight: 600;font-size: 18px;">Technical and Vocational Schools</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         Provide specialized training in fields like healthcare, technology, and trades.
                       </p>
 
                       <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Higher Education</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         Higher education in the USA includes undergraduate and graduate studies at colleges, universities, and vocational institutions. Undergraduate programs lead to bachelor's degrees, typically completed in four years. Graduate programs offer advanced study and research opportunities, leading to master's degrees, doctoral degrees, and professional degrees such as MD, JD, or MBA.
                       </p>
 
                       <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Flexibility and Diversity</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         The USA education system emphasizes flexibility, allowing students to choose their courses, explore interdisciplinary studies, and tailor their educational experience to their interests and career goals.
                       </p>
 
                       <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Financial Aid</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         Many students in the USA rely on financial aid to fund their education. This may include scholarships, grants, loans, and work-study programs offered by institutions, government agencies, and private organizations.
                       </p>
 
                       <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Accreditation</h2>
-                      <p style="text-align: justify;font-size: 18px;">
+                      <p style="text-align: justify;font-size: 18px;text-align: justify;">
                         Accreditation ensures the quality and standards of higher education institutions and programs in the USA. Accredited institutions undergo rigorous evaluation by accrediting agencies to ensure they meet educational standards and requirements.
                       </p>
 
 
 
                     <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">USA  F1 Visa Requirements</h2>
-                    <ul style="font-size: 18px;">
+                    <ul style="font-size: 18px;text-align: justify;">
                       <li>Letter of Offer</li>
                       <li>I-20</li>
                       <li>Statement of Purpose (SOP)</li>
@@ -325,8 +353,8 @@
                     </ul>
                     <p style="text-align: justify;font-size: 18px;font-weight: 600;">Please contact us at Admission Platform personally for further assistance on the above and Visa Procedure.</p>
                     <h2 style="color: #077969;font-weight: 600;padding-bottom: 20px;">Other Facility & Requirement in USA</h2>
-                    <p style="text-align: justify;font-size: 18px;">Work regulations in Canada for international students include:</p>
-                    <ul style="font-size: 18px;">
+                    <p style="text-align: justify;font-size: 18px;">Work regulations in USA for international students include:</p>
+                    <ul style="font-size: 18px;text-align: justify;">
                       <li>20 hours per week during term time</li>
                       <li>Full-time work rights during scheduled study breaks</li>
                       <li>Post-study work rights:</li>
@@ -376,7 +404,7 @@
                   </div>
                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <p>&nbsp;</p>
-                    <p style="text-align: justify;font-size: 18px;">How Much does it Cost : </p>
+                    
                     <h4 style="color: #077969;font-weight: 600;font-size: 18px;">University</h4>
                     <p style="text-align: justify;font-size: 18px;"><span>Undergraduate Bachelor Degree</span> - $12,000-$40,000</p>
                     <p style="text-align: justify;font-size: 18px;"><span>Postgraduate Masters Degree</span> - $12,000-$40,000</p>
@@ -400,7 +428,7 @@
                       The cost of living for international students in the USA can vary significantly depending on factors such as the city or region they choose to live in, their lifestyle preferences, and the specific university they attend. Here's a breakdown of the typical expenses international students can expect to encounter:
                     </p>
                     
-                    <ol style="font-size: 18px;">
+                    <ol style="font-size: 18px;text-align: justify;">
                       <li>Tuition Fees: Tuition fees vary widely depending on the institution, program, and whether the student attends a public or private university. On average, international students can expect to pay between $20,000 to $40,000 per year for tuition.</li>
   <li>Housing: Housing costs also vary depending on location and housing options. Renting an apartment or shared accommodation can range from $500 to $2,000 or more per month, depending on whether the student lives on-campus or off-campus and the city they are in.</li>
   <li>Utilities: Utilities such as electricity, water, heating, and internet can add up to around $100 to $300 per month, depending on usage and location.</li>
@@ -416,21 +444,9 @@
                       Overall, international students should expect to budget between $15,000 to $40,000 or more per year for living expenses, in addition to tuition fees. Costs can vary significantly depending on the location and lifestyle of the student, so careful planning and budgeting are crucial for managing expenses effectively.
                     </p>
 
+                    <p>&nbsp;</p>
+
                     
-
-                    <p style="text-align: justify;font-size: 18px;">
-                      <b>Link</b>:<br>
-
-                      <b>USA Embassy Dhaka</b> <br>
-                      https://bd.usembassy.gov/ <br>
-
-
-                      <b>USA VFS Dhaka</b> <br>
-                      https://visa.vfsglobal.com/bgd/en/aut/attend-centre/dhaka <br>
-
-
-                      
-                    </p>
 
                   </div>
                 </div>
@@ -448,7 +464,21 @@
 
 
 
-      
+      <div class="full-width-section">
+        <div class="container">
+            <div class="row align-items-center"> <!-- Added align-items-center to vertically center -->
+                <div class="col-md-3">
+                    <p style="margin-bottom: 0;font-size: 20px;">Important Links <img src="{% static 'assets/images/arrow-right.png' %}" /></p> <!-- Wrapped text in a paragraph -->
+                </div>
+                <div class="col-md-9">
+                  <div class="btn-group btn-group-lg btn-block" role="group" aria-label="Button group">
+                    <a href="https://bd.usembassy.gov/" target="_blank" type="button" class="btn btn-secondary">USA Embassy Dhaka</a>
+                    <a href="https://visa.vfsglobal.com/bgd/en/aut/attend-centre/dhaka" target="_blank" type="button" class="btn btn-secondary">USA VFS Dhaka</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
       
 
